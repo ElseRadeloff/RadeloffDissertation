@@ -1,0 +1,95 @@
+"","sample_id","species","latin.genus","latin.species","measurement.date","functional_group","site","percent_N","percent_C"
+"1","106364431","Salix arctica Pallas","Salix","arctica",2021-07-05,"shrub","Kluane Plateau",3.290556908,47.5277977
+"2","106364529","Salix richardsonii Hooker","Salix","richardsonii",2021-07-05,"shrub","Kluane Plateau",5.061003685,46.70885849
+"3","106364556","Salix arctica Pallas","Salix","arctica",2021-07-05,"shrub","Kluane Plateau",3.833439589,48.59173203
+"4","106364575","Salix richardsonii Hooker","Salix","richardsonii",2021-07-05,"shrub","Kluane Plateau",2.934291363,46.47974777
+"5","106381694","Salix pulchra Chamisso","Salix","pulchra",2021-07-07,"shrub","Kluane Plateau",3.516581297,49.63082123
+"6","106381730","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",4.535034657,47.23609543
+"7","106381773","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",3.931589842,46.31020737
+"8","106381796","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",2.743354082,46.36600113
+"9","106381846","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",3.301349401,47.07844543
+"10","106381873","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",3.538019657,46.61442947
+"11","106382127","Salix pulchra Chamisso","Salix","pulchra",2021-07-07,"shrub","Kluane Plateau",2.949252844,48.89754105
+"12","106382266","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",2.740102291,46.19387436
+"13","106382289","Salix pulchra Chamisso","Salix","pulchra",2021-07-07,"shrub","Kluane Plateau",2.184749126,49.96419907
+"14","106382317","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",3.192659616,46.97081375
+"15","106382343","Salix richardsonii Hooker","Salix","richardsonii",2021-07-07,"shrub","Kluane Plateau",2.800637722,44.84335709
+"16","106382373","Salix pulchra Chamisso","Salix","pulchra",2021-07-07,"shrub","Kluane Plateau",3.105505705,49.53820038
+"17","139632532","Salix arctica Pallas","Salix","arctica",2022-07-25,"shrub","Qikiqtaruk",2.391918898,48.39525223
+"18","139632634","Salix arctica Pallas","Salix","arctica",2022-07-25,"shrub","Qikiqtaruk",2.609288216,48.03665161
+"19","139632719","Dryas integrifolia Vahl","Dryas","integrifolia",2022-07-25,"shrub","Qikiqtaruk",1.704673529,50.22844315
+"20","139632793","Dryas integrifolia Vahl","Dryas","integrifolia",2022-07-25,"shrub","Qikiqtaruk",1.677426577,50.84075165
+"21","139632853","Dryas integrifolia Vahl","Dryas","integrifolia",2022-07-25,"shrub","Qikiqtaruk",2.14045763,50.51433563
+"22","139632937","Salix reticulata Linnaeus","Salix","reticulata",2022-07-25,"shrub","Qikiqtaruk",1.874423385,47.0544281
+"23","139633001","Salix reticulata Linnaeus","Salix","reticulata",2022-07-25,"shrub","Qikiqtaruk",1.902736187,46.68273163
+"24","139633066","Salix reticulata Linnaeus","Salix","reticulata",2022-07-25,"shrub","Qikiqtaruk",1.906606436,46.0946846
+"25","139633192","Pedicularis verticillata Linnaeus","Pedicularis","verticillata",2022-07-25,"forb","Qikiqtaruk",3.219537258,42.57868195
+"26","139633246","Pedicularis verticillata Linnaeus","Pedicularis","verticillata",2022-07-25,"forb","Qikiqtaruk",3.531251192,42.43123627
+"27","139633306","Pedicularis verticillata Linnaeus","Pedicularis","verticillata",2022-07-25,"forb","Qikiqtaruk",2.820358753,43.29999924
+"28","139633395","Lupinus arcticus S. Watson","Lupinus","arcticus",2022-07-25,"forb","Qikiqtaruk",2.470489264,41.86150742
+"29","139633462","Lupinus arcticus S. Watson","Lupinus","arcticus",2022-07-25,"forb","Qikiqtaruk",2.351920366,38.32691956
+"30","139633527","Lupinus arcticus S. Watson","Lupinus","arcticus",2022-07-25,"forb","Qikiqtaruk",1.747182965,37.19743347
+"31","139633632","Saussurea angustifolia (Linnaeus) de Candolle","Saussurea","angustifolia",2022-07-25,"forb","Qikiqtaruk",2.143012762,43.45516968
+"32","139633717","Saussurea angustifolia (Linnaeus) de Candolle","Saussurea","angustifolia",2022-07-25,"forb","Qikiqtaruk",2.55468297,43.0332489
+"33","139633776","Saussurea angustifolia (Linnaeus) de Candolle","Saussurea","angustifolia",2022-07-25,"forb","Qikiqtaruk",2.203941584,43.76216888
+"34","139721255","Salix richardsonii Hooker","Salix","richardsonii",2022-07-26,"shrub","Qikiqtaruk",2.431314468,46.16512299
+"35","139721322","Salix richardsonii Hooker","Salix","richardsonii",2022-07-26,"shrub","Qikiqtaruk",2.391762972,46.64770126
+"36","139721384","Salix richardsonii Hooker","Salix","richardsonii",2022-07-26,"shrub","Qikiqtaruk",2.646944523,46.2093544
+"37","139721537","Salix pulchra Chamisso","Salix","pulchra",2022-07-26,"shrub","Qikiqtaruk",2.477453947,50.26541901
+"38","139721606","Salix pulchra Chamisso","Salix","pulchra",2022-07-26,"shrub","Qikiqtaruk",2.487990856,50.32614899
+"39","139721663","Salix pulchra Chamisso","Salix","pulchra",2022-07-26,"shrub","Qikiqtaruk",1.739415407,49.80338287
+"40","139722132","Eriophorum vaginatum Linnaeus","Eriophorum","vaginatum",2022-07-26,"graminoid","Qikiqtaruk",2.531183004,47.7634201
+"41","139722224","Eriophorum vaginatum Linnaeus","Eriophorum","vaginatum",2022-07-26,"graminoid","Qikiqtaruk",2.045748711,45.82490158
+"42","139722286","Eriophorum vaginatum Linnaeus","Eriophorum","vaginatum",2022-07-26,"graminoid","Qikiqtaruk",2.465700865,47.67892456
+"43","139722454","Equisetum Linnaeus","Equisetum","Linnaeus",2022-07-26,"forb","Qikiqtaruk",2.32626152,39.7513504
+"44","139722523","Equisetum Linnaeus","Equisetum","Linnaeus",2022-07-26,"forb","Qikiqtaruk",2.066042662,40.67174911
+"45","139722598","Equisetum Linnaeus","Equisetum","Linnaeus",2022-07-26,"forb","Qikiqtaruk",2.012740135,40.58909607
+"46","139722877","Bistorta bistortoides (Pursh) Small","Bistorta","bistortoides",2022-07-26,"forb","Qikiqtaruk",3.566611767,48.23786545
+"47","139724888","Pyrola grandiflora Radius","Pyrola","grandiflora",2022-07-26,"forb","Qikiqtaruk",1.921044469,43.20372772
+"48","139724997","Pyrola grandiflora Radius","Pyrola","grandiflora",2022-07-26,"forb","Qikiqtaruk",2.025653124,43.78477097
+"49","139725087","Pyrola grandiflora Radius","Pyrola","grandiflora",2022-07-26,"forb","Qikiqtaruk",2.201337337,43.22697067
+"50","139808206","Petasites frigidus (Linnaeus) Fries","Petasites","frigidus",2022-07-29,"forb","Qikiqtaruk",1.943648577,43.75263214
+"51","139808309","Petasites frigidus (Linnaeus) Fries","Petasites","frigidus",2022-07-29,"forb","Qikiqtaruk",2.101982832,43.70417404
+"52","139808362","Petasites frigidus (Linnaeus) Fries","Petasites","frigidus",2022-07-29,"forb","Qikiqtaruk",1.662898421,43.83137131
+"53","139808429","Salix glauca Linnaeus","Salix","glauca",2022-07-29,"shrub","Qikiqtaruk",2.88770771,49.06929016
+"54","139808482","Salix glauca Linnaeus","Salix","glauca",2022-07-29,"shrub","Qikiqtaruk",2.685830832,49.0665741
+"55","139808531","Salix glauca Linnaeus","Salix","glauca",2022-07-29,"shrub","Qikiqtaruk",2.506126404,48.70328903
+"56","139808720","Tephroseris frigida (Richardson) Holub","Tephroseris","frigida",2022-07-27,"forb","Qikiqtaruk",2.333011866,42.46663284
+"57","139808785","Tephroseris frigida (Richardson) Holub","Tephroseris","frigida",2022-07-27,"forb","Qikiqtaruk",2.2492311,42.07803345
+"58","139808933","Tephroseris frigida (Richardson) Holub","Tephroseris","frigida",2022-07-27,"forb","Qikiqtaruk",2.16069603,42.0618515
+"59","139809236","Cassiope tetragona (Linnaeus) D. Don","Cassiope","tetragona",2022-07-27,"shrub","Qikiqtaruk",1.22062254,54.33742523
+"60","139809287","Cassiope tetragona (Linnaeus) D. Don","Cassiope","tetragona",2022-07-27,"shrub","Qikiqtaruk",1.162285805,54.6410141
+"61","139809341","Cassiope tetragona (Linnaeus) D. Don","Cassiope","tetragona",2022-07-27,"shrub","Qikiqtaruk",1.156279087,55.08845901
+"62","139809686","Valeriana capitata Pallas ex Link","Valeriana","capitata",2022-07-27,"forb","Qikiqtaruk",2.342223644,46.06283951
+"63","139809745","Valeriana capitata Pallas ex Link","Valeriana","capitata",2022-07-27,"forb","Qikiqtaruk",2.571077824,45.99840546
+"64","139809799","Valeriana capitata Pallas ex Link","Valeriana","capitata",2022-07-27,"forb","Qikiqtaruk",2.755356073,46.6011734
+"65","139979166","Betula nana Linnaeus","Betula","nana",2022-07-29,"shrub","Qikiqtaruk",2.795007467,50.3209343
+"66","139979222","Betula nana Linnaeus","Betula","nana",2022-07-29,"shrub","Qikiqtaruk",2.520760059,50.00512314
+"67","139979285","Betula nana Linnaeus","Betula","nana",2022-07-29,"shrub","Qikiqtaruk",2.740882397,50.48379517
+"68","139979648","Elymus trachycaulus (Link) Gould ex Shinners","Elymus","trachycaulus",2022-07-29,"graminoid","Qikiqtaruk",2.778009176,45.3152504
+"69","139979744","Elymus trachycaulus (Link) Gould ex Shinners","Elymus","trachycaulus",2022-07-29,"graminoid","Qikiqtaruk",3.015928984,46.24846268
+"70","139979799","Elymus trachycaulus (Link) Gould ex Shinners","Elymus","trachycaulus",2022-07-29,"graminoid","Qikiqtaruk",1.770029068,45.59274673
+"71","140247844","Arctagrostis latifolia (R. Brown) Grisebach","Arctagrostis","latifolia",2022-08-01,"graminoid","Qikiqtaruk",1.925003767,46.06193161
+"72","140247919","Arctagrostis latifolia (R. Brown) Grisebach","Arctagrostis","latifolia",2022-08-01,"graminoid","Qikiqtaruk",2.483602762,46.40159988
+"73","140247970","Arctagrostis latifolia (R. Brown) Grisebach","Arctagrostis","latifolia",2022-08-01,"graminoid","Qikiqtaruk",2.125518322,46.21346664
+"74","140248149","Alopecurus Linnaeus","Alopecurus","Linnaeus",2022-08-02,"graminoid","Qikiqtaruk",2.142967224,45.24485016
+"75","140248211","Alopecurus Linnaeus","Alopecurus","Linnaeus",2022-08-02,"graminoid","Qikiqtaruk",1.266145587,42.27745056
+"76","140248695","Pyrola grandiflora Radius","Pyrola","grandiflora",2022-08-01,"forb","Qikiqtaruk",1.528183818,50.04234314
+"77","140248957","Pyrola grandiflora Radius","Pyrola","grandiflora",2022-08-01,"forb","Qikiqtaruk",1.57911706,50.00159073
+"78","140342868","Castilleja elegans Malte","Castilleja","elegans",2022-08-02,"forb","Qikiqtaruk",1.627755523,37.34329605
+"79","140342883","Castilleja elegans Malte","Castilleja","elegans",2022-08-02,"forb","Qikiqtaruk",2.108791351,36.95898056
+"80","140600107","Pedicularis capitata Adams","Pedicularis","capitata",2022-08-06,"forb","Qikiqtaruk",1.949125767,41.38149261
+"81","140600169","Pedicularis capitata Adams","Pedicularis","capitata",2022-08-06,"forb","Qikiqtaruk",2.035497427,42.67425537
+"82","140600245","Pedicularis capitata Adams","Pedicularis","capitata",2022-08-06,"forb","Qikiqtaruk",1.587900877,43.0062027
+"83","140600470","Bistorta vivipara (Linnaeus) Delarbre","Bistorta","vivipara",2022-08-06,"forb","Qikiqtaruk",1.460544109,44.86222458
+"84","140601002","Astragalus umbellatus Bunge","Astragalus","umbellatus",2022-08-06,"forb","Qikiqtaruk",3.694298506,45.99326324
+"85","140601094","Astragalus umbellatus Bunge","Astragalus","umbellatus",2022-08-06,"forb","Qikiqtaruk",3.662282705,45.88340759
+"86","140601220","Astragalus umbellatus Bunge","Astragalus","umbellatus",2022-08-06,"forb","Qikiqtaruk",3.97712326,45.42028046
+"87","140754715","Oxytropis maydelliana Trautvetter","Oxytropis","maydelliana",2022-08-07,"forb","Qikiqtaruk",2.823615074,45.71100616
+"88","140754848","Oxytropis maydelliana Trautvetter","Oxytropis","maydelliana",2022-08-07,"forb","Qikiqtaruk",3.014095306,44.62103271
+"89","140929020","Oxyria digyna (Linnaeus) Hill","Oxyria","digyna",2022-08-09,"forb","Qikiqtaruk",3.711800575,41.67177963
+"90","140929114","Oxyria digyna (Linnaeus) Hill","Oxyria","digyna",2022-08-09,"forb","Qikiqtaruk",3.218297482,40.50522232
+"91","140929157","Oxyria digyna (Linnaeus) Hill","Oxyria","digyna",2022-08-09,"forb","Qikiqtaruk",3.365180731,42.01259232
+"92","140940490","Carex aquatilis Wahlenberg","Carex","aquatilis",2022-08-09,"graminoid","Qikiqtaruk",2.130581856,46.40736389
+"93","140943763","Carex aquatilis Wahlenberg","Carex","aquatilis",2022-08-09,"graminoid","Qikiqtaruk",2.350781918,46.94266891
+"94","140943894","Carex aquatilis Wahlenberg","Carex","aquatilis",2022-08-09,"graminoid","Qikiqtaruk",2.070140839,46.7263031
