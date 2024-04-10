@@ -1,0 +1,1617 @@
+ID- Full,Plot,Date Sampled,Julian Date,Year Sampled,Functional Group,Species,Snow Zone,%C,%N
+JR170619-SLS-D1,1,6/19/2017,170,2017,Deciduous shrub,Salix,Low,51.98,3.16
+JR170619-SLS-D2,2,6/19/2017,170,2017,Deciduous shrub,Salix,Low,51.95,3.08
+JR170619-SLS-D3,3,6/19/2017,170,2017,Deciduous shrub,Salix,Low,51.25,2.76
+JR170619-SLS-D4,4,6/19/2017,170,2017,Deciduous shrub,Salix,Low,51.68,2.71
+JR170619-SLS-D5,5,6/19/2017,170,2017,Deciduous shrub,Salix,Low,52.65,2.95
+JR170619-SLS-DX1,6,6/19/2017,170,2017,Deciduous shrub,Salix,Low,51.96,2.96
+JR170619-SIS-D6,1,6/19/2017,170,2017,Deciduous shrub,Salix,Intermediate,50.84,4.03
+JR170619-SIS-D7,2,6/19/2017,170,2017,Deciduous shrub,Salix,Intermediate,51.21,3.57
+JR170619-SIS-D8,3,6/19/2017,170,2017,Deciduous shrub,Salix,Intermediate,51.7,4.27
+JR170619-SIS-D9,4,6/19/2017,170,2017,Deciduous shrub,Salix,Intermediate,51.23,4.37
+JR170619-SIS-D10,5,6/19/2017,170,2017,Deciduous shrub,Salix,Intermediate,51.09,4.27
+JR170619-SAS-D11,1,6/19/2017,170,2017,Deciduous shrub,Salix,Ambient,52.08,3.17
+JR170619-SAS-D12,2,6/19/2017,170,2017,Deciduous shrub,Salix,Ambient,52.32,2.81
+JR170619-SAS-D13,3,6/19/2017,170,2017,Deciduous shrub,Salix,Ambient,47.9,2.54
+JR170619-SAS-D14,4,6/19/2017,170,2017,Deciduous shrub,Salix,Ambient,52.16,3.14
+JR170619-SAS-D15,5,6/19/2017,170,2017,Deciduous shrub,Salix,Ambient,52.49,3.56
+JR170619-BLS-D16,1,6/19/2017,170,2017,Deciduous shrub,Betula,Low,53.31,2.89
+JR170619-BLS-D17,2,6/19/2017,170,2017,Deciduous shrub,Betula,Low,52.84,2.59
+JR170619-BLS-D18,3,6/19/2017,170,2017,Deciduous shrub,Betula,Low,53.27,2.91
+JR170619-BLS-D19,4,6/19/2017,170,2017,Deciduous shrub,Betula,Low,54.1,2.18
+JR170619-BLS-D20,5,6/19/2017,170,2017,Deciduous shrub,Betula,Low,52,2.89
+JR170619-BIS-D21,1,6/19/2017,170,2017,Deciduous shrub,Betula,Intermediate,52.66,4.73
+JR170619-BIS-D22,2,6/19/2017,170,2017,Deciduous shrub,Betula,Intermediate,52.09,4.5
+JR170619-BIS-D23,3,6/19/2017,170,2017,Deciduous shrub,Betula,Intermediate,53.42,2.89
+JR170619-BIS-D24,4,6/19/2017,170,2017,Deciduous shrub,Betula,Intermediate,53.77,3.92
+JR170619-BIS-D25,5,6/19/2017,170,2017,Deciduous shrub,Betula,Intermediate,51.66,3.42
+JR170619-BAS-D26,1,6/19/2017,170,2017,Deciduous shrub,Betula,Ambient,54.91,2.83
+JR170619-BAS-D27,2,6/19/2017,170,2017,Deciduous shrub,Betula,Ambient,54.36,2.28
+JR170619-BAS-D28,3,6/19/2017,170,2017,Deciduous shrub,Betula,Ambient,53.03,2.77
+JR170619-BAS-D29,4,6/19/2017,170,2017,Deciduous shrub,Betula,Ambient,53.59,2.95
+JR170619-BAS-D30,5,6/19/2017,170,2017,Deciduous shrub,Betula,Ambient,53.48,2.94
+JR170619-ELS-D31,1,6/19/2017,170,2017,Sedge,Eriophorum,Low,48.41,2.1
+JR170619-ELS-D32,2,6/19/2017,170,2017,Sedge,Eriophorum,Low,48.19,1.71
+JR170619-ELS-D33,3,6/19/2017,170,2017,Sedge,Eriophorum,Low,48.41,2.18
+JR170619-ELS-D34,4,6/19/2017,170,2017,Sedge,Eriophorum,Low,48.15,1.98
+JR170619-ELS-D35,5,6/19/2017,170,2017,Sedge,Eriophorum,Low,48.25,2.01
+JR170619-EIS-D36,1,6/19/2017,170,2017,Sedge,Eriophorum,Intermediate,48.95,2.14
+JR170619-EIS-D37,2,6/19/2017,170,2017,Sedge,Eriophorum,Intermediate,48.4,1.73
+JR170619-EIS-D38,3,6/19/2017,170,2017,Sedge,Eriophorum,Intermediate,48.49,2.88
+JR170619-EIS-D39,4,6/19/2017,170,2017,Sedge,Eriophorum,Intermediate,48.5,2.18
+JR170619-EIS-D40,5,6/19/2017,170,2017,Sedge,Eriophorum,Intermediate,49.09,1.75
+JR170619-EAS-D41,1,6/19/2017,170,2017,Sedge,Eriophorum,Ambient,49.01,1.95
+JR170619-EAS-D42,2,6/19/2017,170,2017,Sedge,Eriophorum,Ambient,48.63,2.22
+JR170619-EAS-D43,3,6/19/2017,170,2017,Sedge,Eriophorum,Ambient,48.15,2.09
+JR170619-EAS-D44,4,6/19/2017,170,2017,Sedge,Eriophorum,Ambient,47.88,2.1
+JR170619-EAS-D45,5,6/19/2017,170,2017,Sedge,Eriophorum,Ambient,48.27,2.74
+JR170619-CLS-D46,1,6/19/2017,170,2017,Sedge,Carex,Low,47.15,2.9
+JR170619-CLS-D47,2,6/19/2017,170,2017,Sedge,Carex,Low,47.08,3.89
+JR170619-CLS-D48,3,6/19/2017,170,2017,Sedge,Carex,Low,46.97,3.51
+JR170619-CLS-D49,4,6/19/2017,170,2017,Sedge,Carex,Low,46.88,2.93
+JR170619-CIS-D51,1,6/19/2017,170,2017,Sedge,Carex,Intermediate,47.44,3.55
+JR170619-CIS-D52,2,6/19/2017,170,2017,Sedge,Carex,Intermediate,47.5,4.04
+JR170619-CIS-D53,3,6/19/2017,170,2017,Sedge,Carex,Intermediate,47.43,3.7
+JR170619-CIS-D54,4,6/19/2017,170,2017,Sedge,Carex,Intermediate,47.92,4.35
+JR170619-CIS-D55,5,6/19/2017,170,2017,Sedge,Carex,Intermediate,48.2,3.38
+JR170619-CAS-D56,1,6/19/2017,170,2017,Sedge,Carex,Ambient,48,3.35
+JR170619-CAS-D57,2,6/19/2017,170,2017,Sedge,Carex,Ambient,47.45,3.48
+JR170619-CAS-D58,3,6/19/2017,170,2017,Sedge,Carex,Ambient,47.11,4.11
+JR170619-CAS-D59,4,6/19/2017,170,2017,Sedge,Carex,Ambient,47.44,3.61
+JR170619-CAS-D60,5,6/19/2017,170,2017,Sedge,Carex,Ambient,47.02,3.65
+JR170619-LLS-D61,1,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Low,53.66,1.45
+JR170619-LLS-D62,2,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Low,54.12,1.62
+JR170619-LLS-D63,3,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Low,53.95,1.75
+JR170619-LLS-D64,4,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Low,53.17,1.54
+JR170619-LLS-D65,5,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Low,53.48,1.32
+JR170619-LIS-D66,1,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.38,1.31
+JR170619-LIS-D67,2,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Intermediate,52.69,1.25
+JR170619-LIS-D68,3,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.45,1.16
+JR170619-LIS-D69,4,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.21,1.38
+JR170619-LIS-D70,5,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Intermediate,52.67,1.64
+JR170619-LAS-D71,1,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Ambient,53.16,1.53
+JR170619-LAS-D72,2,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Ambient,53.72,1.67
+JR170619-LAS-D73,3,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Ambient,52.92,1.39
+JR170619-LAS-D74,4,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Ambient,52.93,1.47
+JR170619-LAS-D75,5,6/19/2017,170,2017,Evergreen dwarf shrub,Ledum,Ambient,54.2,1.39
+JR170619-VLS-D76,1,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Low,51.11,0.98
+JR170619-VLS-D77,2,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Low,50.73,1.09
+JR170619-VLS-D78,3,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Low,51.17,0.84
+JR170619-VLS-D79,4,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Low,51.04,0.88
+JR170619-VLS-D80,5,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Low,51.63,0.91
+JR170619-VIS-D81,1,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.32,0.72
+JR170619-VIS-D82,2,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.16,1.15
+JR170619-VIS-D83,3,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.8,0.81
+JR170619-VIS-D84,4,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.54,0.99
+JR170619-VIS-D85,5,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.3,0.8
+JR170619-VAS-D86,1,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.28,1.09
+JR170619-VAS-D87,2,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.84,0.88
+JR170619-VAS-D88,3,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.51,1.04
+JR170619-VAS-D89,4,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.4,1.01
+JR170619-VAS-D90,5,6/19/2017,170,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.59,1.01
+JR170626-SLS-D91,1,6/26/2017,177,2017,Deciduous shrub,Salix,Low,48.49,2.79
+JR170626-SLS-D92,2,6/26/2017,177,2017,Deciduous shrub,Salix,Low,52.48,2.87
+JR170626-SLS-D93,3,6/26/2017,177,2017,Deciduous shrub,Salix,Low,52.46,3.15
+JR170626-SLS-D94,4,6/26/2017,177,2017,Deciduous shrub,Salix,Low,52.23,2.74
+JR170626-SIS-D96,1,6/26/2017,177,2017,Deciduous shrub,Salix,Intermediate,51.36,4.41
+JR170626-SIS-D97,2,6/26/2017,177,2017,Deciduous shrub,Salix,Intermediate,51.33,3.39
+JR170626-SIS-D98,3,6/26/2017,177,2017,Deciduous shrub,Salix,Intermediate,51.45,4.23
+JR170626-SIS-D99,4,6/26/2017,177,2017,Deciduous shrub,Salix,Intermediate,49.68,3.87
+JR170626-SIS-D100,5,6/26/2017,177,2017,Deciduous shrub,Salix,Intermediate,51.11,3.81
+JR170626-SAS-D101,1,6/26/2017,177,2017,Deciduous shrub,Salix,Ambient,52.33,2.87
+JR170626-SAS-D102,2,6/26/2017,177,2017,Deciduous shrub,Salix,Ambient,53.24,2.78
+JR170626-SAS-D103,3,6/26/2017,177,2017,Deciduous shrub,Salix,Ambient,53.46,2.82
+JR170626-SAS-D104,4,6/26/2017,177,2017,Deciduous shrub,Salix,Ambient,50.65,3
+JR170626-SAS-D105,5,6/26/2017,177,2017,Deciduous shrub,Salix,Ambient,50.54,2.8
+JR170626-BLS-D106,1,6/26/2017,177,2017,Deciduous shrub,Betula,Low,50.43,2.76
+JR170626-BLS-D107,2,6/26/2017,177,2017,Deciduous shrub,Betula,Low,50.09,3
+JR170626-BLS-D108,3,6/26/2017,177,2017,Deciduous shrub,Betula,Low,51.17,2.93
+JR170626-BLS-D109,4,6/26/2017,177,2017,Deciduous shrub,Betula,Low,50.66,2.65
+JR170626-BLS-D110,5,6/26/2017,177,2017,Deciduous shrub,Betula,Low,50.79,3.2
+JR170626-BIS-D111,1,6/26/2017,177,2017,Deciduous shrub,Betula,Intermediate,52.21,2.85
+JR170626-BIS-D112,2,6/26/2017,177,2017,Deciduous shrub,Betula,Intermediate,52.99,3.29
+JR170626-BIS-D113,3,6/26/2017,177,2017,Deciduous shrub,Betula,Intermediate,52.24,2.73
+JR170626-BIS-D114,4,6/26/2017,177,2017,Deciduous shrub,Betula,Intermediate,52.74,3.36
+JR170626-BIS-D115,5,6/26/2017,177,2017,Deciduous shrub,Betula,Intermediate,52.11,3.66
+JR170626-BAS-D116,1,6/26/2017,177,2017,Deciduous shrub,Betula,Ambient,47.57,3.63
+JR170626-BAS-D117,2,6/26/2017,177,2017,Deciduous shrub,Betula,Ambient,50.91,2.64
+JR170626-BAS-D118,3,6/26/2017,177,2017,Deciduous shrub,Betula,Ambient,,
+JR170626-BAS-D119,4,6/26/2017,177,2017,Deciduous shrub,Betula,Ambient,51.06,2.78
+JR170626-BAS-D120,5,6/26/2017,177,2017,Deciduous shrub,Betula,Ambient,52.13,3.03
+JR170626-ELS-D121,1,6/26/2017,177,2017,Sedge,Eriophorum,Low,48.37,2.49
+JR170626-ELS-D122,2,6/26/2017,177,2017,Sedge,Eriophorum,Low,48.24,2.13
+JR170626-ELS-D123,3,6/26/2017,177,2017,Sedge,Eriophorum,Low,48.45,2
+JR170626-ELS-D124,4,6/26/2017,177,2017,Sedge,Eriophorum,Low,48.08,2.25
+JR170626-ELS-D125,5,6/26/2017,177,2017,Sedge,Eriophorum,Low,46.68,1.95
+JR170626-EIS-D126,1,6/26/2017,177,2017,Sedge,Eriophorum,Intermediate,49.11,2.04
+JR170626-EIS-D127,2,6/26/2017,177,2017,Sedge,Eriophorum,Intermediate,48.74,2.59
+JR170626-EIS-D128,3,6/26/2017,177,2017,Sedge,Eriophorum,Intermediate,48.59,2.43
+JR170626-EIS-D129,4,6/26/2017,177,2017,Sedge,Eriophorum,Intermediate,47.56,2.37
+JR170626-EIS-D130,5,6/26/2017,177,2017,Sedge,Eriophorum,Intermediate,48.25,2.03
+JR170626-EAS-D131,1,6/26/2017,177,2017,Sedge,Eriophorum,Ambient,48.5,1.51
+JR170626-EAS-D132,2,6/26/2017,177,2017,Sedge,Eriophorum,Ambient,48.06,2.99
+JR170626-EAS-D133,3,6/26/2017,177,2017,Sedge,Eriophorum,Ambient,50.65,1.65
+JR170626-EAS-D134,4,6/26/2017,177,2017,Sedge,Eriophorum,Ambient,46.07,1.63
+JR170626-EAS-D135,5,6/26/2017,177,2017,Sedge,Eriophorum,Ambient,48.57,2
+JR170626-CLS-D136,1,6/26/2017,177,2017,Sedge,Carex,Low,48.23,3.53
+JR170626-CLS-D137,2,6/26/2017,177,2017,Sedge,Carex,Low,45.86,3.08
+JR170626-CLS-D138,3,6/26/2017,177,2017,Sedge,Carex,Low,47.24,2.9
+JR170626-CLS-D139,4,6/26/2017,177,2017,Sedge,Carex,Low,47.12,2.9
+JR170626-CLS-D140,5,6/26/2017,177,2017,Sedge,Carex,Low,47.99,2.95
+JR170626-CIS-D141,1,6/26/2017,177,2017,Sedge,Carex,Intermediate,45.53,3.46
+JR170626-CIS-D142,2,6/26/2017,177,2017,Sedge,Carex,Intermediate,46.69,3.06
+JR170626-CIS-D143,3,6/26/2017,177,2017,Sedge,Carex,Intermediate,,
+JR170626-CIS-D144,4,6/26/2017,177,2017,Sedge,Carex,Intermediate,48,3.3
+JR170626-CIS-D145,5,6/26/2017,177,2017,Sedge,Carex,Intermediate,45.3,3.49
+JR170626-CAS-D146,1,6/26/2017,177,2017,Sedge,Carex,Ambient,46.23,3.5
+JR170626-CAS-D147,2,6/26/2017,177,2017,Sedge,Carex,Ambient,45.47,3.09
+JR170626-CAS-D148,3,6/26/2017,177,2017,Sedge,Carex,Ambient,45.74,2.89
+JR170626-CAS-D149,4,6/26/2017,177,2017,Sedge,Carex,Ambient,45.56,3.14
+JR170626-CAS-D150,5,6/26/2017,177,2017,Sedge,Carex,Ambient,47.67,3.29
+JR170626-LLS-D151,1,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Low,52.92,1.51
+JR170626-LLS-D152,2,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Low,,
+JR170626-LLS-D153,3,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Low,53.05,1.69
+JR170626-LLS-D154,4,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Low,54.15,1.78
+JR170626-LLS-D155,5,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Low,53.1,1.52
+JR170626-LIS-D156,1,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.94,1.34
+JR170626-LIS-D157,2,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Intermediate,52.15,1.59
+JR170626-LIS-D158,3,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.64,1.75
+JR170626-LIS-D159,4,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.57,1.56
+JR170626-LIS-D160,5,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Intermediate,,1.5
+JR170626-LAS-D161,1,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Ambient,53.08,1.56
+JR170626-LAS-D162,2,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Ambient,52.67,1.61
+JR170626-LAS-D163,3,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Ambient,,
+JR170626-LAS-D164,4,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Ambient,52.25,1.47
+JR170626-LAS-D165,5,6/26/2017,177,2017,Evergreen dwarf shrub,Ledum,Ambient,53.63,1.59
+JR170626-VLS-D166,1,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Low,51.05,1.03
+JR170626-VLS-D167,2,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Low,51.61,0.78
+JR170626-VLS-D168,3,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Low,51.02,1.12
+JR170626-VLS-D169,4,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Low,52.13,0.82
+JR170626-VLS-D170,5,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Low,52.11,0.82
+JR170626-VIS-D171,1,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.36,1.28
+JR170626-VIS-D172,2,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.31,0.63
+JR170626-VIS-D173,3,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,49.57,0.76
+JR170626-VIS-D174,4,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.83,0.84
+JR170626-VIS-D175,5,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.94,1.56
+JR170626-VAS-D176,1,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.84,0.88
+JR170626-VAS-D177,2,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Ambient,50.29,0.86
+JR170626-VAS-D178,3,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.69,0.92
+JR170626-VAS-D179,4,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.42,1.1
+JR170626-VAS-D180,5,6/26/2017,177,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.97,0.93
+JR170703-SLS-D181,1,7/3/2017,184,2017,Deciduous shrub,Salix,Low,52.9,2.74
+JR170703-SLS-D182,2,7/3/2017,184,2017,Deciduous shrub,Salix,Low,52.32,2.45
+JR170703-SLS-D183,3,7/3/2017,184,2017,Deciduous shrub,Salix,Low,52.6,2.77
+JR170703-SLS-D184,4,7/3/2017,184,2017,Deciduous shrub,Salix,Low,53.55,2.68
+JR170703-SLS-D185,5,7/3/2017,184,2017,Deciduous shrub,Salix,Low,52.22,2.66
+JR170703-SIS-D186,1,7/3/2017,184,2017,Deciduous shrub,Salix,Intermediate,52.84,3.21
+JR170703-SIS-D187,2,7/3/2017,184,2017,Deciduous shrub,Salix,Intermediate,52.67,3.45
+JR170703-SIS-D188,3,7/3/2017,184,2017,Deciduous shrub,Salix,Intermediate,52.81,3.67
+JR170703-SIS-D189,4,7/3/2017,184,2017,Deciduous shrub,Salix,Intermediate,52.39,3.71
+JR170703-SIS-D190,5,7/3/2017,184,2017,Deciduous shrub,Salix,Intermediate,52.03,3.88
+JR170703-SAS-D191,1,7/3/2017,184,2017,Deciduous shrub,Salix,Ambient,52.54,2.76
+JR170703-SAS-D192,2,7/3/2017,184,2017,Deciduous shrub,Salix,Ambient,52.77,2.72
+JR170703-SAS-D193,3,7/3/2017,184,2017,Deciduous shrub,Salix,Ambient,52.48,2.75
+JR170703-SAS-D194,4,7/3/2017,184,2017,Deciduous shrub,Salix,Ambient,52.96,2.81
+JR170703-SAS-D195,5,7/3/2017,184,2017,Deciduous shrub,Salix,Ambient,52.49,2.83
+JR170703-BLS-D196,1,7/3/2017,184,2017,Deciduous shrub,Betula,Low,53.15,2.97
+JR170703-BLS-D197,2,7/3/2017,184,2017,Deciduous shrub,Betula,Low,53.47,2.62
+JR170703-BLS-D198,3,7/3/2017,184,2017,Deciduous shrub,Betula,Low,53.74,3.04
+JR170703-BLS-D199,4,7/3/2017,184,2017,Deciduous shrub,Betula,Low,52.71,2.69
+JR170703-BLS-D200,5,7/3/2017,184,2017,Deciduous shrub,Betula,Low,45.42,3.65
+JR170703-BIS-D201,1,7/3/2017,184,2017,Deciduous shrub,Betula,Intermediate,51.89,4.44
+JR170703-BIS-D202,2,7/3/2017,184,2017,Deciduous shrub,Betula,Intermediate,52.18,3.48
+JR170703-BIS-D203,3,7/3/2017,184,2017,Deciduous shrub,Betula,Intermediate,52.16,4
+JR170703-BIS-D204,4,7/3/2017,184,2017,Deciduous shrub,Betula,Intermediate,43.01,3.19
+JR170703-BIS-D205,5,7/3/2017,184,2017,Deciduous shrub,Betula,Intermediate,51.99,3.7
+JR170703-BAS-D206,1,7/3/2017,184,2017,Deciduous shrub,Betula,Ambient,52.85,2.65
+JR170703-BAS-D207,2,7/3/2017,184,2017,Deciduous shrub,Betula,Ambient,51.51,2.4
+JR170703-BAS-D208,3,7/3/2017,184,2017,Deciduous shrub,Betula,Ambient,53.01,2.86
+JR170703-BAS-D209,4,7/3/2017,184,2017,Deciduous shrub,Betula,Ambient,52.75,2.62
+JR170703-BAS-D210,5,7/3/2017,184,2017,Deciduous shrub,Betula,Ambient,52.27,2.94
+JR170703-ELS-D211,1,7/3/2017,184,2017,Sedge,Eriophorum,Low,48.53,2.26
+JR170703-ELS-D212,2,7/3/2017,184,2017,Sedge,Eriophorum,Low,48.5,2.42
+JR170703-ELS-D213,3,7/3/2017,184,2017,Sedge,Eriophorum,Low,49.09,2.6
+JR170703-ELS-D214,4,7/3/2017,184,2017,Sedge,Eriophorum,Low,48.59,2.29
+JR170703-ELS-D215,5,7/3/2017,184,2017,Sedge,Eriophorum,Low,48.64,2.3
+JR170703-EIS-D216,1,7/3/2017,184,2017,Sedge,Eriophorum,Intermediate,48.43,2.3
+JR170703-EIS-D217,2,7/3/2017,184,2017,Sedge,Eriophorum,Intermediate,48.77,2.55
+JR170703-EIS-D218,3,7/3/2017,184,2017,Sedge,Eriophorum,Intermediate,47.96,2.5
+JR170703-EIS-D219,4,7/3/2017,184,2017,Sedge,Eriophorum,Intermediate,49.16,2.98
+JR170703-EIS-D220,5,7/3/2017,184,2017,Sedge,Eriophorum,Intermediate,48.9,3.04
+JR170703-EAS-D221,1,7/3/2017,184,2017,Sedge,Eriophorum,Ambient,48.67,2.37
+JR170703-EAS-D222,2,7/3/2017,184,2017,Sedge,Eriophorum,Ambient,48.48,2.55
+JR170703-EAS-D223,3,7/3/2017,184,2017,Sedge,Eriophorum,Ambient,49.13,2.95
+JR170703-EAS-D224,4,7/3/2017,184,2017,Sedge,Eriophorum,Ambient,48.43,2.78
+JR170703-EAS-D225,5,7/3/2017,184,2017,Sedge,Eriophorum,Ambient,48.61,2.29
+JR170703-CLS-D226,1,7/3/2017,184,2017,Sedge,Carex,Low,47.64,2.58
+JR170703-CLS-D227,2,7/3/2017,184,2017,Sedge,Carex,Low,47.72,3.28
+JR170703-CLS-D228,3,7/3/2017,184,2017,Sedge,Carex,Low,47.98,3.01
+JR170703-CLS-D229,4,7/3/2017,184,2017,Sedge,Carex,Low,47.38,2.9
+JR170703-CLS-D230,5,7/3/2017,184,2017,Sedge,Carex,Low,47.96,3.35
+JR170703-CIS-D231,1,7/3/2017,184,2017,Sedge,Carex,Intermediate,46.45,3.72
+JR170703-CIS-D232,2,7/3/2017,184,2017,Sedge,Carex,Intermediate,48.44,3.35
+JR170703-CIS-D233,3,7/3/2017,184,2017,Sedge,Carex,Intermediate,47.65,3.33
+JR170703-CIS-D234,4,7/3/2017,184,2017,Sedge,Carex,Intermediate,47.75,3.09
+JR170703-CIS-D235,5,7/3/2017,184,2017,Sedge,Carex,Intermediate,39.28,2.83
+JR170703-CAS-D236,1,7/3/2017,184,2017,Sedge,Carex,Ambient,47.99,2.75
+JR170703-CAS-D237,2,7/3/2017,184,2017,Sedge,Carex,Ambient,48.43,3.27
+JR170703-CAS-D238,3,7/3/2017,184,2017,Sedge,Carex,Ambient,47.37,2.47
+JR170703-CAS-D239,4,7/3/2017,184,2017,Sedge,Carex,Ambient,43.86,2.33
+JR170703-LLS-D241,1,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Low,54.72,1.7
+JR170703-LLS-D242,2,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Low,52.97,1.53
+JR170703-LLS-D243,3,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Low,54.81,1.62
+JR170703-LLS-D244,4,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Low,55.52,1.64
+JR170703-LLS-D245,5,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Low,55.09,1.82
+JR170703-LIS-D246,1,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.5,1.36
+JR170703-LIS-D247,2,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Intermediate,55.1,1.61
+JR170703-LIS-D248,3,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.5,1.37
+JR170703-LIS-D249,4,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.79,1.55
+JR170703-LIS-D250,5,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.72,1.99
+JR170703-LAS-D251,1,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Ambient,54.87,1.66
+JR170703-LAS-D252,2,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Ambient,55.55,1.77
+JR170703-LAS-D253,3,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Ambient,54.41,1.52
+JR170703-LAS-D254,4,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Ambient,55.78,1.41
+JR170703-LAS-D255,5,7/3/2017,184,2017,Evergreen dwarf shrub,Ledum,Ambient,55.35,1.74
+JR170703-VLS-D256,1,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Low,52.77,0.89
+JR170703-VLS-D257,2,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Low,52.89,0.9
+JR170703-VLS-D258,3,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Low,52.72,0.96
+JR170703-VLS-D259,4,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Low,51.92,0.93
+JR170703-VLS-D260,5,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Low,51.82,1.01
+JR170703-VIS-D261,1,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.86,0.91
+JR170703-VIS-D262,2,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.38,1.02
+JR170703-VIS-D263,3,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.6,0.81
+JR170703-VIS-D264,4,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.79,0.93
+JR170703-VIS-D265,5,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.05,0.83
+JR170703-VAS-D266,1,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.51,0.84
+JR170703-VAS-D267,2,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.05,0.77
+JR170703-VAS-D268,3,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.38,0.87
+JR170703-VAS-D269,4,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.84,0.74
+JR170703-VAS-D270,5,7/3/2017,184,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.94,0.79
+JR170710-SLS-D271,1,7/10/2017,191,2017,Deciduous shrub,Salix,Low,52.53,2.33
+JR170710-SLS-D272,2,7/10/2017,191,2017,Deciduous shrub,Salix,Low,51.79,2.25
+JR170710-SLS-D273,3,7/10/2017,191,2017,Deciduous shrub,Salix,Low,51.84,2.31
+JR170710-SLS-D274,4,7/10/2017,191,2017,Deciduous shrub,Salix,Low,51.9,2.36
+JR170710-SLS-D275,5,7/10/2017,191,2017,Deciduous shrub,Salix,Low,51.76,2.34
+JR170710-SIS-D276,1,7/10/2017,191,2017,Deciduous shrub,Salix,Intermediate,45.36,2.92
+JR170710-SIS-D277,2,7/10/2017,191,2017,Deciduous shrub,Salix,Intermediate,51.44,2.89
+JR170710-SIS-D278,3,7/10/2017,191,2017,Deciduous shrub,Salix,Intermediate,52.05,3.28
+JR170710-SIS-D279,4,7/10/2017,191,2017,Deciduous shrub,Salix,Intermediate,51.86,2.85
+JR170710-SIS-D280,5,7/10/2017,191,2017,Deciduous shrub,Salix,Intermediate,53.33,2.62
+JR170710-SAS-D281,1,7/10/2017,191,2017,Deciduous shrub,Salix,Ambient,51.65,2.38
+JR170710-SAS-D282,2,7/10/2017,191,2017,Deciduous shrub,Salix,Ambient,52.69,2.33
+JR170710-SAS-D283,3,7/10/2017,191,2017,Deciduous shrub,Salix,Ambient,52.96,2.16
+JR170710-SAS-D284,4,7/10/2017,191,2017,Deciduous shrub,Salix,Ambient,51.43,2.02
+JR170710-SAS-D285,5,7/10/2017,191,2017,Deciduous shrub,Salix,Ambient,51.85,2.33
+JR170710-BLS-D286,1,7/10/2017,191,2017,Deciduous shrub,Betula,Low,52.42,2.44
+JR170710-BLS-D287,2,7/10/2017,191,2017,Deciduous shrub,Betula,Low,52.75,2.52
+JR170710-BLS-D288,3,7/10/2017,191,2017,Deciduous shrub,Betula,Low,49.74,2.07
+JR170710-BLS-D289,4,7/10/2017,191,2017,Deciduous shrub,Betula,Low,52.42,2.38
+JR170710-BLS-D290,5,7/10/2017,191,2017,Deciduous shrub,Betula,Low,53.24,2.42
+JR170710-BIS-D291,1,7/10/2017,191,2017,Deciduous shrub,Betula,Intermediate,52.16,2.52
+JR170710-BIS-D292,2,7/10/2017,191,2017,Deciduous shrub,Betula,Intermediate,51.39,2.53
+JR170710-BIS-D293,3,7/10/2017,191,2017,Deciduous shrub,Betula,Intermediate,50.62,3.34
+JR170710-BIS-D294,4,7/10/2017,191,2017,Deciduous shrub,Betula,Intermediate,51.13,3
+JR170710-BIS-D295,5,7/10/2017,191,2017,Deciduous shrub,Betula,Intermediate,51.84,2.8
+JR170710-BAS-D296,1,7/10/2017,191,2017,Deciduous shrub,Betula,Ambient,52.65,2.26
+JR170710-BAS-D297,2,7/10/2017,191,2017,Deciduous shrub,Betula,Ambient,52.56,2.57
+JR170710-BAS-D298,3,7/10/2017,191,2017,Deciduous shrub,Betula,Ambient,52.47,2.29
+JR170710-BAS-D299,4,7/10/2017,191,2017,Deciduous shrub,Betula,Ambient,52.87,2.28
+JR170710-BAS-D300,5,7/10/2017,191,2017,Deciduous shrub,Betula,Ambient,53.56,2.45
+JR170710-ELS-D301,1,7/10/2017,191,2017,Sedge,Eriophorum,Low,48.36,1.4
+JR170710-ELS-D302,2,7/10/2017,191,2017,Sedge,Eriophorum,Low,47.79,1.39
+JR170710-ELS-D303,3,7/10/2017,191,2017,Sedge,Eriophorum,Low,48.4,1.86
+JR170710-ELS-D304,4,7/10/2017,191,2017,Sedge,Eriophorum,Low,48.24,1.7
+JR170710-ELS-D305,5,7/10/2017,191,2017,Sedge,Eriophorum,Low,48.3,1.62
+JR170710-ELS-DX2,6,7/10/2017,191,2017,Sedge,Eriophorum,Low,48.16,1.59
+JR170710-EIS-D306,1,7/10/2017,191,2017,Sedge,Eriophorum,Intermediate,48.63,2.37
+JR170710-EIS-D307,2,7/10/2017,191,2017,Sedge,Eriophorum,Intermediate,48.48,2.55
+JR170710-EIS-D308,3,7/10/2017,191,2017,Sedge,Eriophorum,Intermediate,48.6,2.16
+JR170710-EIS-D309,4,7/10/2017,191,2017,Sedge,Eriophorum,Intermediate,49.07,2.15
+JR170710-EIS-D310,5,7/10/2017,191,2017,Sedge,Eriophorum,Intermediate,48.71,2.45
+JR170710-EAS-D311,1,7/10/2017,191,2017,Sedge,Eriophorum,Ambient,48.82,2.23
+JR170710-EAS-D312,2,7/10/2017,191,2017,Sedge,Eriophorum,Ambient,48.53,2.41
+JR170710-EAS-D313,3,7/10/2017,191,2017,Sedge,Eriophorum,Ambient,48.13,2.05
+JR170710-EAS-D314,4,7/10/2017,191,2017,Sedge,Eriophorum,Ambient,48.6,1.88
+JR170710-EAS-D315,5,7/10/2017,191,2017,Sedge,Eriophorum,Ambient,48.29,1.92
+JR170710-CLS-D316,1,7/10/2017,191,2017,Sedge,Carex,Low,47.35,2.46
+JR170710-CLS-D317,2,7/10/2017,191,2017,Sedge,Carex,Low,48.21,2.63
+JR170710-CLS-D318,3,7/10/2017,191,2017,Sedge,Carex,Low,47.84,2.68
+JR170710-CLS-D319,4,7/10/2017,191,2017,Sedge,Carex,Low,47.77,2.75
+JR170710-CLS-D320,5,7/10/2017,191,2017,Sedge,Carex,Low,47.95,2.78
+JR170710-CIS-D321,1,7/10/2017,191,2017,Sedge,Carex,Intermediate,47.35,3
+JR170710-CIS-D322,2,7/10/2017,191,2017,Sedge,Carex,Intermediate,47.83,2.92
+JR170710-CIS-D323,3,7/10/2017,191,2017,Sedge,Carex,Intermediate,47.89,2.41
+JR170710-CIS-D324,4,7/10/2017,191,2017,Sedge,Carex,Intermediate,47.61,2.63
+JR170710-CIS-D325,5,7/10/2017,191,2017,Sedge,Carex,Intermediate,48.13,2.81
+JR170710-CAS-D326,1,7/10/2017,191,2017,Sedge,Carex,Ambient,48.06,2.52
+JR170710-CAS-D327,2,7/10/2017,191,2017,Sedge,Carex,Ambient,47.64,2.59
+JR170710-CAS-D328,3,7/10/2017,191,2017,Sedge,Carex,Ambient,47.86,2.54
+JR170710-CAS-D329,4,7/10/2017,191,2017,Sedge,Carex,Ambient,46.77,2.36
+JR170710-CAS-D330,5,7/10/2017,191,2017,Sedge,Carex,Ambient,47.42,2.29
+JR170710-LLS-D331,1,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Low,54.61,1.83
+JR170710-LLS-D332,2,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Low,55.23,1.84
+JR170710-LLS-D333,3,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Low,55.14,1.58
+JR170710-LLS-D334,4,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Low,55.3,1.88
+JR170710-LLS-D335,5,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Low,55.93,1.76
+JR170710-LIS-D336,1,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.25,1.38
+JR170710-LIS-D337,2,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.69,1.63
+JR170710-LIS-D338,3,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.31,1.56
+JR170710-LIS-D339,4,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.48,1.92
+JR170710-LIS-D340,5,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.62,1.48
+JR170710-LAS-D341,1,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Ambient,54.26,1.56
+JR170710-LAS-D342,2,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Ambient,54.1,1.77
+JR170710-LAS-D343,3,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Ambient,54.88,1.69
+JR170710-LAS-D344,4,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Ambient,54.05,1.6
+JR170710-LAS-D345,5,7/10/2017,191,2017,Evergreen dwarf shrub,Ledum,Ambient,54.52,1.99
+JR170710-VLS-D346,1,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Low,51.6,1.2
+JR170710-VLS-D347,2,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Low,51.44,0.96
+JR170710-VLS-D348,3,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Low,53.13,0.92
+JR170710-VLS-D349,4,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Low,52.77,0.84
+JR170710-VLS-D350,5,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Low,52.69,0.84
+JR170710-VIS-D351,1,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,53.56,0.8
+JR170710-VIS-D352,2,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.74,0.86
+JR170710-VIS-D353,3,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,53.46,0.95
+JR170710-VIS-D354,4,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.73,0.96
+JR170710-VIS-D355,5,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.67,0.96
+JR170710-VAS-D356,1,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.31,0.93
+JR170710-VAS-D357,2,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Ambient,50.61,0.91
+JR170710-VAS-D358,3,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.33,0.95
+JR170710-VAS-D359,4,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.25,1.12
+JR170710-VAS-D360,5,7/10/2017,191,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.93,0.86
+JR170717-SLS-D361,1,7/17/2017,198,2017,Deciduous shrub,Salix,Low,51.71,2.18
+JR170717-SLS-D362,2,7/17/2017,198,2017,Deciduous shrub,Salix,Low,52.81,2.08
+JR170717-SLS-D363,3,7/17/2017,198,2017,Deciduous shrub,Salix,Low,52.94,2.4
+JR170717-SLS-D364,4,7/17/2017,198,2017,Deciduous shrub,Salix,Low,49.28,2.02
+JR170717-SLS-D365,5,7/17/2017,198,2017,Deciduous shrub,Salix,Low,51.96,2.33
+JR170717-SIS-D366,1,7/17/2017,198,2017,Deciduous shrub,Salix,Intermediate,51.14,2.61
+JR170717-SIS-D367,2,7/17/2017,198,2017,Deciduous shrub,Salix,Intermediate,51.31,3.36
+JR170717-SIS-D368,3,7/17/2017,198,2017,Deciduous shrub,Salix,Intermediate,51.26,2.66
+JR170717-SIS-D369,4,7/17/2017,198,2017,Deciduous shrub,Salix,Intermediate,52.21,2.61
+JR170717-SIS-D370,5,7/17/2017,198,2017,Deciduous shrub,Salix,Intermediate,47.52,3.17
+JR170717-SAS-D371,1,7/17/2017,198,2017,Deciduous shrub,Salix,Ambient,52.38,1.89
+JR170717-SAS-D372,2,7/17/2017,198,2017,Deciduous shrub,Salix,Ambient,52.23,1.94
+JR170717-SAS-D373,3,7/17/2017,198,2017,Deciduous shrub,Salix,Ambient,52.26,2.31
+JR170717-SAS-D374,4,7/17/2017,198,2017,Deciduous shrub,Salix,Ambient,52.77,2.32
+JR170717-SAS-D375,5,7/17/2017,198,2017,Deciduous shrub,Salix,Ambient,52.25,2.19
+JR170717-BLS-D376,1,7/17/2017,198,2017,Deciduous shrub,Betula,Low,52.12,2.51
+JR170717-BLS-D377,2,7/17/2017,198,2017,Deciduous shrub,Betula,Low,52.85,2.58
+JR170717-BLS-D378,3,7/17/2017,198,2017,Deciduous shrub,Betula,Low,53.47,2.7
+JR170717-BLS-D379,4,7/17/2017,198,2017,Deciduous shrub,Betula,Low,52.57,2.35
+JR170717-BLS-D380,5,7/17/2017,198,2017,Deciduous shrub,Betula,Low,52.41,2.63
+JR170717-BIS-D381,1,7/17/2017,198,2017,Deciduous shrub,Betula,Intermediate,53.43,2.37
+JR170717-BIS-D382,2,7/17/2017,198,2017,Deciduous shrub,Betula,Intermediate,52.47,3.13
+JR170717-BIS-D383,3,7/17/2017,198,2017,Deciduous shrub,Betula,Intermediate,52.79,2.46
+JR170717-BIS-D384,4,7/17/2017,198,2017,Deciduous shrub,Betula,Intermediate,52.29,2.91
+JR170717-BIS-D385,5,7/17/2017,198,2017,Deciduous shrub,Betula,Intermediate,50.94,3.03
+JR170717-BAS-D386,1,7/17/2017,198,2017,Deciduous shrub,Betula,Ambient,51.57,2.17
+JR170717-BAS-D387,2,7/17/2017,198,2017,Deciduous shrub,Betula,Ambient,52.39,2.21
+JR170717-BAS-D388,3,7/17/2017,198,2017,Deciduous shrub,Betula,Ambient,52.77,2.5
+JR170717-BAS-D389,4,7/17/2017,198,2017,Deciduous shrub,Betula,Ambient,52.71,2.53
+JR170717-BAS-D390,5,7/17/2017,198,2017,Deciduous shrub,Betula,Ambient,52.43,2.35
+JR170717-ELS-D391,1,7/17/2017,198,2017,Sedge,Eriophorum,Low,48.54,2.11
+JR170717-ELS-D392,2,7/17/2017,198,2017,Sedge,Eriophorum,Low,48.67,2.09
+JR170717-ELS-D393,3,7/17/2017,198,2017,Sedge,Eriophorum,Low,42.92,2.13
+JR170717-ELS-D394,4,7/17/2017,198,2017,Sedge,Eriophorum,Low,48.92,2.63
+JR170717-ELS-D395,5,7/17/2017,198,2017,Sedge,Eriophorum,Low,48.73,1.98
+JR170717-EIS-D396,1,7/17/2017,198,2017,Sedge,Eriophorum,Intermediate,48.23,2.21
+JR170717-EIS-D397,2,7/17/2017,198,2017,Sedge,Eriophorum,Intermediate,48.47,1.99
+JR170717-EIS-D398,3,7/17/2017,198,2017,Sedge,Eriophorum,Intermediate,48.42,2.65
+JR170717-EIS-D399,4,7/17/2017,198,2017,Sedge,Eriophorum,Intermediate,49.02,2.55
+JR170717-EIS-D400,5,7/17/2017,198,2017,Sedge,Eriophorum,Intermediate,48.77,2.19
+JR170717-EAS-D401,1,7/17/2017,198,2017,Sedge,Eriophorum,Ambient,48.54,2.27
+JR170717-EAS-D402,2,7/17/2017,198,2017,Sedge,Eriophorum,Ambient,46.95,2.19
+JR170717-EAS-D403,3,7/17/2017,198,2017,Sedge,Eriophorum,Ambient,48.87,2.44
+JR170717-EAS-D404,4,7/17/2017,198,2017,Sedge,Eriophorum,Ambient,48.58,2.48
+JR170717-EAS-D405,5,7/17/2017,198,2017,Sedge,Eriophorum,Ambient,48.31,2.27
+JR170717-CLS-D406,1,7/17/2017,198,2017,Sedge,Carex,Low,48.19,2.22
+JR170717-CLS-D407,2,7/17/2017,198,2017,Sedge,Carex,Low,47.72,2.32
+JR170717-CLS-D408,3,7/17/2017,198,2017,Sedge,Carex,Low,47.13,2.22
+JR170717-CLS-D409,4,7/17/2017,198,2017,Sedge,Carex,Low,48.89,3.27
+JR170717-CLS-D410,5,7/17/2017,198,2017,Sedge,Carex,Low,47.91,2.22
+JR170717-CIS-D411,1,7/17/2017,198,2017,Sedge,Carex,Intermediate,,
+JR170717-CIS-D412,2,7/17/2017,198,2017,Sedge,Carex,Intermediate,47.96,2.73
+JR170717-CIS-D413,3,7/17/2017,198,2017,Sedge,Carex,Intermediate,48.27,2.25
+JR170717-CIS-D414,4,7/17/2017,198,2017,Sedge,Carex,Intermediate,48.44,2.73
+JR170717-CIS-D415,5,7/17/2017,198,2017,Sedge,Carex,Intermediate,46.99,2.93
+JR170717-CAS-D416,1,7/17/2017,198,2017,Sedge,Carex,Ambient,47.72,2.26
+JR170717-CAS-D417,2,7/17/2017,198,2017,Sedge,Carex,Ambient,47.61,2.59
+JR170717-CAS-D418,3,7/17/2017,198,2017,Sedge,Carex,Ambient,47.3,2.34
+JR170717-CAS-D419,4,7/17/2017,198,2017,Sedge,Carex,Ambient,47.11,2.3
+JR170717-CAS-D420,5,7/17/2017,198,2017,Sedge,Carex,Ambient,47.6,2.15
+JR170717-LLS-D421,1,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Low,54.47,1.55
+JR170717-LLS-D422,2,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Low,54.94,1.61
+JR170717-LLS-D423,3,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Low,55.25,1.37
+JR170717-LLS-D424,4,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Low,53.92,1.62
+JR170717-LLS-D425,5,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Low,54.18,1.55
+JR170717-LIS-D426,1,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Intermediate,45.33,
+JR170717-LIS-D427,2,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.43,1.4
+JR170717-LIS-D428,3,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.95,1.64
+JR170717-LIS-D429,4,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Intermediate,55.11,1.41
+JR170717-LIS-D430,5,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.2,1.46
+JR170717-LAS-D431,1,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Ambient,54.38,1.37
+JR170717-LAS-D432,2,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Ambient,53.48,1.32
+JR170717-LAS-D433,3,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Ambient,54.65,1.4
+JR170717-LAS-D434,4,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Ambient,54.74,1.45
+JR170717-LAS-D435,5,7/17/2017,198,2017,Evergreen dwarf shrub,Ledum,Ambient,52.39,1.51
+JR170717-VLS-D436,1,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Low,52.16,0.86
+JR170717-VLS-D437,2,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Low,51.82,0.79
+JR170717-VLS-D438,3,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Low,51.51,1.24
+JR170717-VLS-D439,4,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Low,51.77,0.81
+JR170717-VLS-D440,5,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Low,52.65,0.96
+JR170717-VIS-D441,1,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.18,0.64
+JR170717-VIS-D442,2,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,53.07,1.04
+JR170717-VIS-D443,3,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.48,0.88
+JR170717-VIS-D444,4,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,51.84,1.02
+JR170717-VIS-D445,5,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,58.22,1.11
+JR170717-VAS-D446,1,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.91,0.92
+JR170717-VAS-D447,2,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.3,0.87
+JR170717-VAS-D448,3,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.89,0.9
+JR170717-VAS-D449,4,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.6,0.88
+JR170717-VAS-D450,5,7/17/2017,198,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.43,1.07
+JR170724-SLS-D451,1,7/24/2017,205,2017,Deciduous shrub,Salix,Low,50.94,2.08
+JR170724-SLS-D452,2,7/24/2017,205,2017,Deciduous shrub,Salix,Low,52.56,1.99
+JR170724-SLS-D453,3,7/24/2017,205,2017,Deciduous shrub,Salix,Low,49.98,1.97
+JR170724-SLS-D454,4,7/24/2017,205,2017,Deciduous shrub,Salix,Low,51.71,2.02
+JR170724-SLS-D455,5,7/24/2017,205,2017,Deciduous shrub,Salix,Low,51.15,1.93
+JR170724-SIS-D456,1,7/24/2017,205,2017,Deciduous shrub,Salix,Intermediate,51.92,3.06
+JR170724-SIS-D457,2,7/24/2017,205,2017,Deciduous shrub,Salix,Intermediate,52.05,3.28
+JR170724-SIS-D458,3,7/24/2017,205,2017,Deciduous shrub,Salix,Intermediate,51.39,2.75
+JR170724-SIS-D459,4,7/24/2017,205,2017,Deciduous shrub,Salix,Intermediate,51.68,2.85
+JR170724-SIS-D460,5,7/24/2017,205,2017,Deciduous shrub,Salix,Intermediate,50.81,2.52
+JR170724-SAS-D461,1,7/24/2017,205,2017,Deciduous shrub,Salix,Ambient,49.35,2.26
+JR170724-SAS-D462,2,7/24/2017,205,2017,Deciduous shrub,Salix,Ambient,51.17,2.26
+JR170724-SAS-D463,3,7/24/2017,205,2017,Deciduous shrub,Salix,Ambient,51.36,2.11
+JR170724-SAS-D464,4,7/24/2017,205,2017,Deciduous shrub,Salix,Ambient,49.77,2.18
+JR170724-SAS-D465,5,7/24/2017,205,2017,Deciduous shrub,Salix,Ambient,52.36,2.25
+JR170724-BLS-D466,1,7/24/2017,205,2017,Deciduous shrub,Betula,Low,52.04,2.54
+JR170724-BLS-D467,2,7/24/2017,205,2017,Deciduous shrub,Betula,Low,52.77,2.43
+JR170724-BLS-D468,3,7/24/2017,205,2017,Deciduous shrub,Betula,Low,52.51,2.56
+JR170724-BLS-D469,4,7/24/2017,205,2017,Deciduous shrub,Betula,Low,52.98,2.51
+JR170724-BLS-D470,5,7/24/2017,205,2017,Deciduous shrub,Betula,Low,53.46,2.62
+JR170724-BIS-D471,1,7/24/2017,205,2017,Deciduous shrub,Betula,Intermediate,45.65,2.47
+JR170724-BIS-D472,2,7/24/2017,205,2017,Deciduous shrub,Betula,Intermediate,49.74,2.53
+JR170724-BIS-D473,3,7/24/2017,205,2017,Deciduous shrub,Betula,Intermediate,48.87,2.72
+JR170724-BIS-D474,4,7/24/2017,205,2017,Deciduous shrub,Betula,Intermediate,50.54,3.54
+JR170724-BIS-D475,5,7/24/2017,205,2017,Deciduous shrub,Betula,Intermediate,51.58,3.36
+JR170724-BAS-D476,1,7/24/2017,205,2017,Deciduous shrub,Betula,Ambient,52.65,2.5
+JR170724-BAS-D477,2,7/24/2017,205,2017,Deciduous shrub,Betula,Ambient,,
+JR170724-BAS-D478,3,7/24/2017,205,2017,Deciduous shrub,Betula,Ambient,52.43,2.55
+JR170724-BAS-D479,4,7/24/2017,205,2017,Deciduous shrub,Betula,Ambient,53.46,2.48
+JR170724-BAS-D480,5,7/24/2017,205,2017,Deciduous shrub,Betula,Ambient,52.29,2.44
+JR170724-ELS-D481,1,7/24/2017,205,2017,Sedge,Eriophorum,Low,48.58,1.8
+JR170724-ELS-D482,2,7/24/2017,205,2017,Sedge,Eriophorum,Low,48.75,1.81
+JR170724-ELS-D483,3,7/24/2017,205,2017,Sedge,Eriophorum,Low,48.58,1.97
+JR170724-ELS-D484,4,7/24/2017,205,2017,Sedge,Eriophorum,Low,48.2,1.42
+JR170724-ELS-D485,5,7/24/2017,205,2017,Sedge,Eriophorum,Low,49.02,2.29
+JR170724-EIS-D486,1,7/24/2017,205,2017,Sedge,Eriophorum,Intermediate,48.3,1.84
+JR170724-EIS-D487,2,7/24/2017,205,2017,Sedge,Eriophorum,Intermediate,48.42,2.27
+JR170724-EIS-D488,3,7/24/2017,205,2017,Sedge,Eriophorum,Intermediate,48.6,1.81
+JR170724-EIS-D489,4,7/24/2017,205,2017,Sedge,Eriophorum,Intermediate,48.75,2.33
+JR170724-EIS-D490,5,7/24/2017,205,2017,Sedge,Eriophorum,Intermediate,47.76,1.95
+JR170724-EAS-D491,1,7/24/2017,205,2017,Sedge,Eriophorum,Ambient,48.41,2.14
+JR170724-EAS-D492,2,7/24/2017,205,2017,Sedge,Eriophorum,Ambient,48.2,2.1
+JR170724-EAS-D493,3,7/24/2017,205,2017,Sedge,Eriophorum,Ambient,48.78,2.23
+JR170724-EAS-D494,4,7/24/2017,205,2017,Sedge,Eriophorum,Ambient,47.72,1.94
+JR170724-EAS-D495,5,7/24/2017,205,2017,Sedge,Eriophorum,Ambient,59.46,1.24
+JR170724-CLS-D496,1,7/24/2017,205,2017,Sedge,Carex,Low,48.54,2.61
+JR170724-CLS-D497,2,7/24/2017,205,2017,Sedge,Carex,Low,48.46,2.37
+JR170724-CLS-D498,3,7/24/2017,205,2017,Sedge,Carex,Low,48.24,2.02
+JR170724-CLS-D499,4,7/24/2017,205,2017,Sedge,Carex,Low,45.42,3.6
+JR170724-CLS-D500,5,7/24/2017,205,2017,Sedge,Carex,Low,48.27,2.72
+JR170724-CIS-D501,1,7/24/2017,205,2017,Sedge,Carex,Intermediate,48.11,1.94
+JR170724-CIS-D502,2,7/24/2017,205,2017,Sedge,Carex,Intermediate,48,2.36
+JR170724-CIS-D503,3,7/24/2017,205,2017,Sedge,Carex,Intermediate,47.56,2.69
+JR170724-CIS-D504,4,7/24/2017,205,2017,Sedge,Carex,Intermediate,47.55,2.65
+JR170724-CIS-D505,5,7/24/2017,205,2017,Sedge,Carex,Intermediate,47.54,1.99
+JR170724-CAS-D506,1,7/24/2017,205,2017,Sedge,Carex,Ambient,48.43,2.62
+JR170724-CAS-D507,2,7/24/2017,205,2017,Sedge,Carex,Ambient,47.06,2.38
+JR170724-CAS-D508,3,7/24/2017,205,2017,Sedge,Carex,Ambient,48.16,2.15
+JR170724-CAS-D509,4,7/24/2017,205,2017,Sedge,Carex,Ambient,48.44,2
+JR170724-CAS-D510,5,7/24/2017,205,2017,Sedge,Carex,Ambient,48.22,1.74
+JR170724-LLS-D511,1,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Low,53.85,1.51
+JR170724-LLS-D512,2,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Low,55.12,1.77
+JR170724-LLS-D513,3,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Low,54.63,1.69
+JR170724-LLS-D514,4,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Low,52.32,1.73
+JR170724-LLS-D515,5,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Low,54.15,1.74
+JR170724-LIS-D516,1,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Intermediate,52.68,1.51
+JR170724-LIS-D517,2,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Intermediate,52.89,1.77
+JR170724-LIS-D518,3,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Intermediate,52.54,1.38
+JR170724-LIS-D519,4,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.77,1.72
+JR170724-LIS-D520,5,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.41,1.58
+JR170724-LAS-D521,1,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Ambient,53.42,1.63
+JR170724-LAS-D522,2,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Ambient,52.07,1.46
+JR170724-LAS-D523,3,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Ambient,52.38,1.57
+JR170724-LAS-D524,4,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Ambient,54.41,1.31
+JR170724-LAS-D525,5,7/24/2017,205,2017,Evergreen dwarf shrub,Ledum,Ambient,54.91,1.45
+JR170724-VLS-D526,1,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Low,52.84,0.97
+JR170724-VLS-D527,2,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Low,52.23,0.83
+JR170724-VLS-D528,3,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Low,52.73,0.82
+JR170724-VLS-D529,4,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Low,52.02,0.95
+JR170724-VLS-D530,5,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Low,52.72,0.97
+JR170724-VIS-D531,1,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,42.21,1.56
+JR170724-VIS-D532,2,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.27,0.87
+JR170724-VIS-D533,3,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.23,0.92
+JR170724-VIS-D534,4,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.36,0.93
+JR170724-VIS-D535,5,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,53.39,0.92
+JR170724-VAS-D536,1,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.48,0.98
+JR170724-VAS-D537,2,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.09,0.89
+JR170724-VAS-D538,3,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.12,0.92
+JR170724-VAS-D539,4,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.01,0.81
+JR170724-VAS-D540,5,7/24/2017,205,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.75,0.82
+JR170731-SLS-D541,1,7/31/2017,212,2017,Deciduous shrub,Salix,Low,52.45,2.03
+JR170731-SLS-D542,2,7/31/2017,212,2017,Deciduous shrub,Salix,Low,52.14,1.88
+JR170731-SLS-D543,3,7/31/2017,212,2017,Deciduous shrub,Salix,Low,52.69,1.85
+JR170731-SLS-D544,4,7/31/2017,212,2017,Deciduous shrub,Salix,Low,52.63,1.94
+JR170731-SLS-D545,5,7/31/2017,212,2017,Deciduous shrub,Salix,Low,52.01,1.85
+JR170731-SIS-D546,1,7/31/2017,212,2017,Deciduous shrub,Salix,Intermediate,52.07,2.2
+JR170731-SIS-D547,2,7/31/2017,212,2017,Deciduous shrub,Salix,Intermediate,51.39,2.33
+JR170731-SIS-D548,3,7/31/2017,212,2017,Deciduous shrub,Salix,Intermediate,51.57,2.22
+JR170731-SIS-D549,4,7/31/2017,212,2017,Deciduous shrub,Salix,Intermediate,51.22,3.03
+JR170731-SIS-D550,5,7/31/2017,212,2017,Deciduous shrub,Salix,Intermediate,47.59,2.08
+JR170731-SAS-D551,1,7/31/2017,212,2017,Deciduous shrub,Salix,Ambient,52.38,2
+JR170731-SAS-D552,2,7/31/2017,212,2017,Deciduous shrub,Salix,Ambient,52.16,2.03
+JR170731-SAS-D553,3,7/31/2017,212,2017,Deciduous shrub,Salix,Ambient,52.66,1.84
+JR170731-SAS-D554,4,7/31/2017,212,2017,Deciduous shrub,Salix,Ambient,51.07,2
+JR170731-SAS-D555,5,7/31/2017,212,2017,Deciduous shrub,Salix,Ambient,52.39,1.82
+JR170731-BLS-D556,1,7/31/2017,212,2017,Deciduous shrub,Betula,Low,53.44,2.57
+JR170731-BLS-D557,2,7/31/2017,212,2017,Deciduous shrub,Betula,Low,52.31,2.36
+JR170731-BLS-D558,3,7/31/2017,212,2017,Deciduous shrub,Betula,Low,52.78,2.24
+JR170731-BLS-D559,4,7/31/2017,212,2017,Deciduous shrub,Betula,Low,50.97,2.39
+JR170731-BLS-D560,5,7/31/2017,212,2017,Deciduous shrub,Betula,Low,52.71,2.17
+JR170731-BIS-D561,1,7/31/2017,212,2017,Deciduous shrub,Betula,Intermediate,51.6,3.1
+JR170731-BIS-D562,2,7/31/2017,212,2017,Deciduous shrub,Betula,Intermediate,52.79,2.21
+JR170731-BIS-D563,3,7/31/2017,212,2017,Deciduous shrub,Betula,Intermediate,51.55,2.5
+JR170731-BIS-D564,4,7/31/2017,212,2017,Deciduous shrub,Betula,Intermediate,51.83,3.12
+JR170731-BIS-D565,5,7/31/2017,212,2017,Deciduous shrub,Betula,Intermediate,51.62,2.35
+JR170731-BAS-D566,1,7/31/2017,212,2017,Deciduous shrub,Betula,Ambient,53,2.46
+JR170731-BAS-D567,2,7/31/2017,212,2017,Deciduous shrub,Betula,Ambient,53.02,2.08
+JR170731-BAS-D568,3,7/31/2017,212,2017,Deciduous shrub,Betula,Ambient,53.21,2.38
+JR170731-BAS-D569,4,7/31/2017,212,2017,Deciduous shrub,Betula,Ambient,53.19,2.43
+JR170731-BAS-D570,5,7/31/2017,212,2017,Deciduous shrub,Betula,Ambient,53.12,2.24
+JR170731-ELS-D571,1,7/31/2017,212,2017,Sedge,Eriophorum,Low,48.81,1.95
+JR170731-ELS-D572,2,7/31/2017,212,2017,Sedge,Eriophorum,Low,48.67,2.1
+JR170731-ELS-D573,3,7/31/2017,212,2017,Sedge,Eriophorum,Low,48.5,2.11
+JR170731-ELS-D574,4,7/31/2017,212,2017,Sedge,Eriophorum,Low,49.4,2.03
+JR170731-ELS-D575,5,7/31/2017,212,2017,Sedge,Eriophorum,Low,48.86,2.22
+JR170731-EIS-D576,1,7/31/2017,212,2017,Sedge,Eriophorum,Intermediate,49.02,2.37
+JR170731-EIS-D577,2,7/31/2017,212,2017,Sedge,Eriophorum,Intermediate,49.21,2.28
+JR170731-EIS-D578,3,7/31/2017,212,2017,Sedge,Eriophorum,Intermediate,48.91,2.26
+JR170731-EIS-D579,4,7/31/2017,212,2017,Sedge,Eriophorum,Intermediate,49.47,2.27
+JR170731-EIS-D580,5,7/31/2017,212,2017,Sedge,Eriophorum,Intermediate,49.44,2.23
+JR170731-EAS-D581,1,7/31/2017,212,2017,Sedge,Eriophorum,Ambient,48.89,2.13
+JR170731-EAS-D582,2,7/31/2017,212,2017,Sedge,Eriophorum,Ambient,48.38,2
+JR170731-EAS-D583,3,7/31/2017,212,2017,Sedge,Eriophorum,Ambient,48.82,2.14
+JR170731-EAS-D584,4,7/31/2017,212,2017,Sedge,Eriophorum,Ambient,48.84,1.91
+JR170731-EAS-D585,5,7/31/2017,212,2017,Sedge,Eriophorum,Ambient,48.5,2.28
+JR170731-CLS-D586,1,7/31/2017,212,2017,Sedge,Carex,Low,48.33,2.39
+JR170731-CLS-D587,2,7/31/2017,212,2017,Sedge,Carex,Low,48.42,2.14
+JR170731-CLS-D588,3,7/31/2017,212,2017,Sedge,Carex,Low,48.41,2.02
+JR170731-CLS-D589,4,7/31/2017,212,2017,Sedge,Carex,Low,48.54,2.22
+JR170731-CLS-D590,5,7/31/2017,212,2017,Sedge,Carex,Low,47.72,1.95
+JR170731-CIS-D591,1,7/31/2017,212,2017,Sedge,Carex,Intermediate,48.35,2.42
+JR170731-CIS-D592,2,7/31/2017,212,2017,Sedge,Carex,Intermediate,49.05,2.78
+JR170731-CIS-D593,3,7/31/2017,212,2017,Sedge,Carex,Intermediate,48.17,2.2
+JR170731-CIS-D594,4,7/31/2017,212,2017,Sedge,Carex,Intermediate,48.16,2.15
+JR170731-CIS-D595,5,7/31/2017,212,2017,Sedge,Carex,Intermediate,48.62,2.48
+JR170731-CAS-D596,1,7/31/2017,212,2017,Sedge,Carex,Ambient,48.3,2.09
+JR170731-CAS-D597,2,7/31/2017,212,2017,Sedge,Carex,Ambient,48.71,2.33
+JR170731-CAS-D598,3,7/31/2017,212,2017,Sedge,Carex,Ambient,48.63,2.72
+JR170731-CAS-D599,4,7/31/2017,212,2017,Sedge,Carex,Ambient,48.07,2.21
+JR170731-CAS-D600,5,7/31/2017,212,2017,Sedge,Carex,Ambient,48.41,2
+JR170731-LLS-D601,1,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Low,53.83,1.66
+JR170731-LLS-D602,2,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Low,54.06,1.7
+JR170731-LLS-D603,3,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Low,54.9,1.71
+JR170731-LLS-D604,4,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Low,54.34,1.48
+JR170731-LLS-D605,5,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Low,54.32,1.54
+JR170731-LIS-D606,1,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.57,1.57
+JR170731-LIS-D607,2,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.9,1.57
+JR170731-LIS-D608,3,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.09,1.68
+JR170731-LIS-D609,4,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.51,1.4
+JR170731-LIS-D610,5,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.6,1.64
+JR170731-LAS-D611,1,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Ambient,54.98,1.74
+JR170731-LAS-D612,2,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Ambient,53.97,1.52
+JR170731-LAS-D613,3,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Ambient,54.17,1.68
+JR170731-LAS-D614,4,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Ambient,54.3,1.76
+JR170731-LAS-D615,5,7/31/2017,212,2017,Evergreen dwarf shrub,Ledum,Ambient,54.02,1.49
+JR170731-VLS-D616,1,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Low,52.07,0.95
+JR170731-VLS-D617,2,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Low,51.56,1.29
+JR170731-VLS-D618,3,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Low,52.82,1.22
+JR170731-VLS-D619,4,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Low,52.44,0.88
+JR170731-VLS-D620,5,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Low,52.43,0.76
+JR170731-VIS-D621,1,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,53.02,1.06
+JR170731-VIS-D622,2,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.79,0.82
+JR170731-VIS-D623,3,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,53.39,1.14
+JR170731-VIS-D624,4,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.02,0.88
+JR170731-VIS-D625,5,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.45,1.09
+JR170731-VAS-D626,1,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.22,0.95
+JR170731-VAS-D627,2,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.86,0.81
+JR170731-VAS-D628,3,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.5,0.84
+JR170731-VAS-D629,4,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.77,0.81
+JR170731-VAS-D630,5,7/31/2017,212,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.41,0.84
+JR170807-SLS-D631,1,8/7/2017,219,2017,Deciduous shrub,Salix,Low,52.7,1.82
+JR170807-SLS-D632,2,8/7/2017,219,2017,Deciduous shrub,Salix,Low,53,1.92
+JR170807-SLS-D633,3,8/7/2017,219,2017,Deciduous shrub,Salix,Low,53.12,1.67
+JR170807-SLS-D634,4,8/7/2017,219,2017,Deciduous shrub,Salix,Low,53.4,2
+JR170807-SLS-D635,5,8/7/2017,219,2017,Deciduous shrub,Salix,Low,44.74,
+JR170807-SIS-D636,1,8/7/2017,219,2017,Deciduous shrub,Salix,Intermediate,50.12,1.68
+JR170807-SIS-D637,2,8/7/2017,219,2017,Deciduous shrub,Salix,Intermediate,52.69,2.4
+JR170807-SIS-D638,3,8/7/2017,219,2017,Deciduous shrub,Salix,Intermediate,51.48,2.66
+JR170807-SIS-D639,4,8/7/2017,219,2017,Deciduous shrub,Salix,Intermediate,50.59,1.86
+JR170807-SIS-D640,5,8/7/2017,219,2017,Deciduous shrub,Salix,Intermediate,51.78,2.91
+JR170807-SAS-D641,1,8/7/2017,219,2017,Deciduous shrub,Salix,Ambient,53.08,1.89
+JR170807-SAS-D642,2,8/7/2017,219,2017,Deciduous shrub,Salix,Ambient,52.71,1.52
+JR170807-SAS-D643,3,8/7/2017,219,2017,Deciduous shrub,Salix,Ambient,52.65,1.67
+JR170807-SAS-D644,4,8/7/2017,219,2017,Deciduous shrub,Salix,Ambient,52.02,1.88
+JR170807-SAS-D645,5,8/7/2017,219,2017,Deciduous shrub,Salix,Ambient,52.55,1.77
+JR170807-BLS-D646,1,8/7/2017,219,2017,Deciduous shrub,Betula,Low,52.76,2.16
+JR170807-BLS-D647,2,8/7/2017,219,2017,Deciduous shrub,Betula,Low,53.24,2.4
+JR170807-BLS-D648,3,8/7/2017,219,2017,Deciduous shrub,Betula,Low,52.21,2.35
+JR170807-BLS-D649,4,8/7/2017,219,2017,Deciduous shrub,Betula,Low,52.9,2.25
+JR170807-BLS-D650,5,8/7/2017,219,2017,Deciduous shrub,Betula,Low,52.6,2.37
+JR170807-BIS-D651,1,8/7/2017,219,2017,Deciduous shrub,Betula,Intermediate,52.14,2.74
+JR170807-BIS-D652,2,8/7/2017,219,2017,Deciduous shrub,Betula,Intermediate,51.41,2.5
+JR170807-BIS-D653,3,8/7/2017,219,2017,Deciduous shrub,Betula,Intermediate,51.81,2.33
+JR170807-BIS-D654,4,8/7/2017,219,2017,Deciduous shrub,Betula,Intermediate,52.35,2.29
+JR170807-BIS-D655,5,8/7/2017,219,2017,Deciduous shrub,Betula,Intermediate,51.67,2.6
+JR170807-BAS-D656,1,8/7/2017,219,2017,Deciduous shrub,Betula,Ambient,50.71,2.05
+JR170807-BAS-D657,2,8/7/2017,219,2017,Deciduous shrub,Betula,Ambient,53.15,2.22
+JR170807-BAS-D658,3,8/7/2017,219,2017,Deciduous shrub,Betula,Ambient,53,2.22
+JR170807-BAS-D659,4,8/7/2017,219,2017,Deciduous shrub,Betula,Ambient,50.8,2.39
+JR170807-BAS-D660,5,8/7/2017,219,2017,Deciduous shrub,Betula,Ambient,53.08,2.21
+JR170807-ELS-D661,1,8/7/2017,219,2017,Sedge,Eriophorum,Low,47.78,1.38
+JR170807-ELS-D662,2,8/7/2017,219,2017,Sedge,Eriophorum,Low,49.12,2.08
+JR170807-ELS-D663,3,8/7/2017,219,2017,Sedge,Eriophorum,Low,48.75,1.9
+JR170807-ELS-D664,4,8/7/2017,219,2017,Sedge,Eriophorum,Low,49.35,2.05
+JR170807-ELS-D665,5,8/7/2017,219,2017,Sedge,Eriophorum,Low,48.24,1.11
+JR170807-EIS-D666,1,8/7/2017,219,2017,Sedge,Eriophorum,Intermediate,48.73,1.83
+JR170807-EIS-D667,2,8/7/2017,219,2017,Sedge,Eriophorum,Intermediate,48.66,2.26
+JR170807-EIS-D668,3,8/7/2017,219,2017,Sedge,Eriophorum,Intermediate,49.02,2.41
+JR170807-EIS-D669,4,8/7/2017,219,2017,Sedge,Eriophorum,Intermediate,48.96,1.98
+JR170807-EIS-D670,5,8/7/2017,219,2017,Sedge,Eriophorum,Intermediate,49.13,2.08
+JR170807-EAS-D671,1,8/7/2017,219,2017,Sedge,Eriophorum,Ambient,48.4,1.48
+JR170807-EAS-D672,2,8/7/2017,219,2017,Sedge,Eriophorum,Ambient,48.46,1.3
+JR170807-EAS-D673,3,8/7/2017,219,2017,Sedge,Eriophorum,Ambient,49.14,1.54
+JR170807-EAS-D674,4,8/7/2017,219,2017,Sedge,Eriophorum,Ambient,48.34,1.12
+JR170807-EAS-D675,5,8/7/2017,219,2017,Sedge,Eriophorum,Ambient,48.79,1.45
+JR170807-CLS-D676,1,8/7/2017,219,2017,Sedge,Carex,Low,48.65,1.75
+JR170807-CLS-D677,2,8/7/2017,219,2017,Sedge,Carex,Low,48.63,2
+JR170807-CLS-D678,3,8/7/2017,219,2017,Sedge,Carex,Low,48.44,2.4
+JR170807-CLS-D679,4,8/7/2017,219,2017,Sedge,Carex,Low,49.07,2.41
+JR170807-CLS-D680,5,8/7/2017,219,2017,Sedge,Carex,Low,48.54,2.23
+JR170807-CIS-D681,1,8/7/2017,219,2017,Sedge,Carex,Intermediate,48.46,2.27
+JR170807-CIS-D682,2,8/7/2017,219,2017,Sedge,Carex,Intermediate,47.89,2.28
+JR170807-CIS-D683,3,8/7/2017,219,2017,Sedge,Carex,Intermediate,48.44,2.24
+JR170807-CIS-D684,4,8/7/2017,219,2017,Sedge,Carex,Intermediate,48.54,2.31
+JR170807-CIS-D685,5,8/7/2017,219,2017,Sedge,Carex,Intermediate,47.64,2.13
+JR170807-CAS-D686,1,8/7/2017,219,2017,Sedge,Carex,Ambient,49.38,2.3
+JR170807-CAS-D687,2,8/7/2017,219,2017,Sedge,Carex,Ambient,48.77,2.27
+JR170807-CAS-D688,3,8/7/2017,219,2017,Sedge,Carex,Ambient,49.43,2.14
+JR170807-CAS-D689,4,8/7/2017,219,2017,Sedge,Carex,Ambient,48.55,2.02
+JR170807-CAS-D690,5,8/7/2017,219,2017,Sedge,Carex,Ambient,48.44,1.92
+JR170807-LLS-D691,1,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Low,52.57,1.52
+JR170807-LLS-D692,2,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Low,52.6,1.37
+JR170807-LLS-D693,3,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Low,53.84,1.42
+JR170807-LLS-D694,4,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Low,55.28,1.51
+JR170807-LLS-D695,5,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Low,54.81,1.2
+JR170807-LIS-D696,1,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.84,1.43
+JR170807-LIS-D697,2,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.51,1.84
+JR170807-LIS-D698,3,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.46,1.52
+JR170807-LIS-D699,4,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Intermediate,54.09,1.69
+JR170807-LIS-D700,5,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Intermediate,53.96,1.27
+JR170807-LAS-D701,1,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Ambient,54.38,1.57
+JR170807-LAS-D702,2,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Ambient,54.21,1.49
+JR170807-LAS-D703,3,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Ambient,54.08,1.51
+JR170807-LAS-D704,4,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Ambient,54.78,1.82
+JR170807-LAS-D705,5,8/7/2017,219,2017,Evergreen dwarf shrub,Ledum,Ambient,54.1,1.67
+JR170807-VLS-D706,1,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Low,51.38,0.96
+JR170807-VLS-D707,2,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Low,51.75,0.91
+JR170807-VLS-D708,3,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Low,52.56,1
+JR170807-VLS-D709,4,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Low,53.53,0.95
+JR170807-VLS-D710,5,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Low,52.95,0.86
+JR170807-VIS-D711,1,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.66,0.94
+JR170807-VIS-D712,2,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.44,1.13
+JR170807-VIS-D713,3,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.19,1.06
+JR170807-VIS-D714,4,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.74,1.06
+JR170807-VIS-D715,5,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Intermediate,52.37,0.79
+JR170807-VAS-D716,1,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.5,0.92
+JR170807-VAS-D717,2,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.38,0.91
+JR170807-VAS-D718,3,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.55,0.85
+JR170807-VAS-D719,4,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Ambient,51.72,0.98
+JR170807-VAS-D720,5,8/7/2017,219,2017,Evergreen dwarf shrub,Vaccinium,Ambient,52.37,1.05
+JR180622-SLS-D1,1,6/22/2018,173,2018,Deciduous shrub,Salix,Low,49.91,4.27
+JR180622-SLS-D2,2,6/22/2018,173,2018,Deciduous shrub,Salix,Low,50.65,4.35
+JR180622-SLS-D3,3,6/22/2018,173,2018,Deciduous shrub,Salix,Low,50.22,4.07
+JR180622-SLS-D4,4,6/22/2018,173,2018,Deciduous shrub,Salix,Low,52.51,4.35
+JR180622-SLS-D5,5,6/22/2018,173,2018,Deciduous shrub,Salix,Low,52.1,4.55
+JR180622-BLS-D6,1,6/22/2018,173,2018,Deciduous shrub,Betula,Low,53.79,3.43
+JR180622-BLS-D7,2,6/22/2018,173,2018,Deciduous shrub,Betula,Low,51.29,3.99
+JR180622-BLS-D8,3,6/22/2018,173,2018,Deciduous shrub,Betula,Low,53.49,3.79
+JR180622-BLS-D9,4,6/22/2018,173,2018,Deciduous shrub,Betula,Low,53.34,4.32
+JR180622-BLS-D10,5,6/22/2018,173,2018,Deciduous shrub,Betula,Low,52.68,4.1
+JR180622-ELS-D11,1,6/22/2018,173,2018,Sedge,Eriophorum,Low,46.74,2.29
+JR180622-ELS-D12,2,6/22/2018,173,2018,Sedge,Eriophorum,Low,47.47,2.24
+JR180622-ELS-D13,3,6/22/2018,173,2018,Sedge,Eriophorum,Low,47.53,2.64
+JR180622-ELS-D14,4,6/22/2018,173,2018,Sedge,Eriophorum,Low,47.79,2.37
+JR180622-ELS-D15,5,6/22/2018,173,2018,Sedge,Eriophorum,Low,46.87,2.14
+JR180622-CLS-D16,1,6/22/2018,173,2018,Sedge,Carex,Low,46.33,3.66
+JR180622-CLS-D17,2,6/22/2018,173,2018,Sedge,Carex,Low,45.35,3.21
+JR180622-CLS-D18,3,6/22/2018,173,2018,Sedge,Carex,Low,45.2,3.59
+JR180622-CLS-D19,4,6/22/2018,173,2018,Sedge,Carex,Low,45.92,3.61
+JR180622-CLS-D20,5,6/22/2018,173,2018,Sedge,Carex,Low,46.36,3.41
+JR180622-LLS-D21,1,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Low,54.77,1.81
+JR180622-LLS-D22,2,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Low,52.37,1.81
+JR180622-LLS-D23,3,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Low,53.38,1.63
+JR180622-LLS-D24,4,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Low,53.57,1.78
+JR180622-LLS-D25,5,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Low,52.78,1.83
+JR180622-VLS-D26,1,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Low,52.52,0.99
+JR180622-VLS-D27,2,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Low,51.77,0.9
+JR180622-VLS-D28,3,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Low,50.88,1.08
+JR180622-VLS-D29,4,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Low,51.31,1.04
+JR180622-VLS-D30,5,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Low,52.07,1.03
+JR180622-SAS-D31,1,6/22/2018,173,2018,Deciduous shrub,Salix,Ambient,50.57,4.8
+JR180622-SAS-D32,2,6/22/2018,173,2018,Deciduous shrub,Salix,Ambient,50.31,4.48
+JR180622-SAS-D33,3,6/22/2018,173,2018,Deciduous shrub,Salix,Ambient,51.68,4.86
+JR180622-SAS-D34,4,6/22/2018,173,2018,Deciduous shrub,Salix,Ambient,50.8,4.69
+JR180622-SAS-D35,5,6/22/2018,173,2018,Deciduous shrub,Salix,Ambient,50.36,5.08
+JR180622-BAS-D36,1,6/22/2018,173,2018,Deciduous shrub,Betula,Ambient,53.16,3.68
+JR180622-BAS-D37,2,6/22/2018,173,2018,Deciduous shrub,Betula,Ambient,53.12,3.98
+JR180622-BAS-D38,3,6/22/2018,173,2018,Deciduous shrub,Betula,Ambient,52.32,4.07
+JR180622-BAS-D39,4,6/22/2018,173,2018,Deciduous shrub,Betula,Ambient,53.35,4.18
+JR180622-BAS-D40,5,6/22/2018,173,2018,Deciduous shrub,Betula,Ambient,53.04,4.03
+JR180622-EAS-D41,1,6/22/2018,173,2018,Sedge,Eriophorum,Ambient,47.34,1.65
+JR180622-EAS-D42,2,6/22/2018,173,2018,Sedge,Eriophorum,Ambient,47.38,2.03
+JR180622-EAS-D43,3,6/22/2018,173,2018,Sedge,Eriophorum,Ambient,47.64,2.62
+JR180622-EAS-D44,4,6/22/2018,173,2018,Sedge,Eriophorum,Ambient,46.96,2.62
+JR180622-EAS-D45,5,6/22/2018,173,2018,Sedge,Eriophorum,Ambient,47.22,2.71
+JR180622-CAS-D46,1,6/22/2018,173,2018,Sedge,Carex,Ambient,46.44,3.93
+JR180622-CAS-D47,2,6/22/2018,173,2018,Sedge,Carex,Ambient,46.34,3.99
+JR180622-CAS-D48,3,6/22/2018,173,2018,Sedge,Carex,Ambient,46.73,3.95
+JR180622-CAS-D49,4,6/22/2018,173,2018,Sedge,Carex,Ambient,47.1,3.95
+JR180622-CAS-D50,5,6/22/2018,173,2018,Sedge,Carex,Ambient,46.59,3.83
+JR180622-LAS-D51,1,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Ambient,52.1,1.86
+JR180622-LAS-D52,2,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Ambient,54.69,1.57
+JR180622-LAS-D53,3,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Ambient,53.16,1.29
+JR180622-LAS-D54,4,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Ambient,54.57,1.48
+JR180622-LAS-D55,5,6/22/2018,173,2018,Evergreen dwarf shrub,Ledum,Ambient,54.3,1.52
+JR180622-VAS-D56,1,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.73,0.81
+JR180622-VAS-D57,2,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.59,0.88
+JR180622-VAS-D58,3,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.41,0.81
+JR180622-VAS-D59,4,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.74,0.71
+JR180622-VAS-D60,5,6/22/2018,173,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.26,0.76
+JR180629-SLS-D61,1,6/29/2018,180,2018,Deciduous shrub,Salix,Low,51.98,3.79
+JR180629-SLS-D62,2,6/29/2018,180,2018,Deciduous shrub,Salix,Low,51.05,3.44
+JR180629-SLS-D63,3,6/29/2018,180,2018,Deciduous shrub,Salix,Low,51.58,3.77
+JR180629-SLS-D64,4,6/29/2018,180,2018,Deciduous shrub,Salix,Low,51.26,3.6
+JR180629-SLS-D65,5,6/29/2018,180,2018,Deciduous shrub,Salix,Low,50.94,3.61
+JR180629-BLS-D66,1,6/29/2018,180,2018,Deciduous shrub,Betula,Low,53.11,2.83
+JR180629-BLS-D67,2,6/29/2018,180,2018,Deciduous shrub,Betula,Low,51.48,3.16
+JR180629-BLS-D68,3,6/29/2018,180,2018,Deciduous shrub,Betula,Low,51.77,3.33
+JR180629-BLS-D69,4,6/29/2018,180,2018,Deciduous shrub,Betula,Low,51.11,3.22
+JR180629-BLS-D70,5,6/29/2018,180,2018,Deciduous shrub,Betula,Low,51.8,3.6
+JR180629-ELS-D71,1,6/29/2018,180,2018,Sedge,Eriophorum,Low,47.23,2.25
+JR180629-ELS-D72,2,6/29/2018,180,2018,Sedge,Eriophorum,Low,47.02,2.43
+JR180629-ELS-D73,3,6/29/2018,180,2018,Sedge,Eriophorum,Low,48.2,2.69
+JR180629-ELS-D74,4,6/29/2018,180,2018,Sedge,Eriophorum,Low,47.41,2.03
+JR180629-ELS-D75,5,6/29/2018,180,2018,Sedge,Eriophorum,Low,46.65,2.33
+JR180629-CLS-D76,1,6/29/2018,180,2018,Sedge,Carex,Low,46.67,3.69
+JR180629-CLS-D77,2,6/29/2018,180,2018,Sedge,Carex,Low,46.84,3.22
+JR180629-CLS-D78,3,6/29/2018,180,2018,Sedge,Carex,Low,46.77,3.17
+JR180629-CLS-D79,4,6/29/2018,180,2018,Sedge,Carex,Low,46.5,3.55
+JR180629-CLS-D80,5,6/29/2018,180,2018,Sedge,Carex,Low,46.88,3.27
+JR180629-LLS-D81,1,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Low,52.75,1.71
+JR180629-LLS-D82,2,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Low,53.53,1.75
+JR180629-LLS-D83,3,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Low,52.14,1.94
+JR180629-LLS-D84,4,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Low,52.56,1.69
+JR180629-LLS-D85,5,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Low,53.27,2.28
+JR180629-VLS-D86,1,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Low,49.97,1.34
+JR180629-VLS-D87,2,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Low,50.58,1.03
+JR180629-VLS-D88,3,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Low,51.68,1
+JR180629-VLS-D89,4,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Low,50.96,0.95
+JR180629-VLS-D90,5,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Low,51.92,1.05
+JR180629-SAS-D91,1,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.96,3.82
+JR180629-SAS-D92,2,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.52,3.53
+JR180629-SAS-D93,3,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.97,3.79
+JR180629-SAS-D94,4,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.62,3.86
+JR180629-SAS-D95,5,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.3,3.66
+JR180629-SAS-D96,6,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.75,4.08
+JR180629-SAS-D97,7,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.16,3.82
+JR180629-SAS-D98,8,6/29/2018,180,2018,Deciduous Shrub,Salix,Ambient,51.3,3.81
+JR180629-BAS-D99,1,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.25,3.16
+JR180629-BAS-D100,2,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.66,3.33
+JR180629-BAS-D101,3,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.55,3.55
+JR180629-BAS-D102,4,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.25,4.04
+JR180629-BAS-D103,5,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.41,4.03
+JR180629-BAS-D104,6,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,51.94,3.47
+JR180629-BAS-D105,7,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.48,3.8
+JR180629-BAS-D106,8,6/29/2018,180,2018,Deciduous Shrub,Betula,Ambient,52.2,3.75
+JR180629-EAS-D107,1,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,48.06,2.03
+JR180629-EAS-D108,2,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,46.47,2.12
+JR180629-EAS-D109,3,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,47.48,2.51
+JR180629-EAS-D110,4,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,47.41,2.8
+JR180629-EAS-D111,5,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,46.64,2.44
+JR180629-EAS-D112,6,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,47.52,2.6
+JR180629-EAS-D113,7,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,47.83,2.73
+JR180629-EAS-D114,8,6/29/2018,180,2018,Sedge,Eriophorum,Ambient,47.29,2.95
+JR180629-CAS-D115,1,6/29/2018,180,2018,Sedge,Carex,Ambient,46.48,3.45
+JR180629-CAS-D116,2,6/29/2018,180,2018,Sedge,Carex,Ambient,47.23,3.72
+JR180629-CAS-D117,3,6/29/2018,180,2018,Sedge,Carex,Ambient,46.51,3.29
+JR180629-CAS-D118,4,6/29/2018,180,2018,Sedge,Carex,Ambient,45.84,3.7
+JR180629-CAS-D119,5,6/29/2018,180,2018,Sedge,Carex,Ambient,45.71,3.41
+JR180629-CAS-D120,6,6/29/2018,180,2018,Sedge,Carex,Ambient,47.08,3.73
+JR180629-CAS-D121,7,6/29/2018,180,2018,Sedge,Carex,Ambient,46.96,3.59
+JR180629-CAS-D122,8,6/29/2018,180,2018,Sedge,Carex,Ambient,46.05,3.43
+JR180629-LAS-D123,1,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,55.02,1.33
+JR180629-LAS-D124,2,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,52.29,1.49
+JR180629-LAS-D125,3,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,53.24,1.65
+JR180629-LAS-D126,4,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,52.23,1.61
+JR180629-LAS-D127,5,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,52.24,1.44
+JR180629-LAS-D128,6,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,52.69,1.68
+JR180629-LAS-D129,7,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,51.9,1.54
+JR180629-LAS-D130,8,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Ambient,51.9,1.57
+JR180629-VAS-D131,1,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.59,0.89
+JR180629-VAS-D132,2,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,50.77,0.83
+JR180629-VAS-D133,3,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.16,0.91
+JR180629-VAS-D134,4,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,50.84,0.94
+JR180629-VAS-D135,5,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,49.93,0.97
+JR180629-VAS-D136,6,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.01,0.86
+JR180629-VAS-D137,7,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,50.81,0.94
+JR180629-VAS-D138,8,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.79,0.82
+JR180629-SIS-D139,1,6/29/2018,180,2018,Deciduous shrub,Salix,Intermediate,51.04,4.49
+JR180629-SIS-D140,2,6/29/2018,180,2018,Deciduous shrub,Salix,Intermediate,50.35,4.17
+JR180629-SIS-D141,3,6/29/2018,180,2018,Deciduous shrub,Salix,Intermediate,50.49,4.57
+JR180629-SIS-D142,4,6/29/2018,180,2018,Deciduous shrub,Salix,Intermediate,50.98,4.01
+JR180629-SIS-D143,5,6/29/2018,180,2018,Deciduous shrub,Salix,Intermediate,51.77,4.57
+JR180629-BIS-D144,1,6/29/2018,180,2018,Deciduous shrub,Betula,Intermediate,51.34,3.9
+JR180629-BIS-D145,2,6/29/2018,180,2018,Deciduous shrub,Betula,Intermediate,50.9,3.98
+JR180629-BIS-D146,3,6/29/2018,180,2018,Deciduous shrub,Betula,Intermediate,52.5,4
+JR180629-BIS-D147,4,6/29/2018,180,2018,Deciduous shrub,Betula,Intermediate,51.91,3.8
+JR180629-BIS-D148,5,6/29/2018,180,2018,Deciduous shrub,Betula,Intermediate,51.62,3.55
+JR180629-EIS-D149,1,6/29/2018,180,2018,Sedge,Eriophorum,Intermediate,46.54,2.26
+JR180629-EIS-D150,2,6/29/2018,180,2018,Sedge,Eriophorum,Intermediate,46.69,2.27
+JR180629-EIS-D151,3,6/29/2018,180,2018,Sedge,Eriophorum,Intermediate,46.05,2.46
+JR180629-EIS-D152,4,6/29/2018,180,2018,Sedge,Eriophorum,Intermediate,47.66,2.83
+JR180629-EIS-D153,5,6/29/2018,180,2018,Sedge,Eriophorum,Intermediate,46.79,2.44
+JR180629-CIS-D154,1,6/29/2018,180,2018,Sedge,Carex,Intermediate,46.73,3.84
+JR180629-CIS-D155,2,6/29/2018,180,2018,Sedge,Carex,Intermediate,48.04,3.73
+JR180629-CIS-D156,3,6/29/2018,180,2018,Sedge,Carex,Intermediate,45.3,3.93
+JR180629-CIS-D157,4,6/29/2018,180,2018,Sedge,Carex,Intermediate,46.3,4.08
+JR180629-CIS-D158,5,6/29/2018,180,2018,Sedge,Carex,Intermediate,47.16,3.7
+JR180629-LIS-D159,1,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.84,1.38
+JR180629-LIS-D160,2,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Intermediate,51.6,1.49
+JR180629-LIS-D161,3,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Intermediate,51.87,1.48
+JR180629-LIS-D162,4,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.5,1.6
+JR180629-LIS-D163,5,6/29/2018,180,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.42,1.41
+JR180629-VIS-D164,1,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.06,0.78
+JR180629-VIS-D165,2,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,49.95,0.87
+JR180629-VIS-D166,3,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.41,0.81
+JR180629-VIS-D167,4,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.21,0.86
+JR180629-VIS-D168,5,6/29/2018,180,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,50.97,0.86
+JR180706-SLS-D169,1,7/6/2018,187,2018,Deciduous shrub,Salix,Low,51.36,3.14
+JR180706-SLS-D170,2,7/6/2018,187,2018,Deciduous shrub,Salix,Low,52.32,3.29
+JR180706-SLS-D171,3,7/6/2018,187,2018,Deciduous shrub,Salix,Low,51.85,3.28
+JR180706-SLS-D172,4,7/6/2018,187,2018,Deciduous shrub,Salix,Low,51.24,2.92
+JR180706-SLS-D173,5,7/6/2018,187,2018,Deciduous shrub,Salix,Low,51.35,2.86
+JR180706-BLS-D174,1,7/6/2018,187,2018,Deciduous shrub,Betula,Low,52.64,3.29
+JR180706-BLS-D175,2,7/6/2018,187,2018,Deciduous shrub,Betula,Low,52.18,3.13
+JR180706-BLS-D176,3,7/6/2018,187,2018,Deciduous shrub,Betula,Low,53.11,3.29
+JR180706-BLS-D177,4,7/6/2018,187,2018,Deciduous shrub,Betula,Low,52.65,3.29
+JR180706-BLS-D178,5,7/6/2018,187,2018,Deciduous shrub,Betula,Low,52.45,3.05
+JR180706-ELS-D179,1,7/6/2018,187,2018,Sedge,Eriophorum,Low,48,2.32
+JR180706-ELS-D180,2,7/6/2018,187,2018,Sedge,Eriophorum,Low,47.77,2.45
+JR180706-ELS-D181,3,7/6/2018,187,2018,Sedge,Eriophorum,Low,47.69,2.35
+JR180706-ELS-D182,4,7/6/2018,187,2018,Sedge,Eriophorum,Low,47.68,2.83
+JR180706-ELS-D183,5,7/6/2018,187,2018,Sedge,Eriophorum,Low,48.06,2.29
+JR180706-CLS-D184,1,7/6/2018,187,2018,Sedge,Carex,Low,47.4,3.3
+JR180706-CLS-D185,2,7/6/2018,187,2018,Sedge,Carex,Low,47.91,3.32
+JR180706-CLS-D186,3,7/6/2018,187,2018,Sedge,Carex,Low,46.8,2.94
+JR180706-CLS-D187,4,7/6/2018,187,2018,Sedge,Carex,Low,47.49,3.27
+JR180706-CLS-D188,5,7/6/2018,187,2018,Sedge,Carex,Low,47.62,2.9
+JR180706-LLS-D189,1,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Low,53.08,1.78
+JR180706-LLS-D190,2,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Low,55.25,2.07
+JR180706-LLS-D191,3,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Low,53.76,2.33
+JR180706-LLS-D192,4,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Low,54.26,1.7
+JR180706-LLS-D193,5,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Low,54.25,1.89
+JR180706-VLS-D194,1,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Low,52.61,0.95
+JR180706-VLS-D195,2,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Low,51.12,1.15
+JR180706-VLS-D196,3,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Low,52.2,1.4
+JR180706-VLS-D197,4,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Low,52.15,0.85
+JR180706-VLS-D198,5,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Low,52.41,1.11
+JR180706-SAS-D199,1,7/6/2018,187,2018,Deciduous shrub,Salix,Ambient,52.72,3.29
+JR180706-SAS-D200,2,7/6/2018,187,2018,Deciduous shrub,Salix,Ambient,51.96,3.32
+JR180706-SAS-D201,3,7/6/2018,187,2018,Deciduous shrub,Salix,Ambient,51.72,3.22
+JR180706-SAS-D202,4,7/6/2018,187,2018,Deciduous shrub,Salix,Ambient,51.54,3.18
+JR180706-SAS-D203,5,7/6/2018,187,2018,Deciduous shrub,Salix,Ambient,51.37,3.43
+JR180706-BAS-D204,1,7/6/2018,187,2018,Deciduous shrub,Betula,Ambient,51.59,2.81
+JR180706-BAS-D205,2,7/6/2018,187,2018,Deciduous shrub,Betula,Ambient,52.41,2.82
+JR180706-BAS-D206,3,7/6/2018,187,2018,Deciduous shrub,Betula,Ambient,53.15,2.71
+JR180706-BAS-D207,4,7/6/2018,187,2018,Deciduous shrub,Betula,Ambient,51.43,2.73
+JR180706-BAS-D208,5,7/6/2018,187,2018,Deciduous shrub,Betula,Ambient,53.43,3.02
+JR180706-EAS-D209,1,7/6/2018,187,2018,Sedge,Eriophorum,Ambient,47.72,2.63
+JR180706-EAS-D210,2,7/6/2018,187,2018,Sedge,Eriophorum,Ambient,47.56,2.28
+JR180706-EAS-D211,3,7/6/2018,187,2018,Sedge,Eriophorum,Ambient,47.48,2.66
+JR180706-EAS-D212,4,7/6/2018,187,2018,Sedge,Eriophorum,Ambient,47.81,3.11
+JR180706-EAS-D213,5,7/6/2018,187,2018,Sedge,Eriophorum,Ambient,47.2,2.45
+JR180706-CAS-D214,1,7/6/2018,187,2018,Sedge,Carex,Ambient,47.33,3.38
+JR180706-CAS-D215,2,7/6/2018,187,2018,Sedge,Carex,Ambient,47.44,3.22
+JR180706-CAS-D216,3,7/6/2018,187,2018,Sedge,Carex,Ambient,47.06,3.42
+JR180706-CAS-D217,4,7/6/2018,187,2018,Sedge,Carex,Ambient,46.91,3.1
+JR180706-CAS-D218,5,7/6/2018,187,2018,Sedge,Carex,Ambient,47.2,2.8
+JR180706-LAS-D219,1,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Ambient,54.46,1.59
+JR180706-LAS-D220,2,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Ambient,53.66,1.79
+JR180706-LAS-D221,3,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Ambient,52.84,1.68
+JR180706-LAS-D222,4,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Ambient,54.72,1.75
+JR180706-LAS-D223,5,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Ambient,53.19,1.69
+JR180706-VAS-D224,1,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.32,0.96
+JR180706-VAS-D225,2,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.42,1.06
+JR180706-VAS-D226,3,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.11,1.25
+JR180706-VAS-D227,4,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.58,1.08
+JR180706-VAS-D228,5,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.06,0.93
+JR180706-SIS-D229,1,7/6/2018,187,2018,Deciduous shrub,Salix,Intermediate,50.66,
+JR180706-SIS-D230,2,7/6/2018,187,2018,Deciduous shrub,Salix,Intermediate,50.89,3.51
+JR180706-SIS-D231,3,7/6/2018,187,2018,Deciduous shrub,Salix,Intermediate,51.43,3.94
+JR180706-SIS-D232,4,7/6/2018,187,2018,Deciduous shrub,Salix,Intermediate,51.51,3.53
+JR180706-SIS-D233,5,7/6/2018,187,2018,Deciduous shrub,Salix,Intermediate,51.24,3.66
+JR180706-BIS-D234,1,7/6/2018,187,2018,Deciduous shrub,Betula,Intermediate,52.35,3.29
+JR180706-BIS-D235,2,7/6/2018,187,2018,Deciduous shrub,Betula,Intermediate,52.1,3.21
+JR180706-BIS-D236,3,7/6/2018,187,2018,Deciduous shrub,Betula,Intermediate,51.63,4.06
+JR180706-BIS-D237,4,7/6/2018,187,2018,Deciduous shrub,Betula,Intermediate,52.03,3.21
+JR180706-BIS-D238,5,7/6/2018,187,2018,Deciduous shrub,Betula,Intermediate,52.85,3.04
+JR180706-EIS-D239,1,7/6/2018,187,2018,Sedge,Eriophorum,Intermediate,47.76,2.92
+JR180706-EIS-D240,2,7/6/2018,187,2018,Sedge,Eriophorum,Intermediate,48.25,2.89
+JR180706-EIS-D241,3,7/6/2018,187,2018,Sedge,Eriophorum,Intermediate,46.82,3.03
+JR180706-EIS-D242,4,7/6/2018,187,2018,Sedge,Eriophorum,Intermediate,47.97,2.85
+JR180706-EIS-D243,5,7/6/2018,187,2018,Sedge,Eriophorum,Intermediate,47.55,2.75
+JR180706-CIS-D244,1,7/6/2018,187,2018,Sedge,Carex,Intermediate,46.75,3.98
+JR180706-CIS-D245,2,7/6/2018,187,2018,Sedge,Carex,Intermediate,47.2,3.19
+JR180706-CIS-D246,3,7/6/2018,187,2018,Sedge,Carex,Intermediate,47.16,3.37
+JR180706-CIS-D247,4,7/6/2018,187,2018,Sedge,Carex,Intermediate,46.27,3.26
+JR180706-CIS-D248,5,7/6/2018,187,2018,Sedge,Carex,Intermediate,47.25,3.26
+JR180706-LIS-D249,1,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.68,1.73
+JR180706-LIS-D250,2,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.22,1.78
+JR180706-LIS-D251,3,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.87,1.61
+JR180706-LIS-D252,4,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.4,1.55
+JR180706-LIS-D253,5,7/6/2018,187,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.45,1.67
+JR180706-VIS-D254,1,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,50.95,0.92
+JR180706-VIS-D255,2,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.08,1
+JR180706-VIS-D256,3,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.49,0.97
+JR180706-VIS-D257,4,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.96,0.99
+JR180706-VIS-D258,5,7/6/2018,187,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.63,0.98
+JR180713-SLS-D259,1,7/13/2018,194,2018,Deciduous shrub,Salix,Low,50.94,2.51
+JR180713-SLS-D260,2,7/13/2018,194,2018,Deciduous shrub,Salix,Low,51.26,2.75
+JR180713-SLS-D261,3,7/13/2018,194,2018,Deciduous shrub,Salix,Low,51.28,2.64
+JR180713-SLS-D262,4,7/13/2018,194,2018,Deciduous shrub,Salix,Low,51.33,2.64
+JR180713-SLS-D263,5,7/13/2018,194,2018,Deciduous shrub,Salix,Low,50.96,2.55
+JR180713-BLS-D264,1,7/13/2018,194,2018,Deciduous shrub,Betula,Low,51.37,2.53
+JR180713-BLS-D265,2,7/13/2018,194,2018,Deciduous shrub,Betula,Low,51.48,2.68
+JR180713-BLS-D266,3,7/13/2018,194,2018,Deciduous shrub,Betula,Low,51.49,2.74
+JR180713-BLS-D267,4,7/13/2018,194,2018,Deciduous shrub,Betula,Low,50.9,2.5
+JR180713-BLS-D268,5,7/13/2018,194,2018,Deciduous shrub,Betula,Low,51.55,2.57
+JR180713-ELS-D269,1,7/13/2018,194,2018,Sedge,Eriophorum,Low,46.7,1.92
+JR180713-ELS-D270,2,7/13/2018,194,2018,Sedge,Eriophorum,Low,47.42,1.91
+JR180713-ELS-D271,3,7/13/2018,194,2018,Sedge,Eriophorum,Low,47.69,2.26
+JR180713-ELS-D272,4,7/13/2018,194,2018,Sedge,Eriophorum,Low,46.37,2.26
+JR180713-ELS-D273,5,7/13/2018,194,2018,Sedge,Eriophorum,Low,47.35,2.19
+JR180713-CLS-D274,1,7/13/2018,194,2018,Sedge,Carex,Low,46.82,3.04
+JR180713-CLS-D275,2,7/13/2018,194,2018,Sedge,Carex,Low,47.46,3.1
+JR180713-CLS-D276,3,7/13/2018,194,2018,Sedge,Carex,Low,47.32,2.55
+JR180713-CLS-D277,4,7/13/2018,194,2018,Sedge,Carex,Low,46.73,2.64
+JR180713-CLS-D278,5,7/13/2018,194,2018,Sedge,Carex,Low,46.78,2.81
+JR180713-LLS-D279,1,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Low,54.46,1.76
+JR180713-LLS-D280,2,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Low,53.22,1.55
+JR180713-LLS-D281,3,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Low,54.24,1.73
+JR180713-LLS-D282,4,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Low,53.09,1.74
+JR180713-LLS-D283,5,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Low,53.25,1.81
+JR180713-VLS-D284,1,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Low,51.67,1.02
+JR180713-VLS-D285,2,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Low,52.53,0.91
+JR180713-VLS-D286,3,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Low,51.6,1.02
+JR180713-VLS-D287,4,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Low,52.47,1.04
+JR180713-VLS-D288,5,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Low,52.86,1.1
+JR180713-SAS-D289,1,7/13/2018,194,2018,Deciduous shrub,Salix,Ambient,51.46,2.65
+JR180713-SAS-D290,2,7/13/2018,194,2018,Deciduous shrub,Salix,Ambient,51.37,2.71
+JR180713-SAS-D291,3,7/13/2018,194,2018,Deciduous shrub,Salix,Ambient,50.96,2.74
+JR180713-SAS-D292,4,7/13/2018,194,2018,Deciduous shrub,Salix,Ambient,51.45,2.74
+JR180713-SAS-D293,5,7/13/2018,194,2018,Deciduous shrub,Salix,Ambient,52.01,2.86
+JR180713-BAS-D294,1,7/13/2018,194,2018,Deciduous shrub,Betula,Ambient,50.71,2.6
+JR180713-BAS-D295,2,7/13/2018,194,2018,Deciduous shrub,Betula,Ambient,51.68,2.85
+JR180713-BAS-D296,3,7/13/2018,194,2018,Deciduous shrub,Betula,Ambient,52.1,2.54
+JR180713-BAS-D297,4,7/13/2018,194,2018,Deciduous shrub,Betula,Ambient,52.09,2.82
+JR180713-BAS-D298,5,7/13/2018,194,2018,Deciduous shrub,Betula,Ambient,51.09,2.69
+JR180713-EAS-D299,1,7/13/2018,194,2018,Sedge,Eriophorum,Ambient,47.88,2.66
+JR180713-EAS-D300,2,7/13/2018,194,2018,Sedge,Eriophorum,Ambient,47.67,2.69
+JR180713-EAS-D301,3,7/13/2018,194,2018,Sedge,Eriophorum,Ambient,47.74,2.02
+JR180713-EAS-D302,4,7/13/2018,194,2018,Sedge,Eriophorum,Ambient,47.11,2.37
+JR180713-EAS-D303,5,7/13/2018,194,2018,Sedge,Eriophorum,Ambient,47.31,2.74
+JR180713-CAS-D304,1,7/13/2018,194,2018,Sedge,Carex,Ambient,46.53,2.64
+JR180713-CAS-D305,2,7/13/2018,194,2018,Sedge,Carex,Ambient,47.38,2.71
+JR180713-CAS-D306,3,7/13/2018,194,2018,Sedge,Carex,Ambient,46.32,2.81
+JR180713-CAS-D307,4,7/13/2018,194,2018,Sedge,Carex,Ambient,46.98,2.99
+JR180713-CAS-D308,5,7/13/2018,194,2018,Sedge,Carex,Ambient,48.02,2.82
+JR180713-LAS-D309,1,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Ambient,53.55,2
+JR180713-LAS-D310,2,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Ambient,53.45,1.75
+JR180713-LAS-D311,3,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Ambient,55.57,1.74
+JR180713-LAS-D312,4,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Ambient,54.03,2.02
+JR180713-LAS-D313,5,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Ambient,52.92,1.86
+JR180713-VAS-D314,1,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.2,1.01
+JR180713-VAS-D315,2,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.28,0.92
+JR180713-VAS-D316,3,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.16,1.02
+JR180713-VAS-D317,4,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.22,1
+JR180713-VAS-D318,5,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.11,1.02
+JR180713-SIS-D319,1,7/13/2018,194,2018,Deciduous shrub,Salix,Intermediate,53.9,3.23
+JR180713-SIS-D320,2,7/13/2018,194,2018,Deciduous shrub,Salix,Intermediate,51.2,2.8
+JR180713-SIS-D321,3,7/13/2018,194,2018,Deciduous shrub,Salix,Intermediate,51,3.36
+JR180713-SIS-D322,4,7/13/2018,194,2018,Deciduous shrub,Salix,Intermediate,52.55,4.22
+JR180713-SIS-D323,5,7/13/2018,194,2018,Deciduous shrub,Salix,Intermediate,50.66,4.1
+JR180713-BIS-D324,1,7/13/2018,194,2018,Deciduous shrub,Betula,Intermediate,51.83,2.77
+JR180713-BIS-D325,2,7/13/2018,194,2018,Deciduous shrub,Betula,Intermediate,51.97,2.51
+JR180713-BIS-D326,3,7/13/2018,194,2018,Deciduous shrub,Betula,Intermediate,50.9,2.43
+JR180713-BIS-D327,4,7/13/2018,194,2018,Deciduous shrub,Betula,Intermediate,51.02,3.28
+JR180713-BIS-D328,5,7/13/2018,194,2018,Deciduous shrub,Betula,Intermediate,51.13,3.31
+JR180713-EIS-D329,1,7/13/2018,194,2018,Sedge,Eriophorum,Intermediate,46.65,3.11
+JR180713-EIS-D330,2,7/13/2018,194,2018,Sedge,Eriophorum,Intermediate,47.44,2.13
+JR180713-EIS-D331,3,7/13/2018,194,2018,Sedge,Eriophorum,Intermediate,47.4,2.38
+JR180713-EIS-D332,4,7/13/2018,194,2018,Sedge,Eriophorum,Intermediate,46.72,2.31
+JR180713-EIS-D333,5,7/13/2018,194,2018,Sedge,Eriophorum,Intermediate,46.92,2.42
+JR180713-CIS-D334,1,7/13/2018,194,2018,Sedge,Carex,Intermediate,47.75,3.09
+JR180713-CIS-D335,2,7/13/2018,194,2018,Sedge,Carex,Intermediate,46.26,3.49
+JR180713-CIS-D336,3,7/13/2018,194,2018,Sedge,Carex,Intermediate,46.8,3.49
+JR180713-CIS-D337,4,7/13/2018,194,2018,Sedge,Carex,Intermediate,46.88,3.35
+JR180713-CIS-D338,5,7/13/2018,194,2018,Sedge,Carex,Intermediate,47.37,3.69
+JR180713-LIS-D339,1,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Intermediate,53,1.73
+JR180713-LIS-D340,2,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.33,1.67
+JR180713-LIS-D341,3,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.87,1.61
+JR180713-LIS-D342,4,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.7,1.83
+JR180713-LIS-D343,5,7/13/2018,194,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.21,1.47
+JR180713-VIS-D344,1,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.12,1
+JR180713-VIS-D345,2,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.76,0.92
+JR180713-VIS-D346,3,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.24,1.01
+JR180713-VIS-D347,4,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.87,0.97
+JR180713-VIS-D348,5,7/13/2018,194,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.96,0.95
+JR180719-SLS-D349,1,7/19/2018,200,2018,Deciduous shrub,Salix,Low,51.4,2.71
+JR180719-SLS-D351,2,7/19/2018,200,2018,Deciduous shrub,Salix,Low,52.3,2.69
+JR180719-SLS-D352,3,7/19/2018,200,2018,Deciduous shrub,Salix,Low,53.04,2.61
+JR180719-SLS-D353,4,7/19/2018,200,2018,Deciduous shrub,Salix,Low,51.29,2.37
+JR180719-BLS-D354,5,7/19/2018,200,2018,Deciduous shrub,Betula,Low,51.78,2.69
+JR180719-BLS-D355,1,7/19/2018,200,2018,Deciduous shrub,Betula,Low,52.27,2.75
+JR180719-BLS-D356,2,7/19/2018,200,2018,Deciduous shrub,Betula,Low,54.43,2.72
+JR180719-BLS-D357,3,7/19/2018,200,2018,Deciduous shrub,Betula,Low,52.53,2.69
+JR180719-BLS-D358,4,7/19/2018,200,2018,Deciduous shrub,Betula,Low,54.33,2.65
+JR180719-BLS-D358,5,7/19/2018,200,2018,Deciduous shrub,Betula,Low,52.03,2.78
+JR180719-ELS-D359,1,7/19/2018,200,2018,Sedge,Eriophorum,Low,48.1,2.6
+JR180719-ELS-D360,2,7/19/2018,200,2018,Sedge,Eriophorum,Low,47.33,2.27
+JR180719-ELS-D361,3,7/19/2018,200,2018,Sedge,Eriophorum,Low,47.73,2.37
+JR180719-ELS-D362,4,7/19/2018,200,2018,Sedge,Eriophorum,Low,48.37,2.78
+JR180719-ELS-D363,5,7/19/2018,200,2018,Sedge,Eriophorum,Low,48.12,2.66
+JR180719-CLS-D364,1,7/19/2018,200,2018,Sedge,Carex,Low,46.77,2.41
+JR180719-CLS-D365,2,7/19/2018,200,2018,Sedge,Carex,Low,46.01,1.83
+JR180719-CLS-D366,3,7/19/2018,200,2018,Sedge,Carex,Low,45.72,2.35
+JR180719-CLS-D367,4,7/19/2018,200,2018,Sedge,Carex,Low,46.5,2.1
+JR180713-CLS-D368,5,7/13/2018,200,2018,Sedge,Carex,Low,46.73,1.97
+JR180719-LLS-D369,1,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Low,52.62,1.48
+JR180719-LLS-D370,2,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Low,53.56,1.77
+JR180719-LLS-D371,3,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Low,56.05,1.65
+JR180719-LLS-D372,4,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Low,53.5,1.61
+JR180719-LLS-D373,5,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Low,53.1,1.64
+JR180719-VLS-D374,1,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Low,52.54,1.09
+JR180719-VLS-D375,2,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Low,51.03,1.02
+JR180719-VLS-D376,3,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Low,52.53,0.96
+JR180719-VLS-D377,4,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Low,52.06,1.02
+JR180719-VLS-D378,5,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Low,52.44,0.98
+JR180719-SAS-D379,1,7/19/2018,200,2018,Deciduous shrub,Salix,Ambient,51.86,2.8
+JR180719-SAS-D380,2,7/19/2018,200,2018,Deciduous shrub,Salix,Ambient,52.3,2.7
+JR180719-SAS-D381,3,7/19/2018,200,2018,Deciduous shrub,Salix,Ambient,53.38,2.73
+JR180719-SAS-D382,4,7/19/2018,200,2018,Deciduous shrub,Salix,Ambient,51.88,2.86
+JR180719-SAS-D383,5,7/19/2018,200,2018,Deciduous shrub,Salix,Ambient,51.43,2.83
+JR180719-BAS-D384,1,7/19/2018,200,2018,Deciduous shrub,Betula,Ambient,51.78,2.83
+JR180719-BAS-D385,2,7/19/2018,200,2018,Deciduous shrub,Betula,Ambient,54.1,2.83
+JR180719-BAS-D386,3,7/19/2018,200,2018,Deciduous shrub,Betula,Ambient,54.68,2.67
+JR180719-BAS-D387,4,7/19/2018,200,2018,Deciduous shrub,Betula,Ambient,52.69,2.87
+JR180719-BAS-D388,5,7/19/2018,200,2018,Deciduous shrub,Betula,Ambient,54.46,2.89
+JR180719-EAS-D389,1,7/19/2018,200,2018,Sedge,Eriophorum,Ambient,46.79,2.26
+JR180719-EAS-D390,2,7/19/2018,200,2018,Sedge,Eriophorum,Ambient,49.04,2.54
+JR180719-EAS-D391,3,7/19/2018,200,2018,Sedge,Eriophorum,Ambient,48.77,2.49
+JR180719-EAS-D392,4,7/19/2018,200,2018,Sedge,Eriophorum,Ambient,47.06,2.41
+JR180719-EAS-D393,5,7/19/2018,200,2018,Sedge,Eriophorum,Ambient,47.48,2.5
+JR180719-CAS-D394,1,7/19/2018,200,2018,Sedge,Carex,Ambient,48.47,2.62
+JR180719-CAS-D395,2,7/19/2018,200,2018,Sedge,Carex,Ambient,46.92,2.52
+JR180719-CAS-D396,3,7/19/2018,200,2018,Sedge,Carex,Ambient,47.39,3.04
+JR180719-CAS-D397,4,7/19/2018,200,2018,Sedge,Carex,Ambient,48.21,3.14
+JR180719-CAS-D398,5,7/19/2018,200,2018,Sedge,Carex,Ambient,46.55,2.73
+JR180719-LAS-D399,1,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Ambient,56.15,1.84
+JR180719-LAS-D400,2,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Ambient,53.7,1.8
+JR180719-LAS-D401,3,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Ambient,52.52,1.6
+JR180719-LAS-D402,4,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Ambient,52.78,1.53
+JR180719-LAS-D403,5,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Ambient,55.03,1.75
+JR180719-VAS-D404,1,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.94,0.96
+JR180719-VAS-D405,2,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.31,0.99
+JR180719-VAS-D406,3,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Ambient,54.19,1.11
+JR180719-VAS-D407,4,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.37,0.99
+JR180719-VAS-D408,5,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.86,0.93
+JR180719-SIS-D409,1,7/19/2018,200,2018,Deciduous shrub,Salix,Intermediate,51.94,3.24
+JR180719-SIS-D410,2,7/19/2018,200,2018,Deciduous shrub,Salix,Intermediate,51.75,2.87
+JR180719-SIS-D411,3,7/19/2018,200,2018,Deciduous shrub,Salix,Intermediate,52.47,2.95
+JR180719-SIS-D412,4,7/19/2018,200,2018,Deciduous shrub,Salix,Intermediate,51.21,3.17
+JR180719-SIS-D413,5,7/19/2018,200,2018,Deciduous shrub,Salix,Intermediate,52.87,3.18
+JR180719-BIS-D414,1,7/19/2018,200,2018,Deciduous shrub,Betula,Intermediate,51.66,3.13
+JR180719-BIS-D415,2,7/19/2018,200,2018,Deciduous shrub,Betula,Intermediate,50.98,3.36
+JR180719-BIS-D416,3,7/19/2018,200,2018,Deciduous shrub,Betula,Intermediate,52.58,2.9
+JR180719-BIS-D417,4,7/19/2018,200,2018,Deciduous shrub,Betula,Intermediate,51.14,2.85
+JR180719-BIS-D418,5,7/19/2018,200,2018,Deciduous shrub,Betula,Intermediate,51.85,2.95
+JR180719-EIS-D419,1,7/19/2018,200,2018,Sedge,Eriophorum,Intermediate,48.75,2.62
+JR180719-EIS-D420,2,7/19/2018,200,2018,Sedge,Eriophorum,Intermediate,48.74,2.16
+JR180719-EIS-D421,3,7/19/2018,200,2018,Sedge,Eriophorum,Intermediate,47.85,2.48
+JR180719-EIS-D422,4,7/19/2018,200,2018,Sedge,Eriophorum,Intermediate,47.73,2.03
+JR180719-EIS-D423,5,7/19/2018,200,2018,Sedge,Eriophorum,Intermediate,48.44,2.45
+JR180719-CIS-D424,1,7/19/2018,200,2018,Sedge,Carex,Intermediate,47.21,3.07
+JR180719-CIS-D425,2,7/19/2018,200,2018,Sedge,Carex,Intermediate,47.79,2.85
+JR180719-CIS-D426,3,7/19/2018,200,2018,Sedge,Carex,Intermediate,47.81,2.78
+JR180719-CIS-D427,4,7/19/2018,200,2018,Sedge,Carex,Intermediate,47.17,3
+JR180719-CIS-D428,5,7/19/2018,200,2018,Sedge,Carex,Intermediate,46.63,2.81
+JR180719-LIS-D429,1,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.62,1.66
+JR180719-LIS-D430,2,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.77,1.74
+JR180719-LIS-D431,3,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.31,1.76
+JR180719-LIS-D432,4,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.39,1.82
+JR180719-LIS-D433,5,7/19/2018,200,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.39,1.61
+JR180719-VIS-D434,1,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.75,0.98
+JR180719-VIS-D435,2,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.75,1.09
+JR180719-VIS-D436,3,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.38,0.9
+JR180719-VIS-D437,4,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.79,0.88
+JR180719-VIS-D438,5,7/19/2018,200,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.03,0.97
+JR180729-SLS-D439,1,7/29/2018,210,2018,Deciduous shrub,Salix,Low,52.86,2.34
+JR180729-SLS-D440,2,7/29/2018,210,2018,Deciduous shrub,Salix,Low,52.59,2.74
+JR180729-SLS-D441,3,7/29/2018,210,2018,Deciduous shrub,Salix,Low,53.82,2.68
+JR180729-SLS-D442,4,7/29/2018,210,2018,Deciduous shrub,Salix,Low,52.58,2.6
+JR180729-SLS-D443,5,7/29/2018,210,2018,Deciduous shrub,Salix,Low,50.88,2.33
+JR180729-BLS-D444,1,7/29/2018,210,2018,Deciduous shrub,Betula,Low,54.04,2.6
+JR180729-BLS-D445,2,7/29/2018,210,2018,Deciduous shrub,Betula,Low,53.42,2.87
+JR180729-BLS-D446,3,7/29/2018,210,2018,Deciduous shrub,Betula,Low,52.82,2.54
+JR180729-BLS-D447,4,7/29/2018,210,2018,Deciduous shrub,Betula,Low,53.3,2.87
+JR180729-BLS-D448,5,7/29/2018,210,2018,Deciduous shrub,Betula,Low,53.5,2.69
+JR180729-ELS-D449,1,7/29/2018,210,2018,Sedge,Eriophorum,Low,48.29,2.27
+JR180729-ELS-D450,2,7/29/2018,210,2018,Sedge,Eriophorum,Low,48.33,2.21
+JR180729-ELS-D451,3,7/29/2018,210,2018,Sedge,Eriophorum,Low,48.83,2.15
+JR180729-ELS-D452,4,7/29/2018,210,2018,Sedge,Eriophorum,Low,48.38,2.43
+JR180729-ELS-D453,5,7/29/2018,210,2018,Sedge,Eriophorum,Low,47.01,2.08
+JR180729-CLS-D454,1,7/29/2018,210,2018,Sedge,Carex,Low,48.55,2.73
+JR180729-CLS-D455,2,7/29/2018,210,2018,Sedge,Carex,Low,48.56,2.5
+JR180729-CLS-D456,3,7/29/2018,210,2018,Sedge,Carex,Low,47.7,2.63
+JR180729-CLS-D457,4,7/29/2018,210,2018,Sedge,Carex,Low,48.26,2.85
+JR180729-CLS-D458,5,7/29/2018,210,2018,Sedge,Carex,Low,48.04,2.36
+JR180729-LLS-D459,1,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Low,55.06,1.74
+JR180729-LLS-D460,2,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Low,54.38,1.66
+JR180729-LLS-D461,3,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Low,53.99,1.69
+JR180729-LLS-D462,4,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Low,55.83,1.66
+JR180729-LLS-D463,5,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Low,54.39,1.7
+JR180729-VLS-D464,1,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Low,53.05,1.16
+JR180729-VLS-D468,5,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Low,53.2,1.17
+JR180729-VLS-D466,3,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Low,52.51,1.27
+JR180729-VLS-D467,4,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Low,52.53,0.97
+JR180729-VLS-D468,5,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Low,53.08,1.33
+JR180729-SAS-D469,1,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,51.42,2.32
+JR180729-SAS-D470,2,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,52.57,2.58
+JR180729-SAS-D471,3,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,50.92,2.64
+JR180729-SAS-D472,4,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,51.83,2.68
+JR180729-SAS-D473,5,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,51.61,2.61
+JR180729-SAS-D474,6,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,51.33,2.55
+JR180729-SAS-D475,7,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,51.4,2.33
+JR180729-SAS-D476,8,7/29/2018,210,2018,Deciduous Shrub,Salix,Ambient,51.71,2.38
+JR180729-BAS-D477,1,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,52.47,2.53
+JR180729-BAS-D478,2,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,52.4,2.62
+JR180729-BAS-D479,3,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,51.89,2.69
+JR180729-BAS-D480,4,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,51.28,3.05
+JR180729-BAS-D481,5,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,51.29,2.83
+JR180729-BAS-D482,6,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,51.2,2.39
+JR180729-BAS-D483,7,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,52.32,3.24
+JR180729-BAS-D484,8,7/29/2018,210,2018,Deciduous Shrub,Betula,Ambient,51.39,2.81
+JR180729-EAS-D485,1,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.9,2.15
+JR180729-EAS-D486,2,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.78,1.93
+JR180729-EAS-D487,3,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.77,2
+JR180729-EAS-D488,4,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.34,2.38
+JR180729-EAS-D489,5,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.25,2.46
+JR180729-EAS-D490,6,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.9,2.18
+JR180729-EAS-D491,7,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,48.23,2.58
+JR180729-EAS-D492,8,7/29/2018,210,2018,Sedge,Eriophorum,Ambient,47.75,2.3
+JR180729-CAS-D493,1,7/29/2018,210,2018,Sedge,Carex,Ambient,48.87,2.45
+JR180729-CAS-D494,2,7/29/2018,210,2018,Sedge,Carex,Ambient,48.07,2.43
+JR180729-CAS-D495,3,7/29/2018,210,2018,Sedge,Carex,Ambient,47.67,2.45
+JR180729-CAS-D496,4,7/29/2018,210,2018,Sedge,Carex,Ambient,46.63,2.44
+JR180729-CAS-D497,5,7/29/2018,210,2018,Sedge,Carex,Ambient,48.08,2.66
+JR180729-LAS-D498,1,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Ambient,52.61,1.62
+JR180729-LAS-D499,2,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Ambient,54.03,1.78
+JR180729-LAS-D500,3,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Ambient,53.91,1.71
+JR180729-LAS-D501,4,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Ambient,53.48,1.68
+JR180729-LAS-D502,5,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Ambient,54.15,1.7
+JR180729-VAS-D503,1,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Ambient,54.85,0.91
+JR180729-VAS-D504,2,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.41,0.97
+JR180729-VAS-D505,3,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.48,1.08
+JR180729-VAS-D506,4,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.8,1.11
+JR180729-VAS-D507,5,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.38,1.17
+JR180729-SIS-D508,1,7/29/2018,210,2018,Deciduous shrub,Salix,Intermediate,51.13,3.02
+JR180729-SIS-D509,2,7/29/2018,210,2018,Deciduous shrub,Salix,Intermediate,54.15,2.57
+JR180729-SIS-D510,3,7/29/2018,210,2018,Deciduous shrub,Salix,Intermediate,50.54,2.99
+JR180729-SIS-D511,4,7/29/2018,210,2018,Deciduous shrub,Salix,Intermediate,51.58,3.1
+JR180729-SIS-D512,5,7/29/2018,210,2018,Deciduous shrub,Salix,Intermediate,51.12,2.71
+JR180729-BIS-D513,1,7/29/2018,210,2018,Deciduous shrub,Betula,Intermediate,53.57,2.93
+JR180729-BIS-D514,2,7/29/2018,210,2018,Deciduous shrub,Betula,Intermediate,53.73,2.58
+JR180729-BIS-D515,3,7/29/2018,210,2018,Deciduous shrub,Betula,Intermediate,51.75,2.66
+JR180729-BIS-D516,4,7/29/2018,210,2018,Deciduous shrub,Betula,Intermediate,54.48,3.18
+JR180729-BIS-D517,5,7/29/2018,210,2018,Deciduous shrub,Betula,Intermediate,51.37,3.34
+JR180729-EIS-D518,1,7/29/2018,210,2018,Sedge,Eriophorum,Intermediate,48.93,2.81
+JR180729-EIS-D519,2,7/29/2018,210,2018,Sedge,Eriophorum,Intermediate,48.08,2.42
+JR180729-EIS-D520,3,7/29/2018,210,2018,Sedge,Eriophorum,Intermediate,46.37,2.65
+JR180729-EIS-D521,4,7/29/2018,210,2018,Sedge,Eriophorum,Intermediate,48.22,2.33
+JR180729-EIS-D522,5,7/29/2018,210,2018,Sedge,Eriophorum,Intermediate,48.69,2.47
+JR180729-CIS-D523,1,7/29/2018,210,2018,Sedge,Carex,Intermediate,48.42,2.72
+JR180729-CIS-D524,2,7/29/2018,210,2018,Sedge,Carex,Intermediate,47.01,2.52
+JR180729-CIS-D525,3,7/29/2018,210,2018,Sedge,Carex,Intermediate,47.7,2.6
+JR180729-CIS-D526,4,7/29/2018,210,2018,Sedge,Carex,Intermediate,47.88,2.97
+JR180729-CIS-D527,5,7/29/2018,210,2018,Sedge,Carex,Intermediate,47.87,3.08
+JR180729-LIS-D528,1,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Intermediate,51.85,1.84
+JR180729-LIS-D529,2,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Intermediate,56.79,1.84
+JR180729-LIS-D530,3,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.78,1.88
+JR180729-LIS-D531,4,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.85,1.93
+JR180729-LIS-D532,5,7/29/2018,210,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.19,1.99
+JR180729-VIS-D533,1,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.58,1.22
+JR180729-VIS-D534,2,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.92,1.13
+JR180729-VIS-D535,3,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.16,1.06
+JR180729-VIS-D536,4,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.66,1.28
+JR180729-VIS-D537,5,7/29/2018,210,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.78,1.19
+JR180805-SLS-D538,1,8/5/2018,217,2018,Deciduous shrub,Salix,Low,53.69,2.63
+JR180805-SLS-D539,2,8/5/2018,217,2018,Deciduous shrub,Salix,Low,51.26,2.44
+JR180805-SLS-D540,3,8/5/2018,217,2018,Deciduous shrub,Salix,Low,52.6,2.29
+JR180805-SLS-D541,4,8/5/2018,217,2018,Deciduous shrub,Salix,Low,53.9,2.47
+JR180805-SLS-D542,5,8/5/2018,217,2018,Deciduous shrub,Salix,Low,54.14,2.02
+JR180805-BLS-D543,1,8/5/2018,217,2018,Deciduous shrub,Betula,Low,54.18,2.75
+JR180805-BLS-D544,2,8/5/2018,217,2018,Deciduous shrub,Betula,Low,52.13,2.95
+JR180805-BLS-D545,3,8/5/2018,217,2018,Deciduous shrub,Betula,Low,55.23,2.46
+JR180805-BLS-D546,4,8/5/2018,217,2018,Deciduous shrub,Betula,Low,52.8,2.48
+JR180805-BLS-D547,5,8/5/2018,217,2018,Deciduous shrub,Betula,Low,54.53,2.62
+JR180805-ELS-D548,1,8/5/2018,217,2018,Sedge,Eriophorum,Low,48.23,2.3
+JR180805-ELS-D549,2,8/5/2018,217,2018,Sedge,Eriophorum,Low,47.94,1.89
+JR180805-ELS-D550,3,8/5/2018,217,2018,Sedge,Eriophorum,Low,47.72,2.07
+JR180805-ELS-D551,4,8/5/2018,217,2018,Sedge,Eriophorum,Low,47.91,2.03
+JR180805-ELS-D552,5,8/5/2018,217,2018,Sedge,Eriophorum,Low,47.5,1.75
+JR180805-CLS-D553,1,8/5/2018,217,2018,Sedge,Carex,Low,48.25,2.33
+JR180805-CLS-D554,2,8/5/2018,217,2018,Sedge,Carex,Low,47.62,2.61
+JR180805-CLS-D555,3,8/5/2018,217,2018,Sedge,Carex,Low,47.69,2.64
+JR180805-CLS-D556,4,8/5/2018,217,2018,Sedge,Carex,Low,47.49,2.51
+JR180805-CLS-D557,5,8/5/2018,217,2018,Sedge,Carex,Low,47.5,2.44
+JR180805-LLS-D558,1,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Low,54.07,1.75
+JR180805-LLS-D559,2,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Low,53.84,1.72
+JR180805-LLS-D560,3,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Low,53.93,1.62
+JR180805-LLS-D561,4,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Low,53.51,1.69
+JR180805-LLS-D562,5,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Low,55.02,1.63
+JR180805-VLS-D563,1,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Low,52.71,1.07
+JR180805-VLS-D564,2,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Low,52.22,1.22
+JR180805-VLS-D565,3,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Low,51.73,1.13
+JR180805-VLS-D566,4,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Low,52,0.95
+JR180805-VLS-D567,5,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Low,51.97,0.92
+JR180805-SAS-D568,1,8/5/2018,217,2018,Deciduous shrub,Salix,Ambient,53.06,2.49
+JR180805-SAS-D569,2,8/5/2018,217,2018,Deciduous shrub,Salix,Ambient,51.21,2.31
+JR180805-SAS-D570,3,8/5/2018,217,2018,Deciduous shrub,Salix,Ambient,52.44,2.5
+JR180805-SAS-D571,4,8/5/2018,217,2018,Deciduous shrub,Salix,Ambient,51.68,2.32
+JR180805-SAS-D572,5,8/5/2018,217,2018,Deciduous shrub,Salix,Ambient,51.63,2.4
+JR180805-BAS-D573,1,8/5/2018,217,2018,Deciduous shrub,Betula,Ambient,52.59,2.82
+JR180805-BAS-D574,2,8/5/2018,217,2018,Deciduous shrub,Betula,Ambient,52.58,2.57
+JR180805-BAS-D575,3,8/5/2018,217,2018,Deciduous shrub,Betula,Ambient,53.76,2.82
+JR180805-BAS-D576,4,8/5/2018,217,2018,Deciduous shrub,Betula,Ambient,52.91,3.07
+JR180805-BAS-D577,5,8/5/2018,217,2018,Deciduous shrub,Betula,Ambient,52.74,2.78
+JR180805-EAS-D578,1,8/5/2018,217,2018,Sedge,Eriophorum,Ambient,47.11,2.19
+JR180805-EAS-D579,2,8/5/2018,217,2018,Sedge,Eriophorum,Ambient,48.05,2.08
+JR180805-EAS-D580,3,8/5/2018,217,2018,Sedge,Eriophorum,Ambient,48.11,2.29
+JR180805-EAS-D581,4,8/5/2018,217,2018,Sedge,Eriophorum,Ambient,47.83,2.13
+JR180805-EAS-D582,5,8/5/2018,217,2018,Sedge,Eriophorum,Ambient,49.52,2.21
+JR180805-CAS-D583,1,8/5/2018,217,2018,Sedge,Carex,Ambient,48.64,2.72
+JR180805-CAS-D584,2,8/5/2018,217,2018,Sedge,Carex,Ambient,47.93,2.49
+JR180805-CAS-D585,3,8/5/2018,217,2018,Sedge,Carex,Ambient,47.88,2.39
+JR180805-CAS-D586,4,8/5/2018,217,2018,Sedge,Carex,Ambient,47.12,2.32
+JR180805-CAS-D587,5,8/5/2018,217,2018,Sedge,Carex,Ambient,48.09,2.86
+JR180805-LAS-D588,1,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Ambient,53.7,1.37
+JR180805-LAS-D589,2,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Ambient,53.47,1.41
+JR180805-LAS-D590,3,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Ambient,52.77,1.35
+JR180805-LAS-D591,4,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Ambient,53.44,1.38
+JR180805-LAS-D592,5,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Ambient,53.64,1.46
+JR180805-VAS-D593,1,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.8,1.04
+JR180805-VAS-D594,2,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.33,0.98
+JR180805-VAS-D595,3,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.57,1.04
+JR180805-VAS-D596,4,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.44,0.99
+JR180805-VAS-D597,5,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.92,0.96
+JR180805-SIS-D598,1,8/5/2018,217,2018,Deciduous shrub,Salix,Intermediate,50.02,3.26
+JR180805-SIS-D599,2,8/5/2018,217,2018,Deciduous shrub,Salix,Intermediate,52.3,3.29
+JR180805-SIS-D600,3,8/5/2018,217,2018,Deciduous shrub,Salix,Intermediate,52.03,3.02
+JR180805-SIS-D601,4,8/5/2018,217,2018,Deciduous shrub,Salix,Intermediate,51.24,2.74
+JR180805-SIS-D602,5,8/5/2018,217,2018,Deciduous shrub,Salix,Intermediate,51.12,2.89
+JR180805-BIS-D603,1,8/5/2018,217,2018,Deciduous shrub,Betula,Intermediate,52.92,3.06
+JR180805-BIS-D604,2,8/5/2018,217,2018,Deciduous shrub,Betula,Intermediate,51.61,3.17
+JR180805-BIS-D605,3,8/5/2018,217,2018,Deciduous shrub,Betula,Intermediate,52.37,2.77
+JR180805-BIS-D606,4,8/5/2018,217,2018,Deciduous shrub,Betula,Intermediate,52.55,2.88
+JR180805-BIS-D607,5,8/5/2018,217,2018,Deciduous shrub,Betula,Intermediate,52.64,2.59
+JR180805-EIS-D608,1,8/5/2018,217,2018,Sedge,Eriophorum,Intermediate,47.56,2.41
+JR180805-EIS-D609,2,8/5/2018,217,2018,Sedge,Eriophorum,Intermediate,47.65,2.28
+JR180805-EIS-D610,3,8/5/2018,217,2018,Sedge,Eriophorum,Intermediate,47.88,2.42
+JR180805-EIS-D611,4,8/5/2018,217,2018,Sedge,Eriophorum,Intermediate,47.99,2.37
+JR180805-EIS-D612,5,8/5/2018,217,2018,Sedge,Eriophorum,Intermediate,48.27,2.28
+JR180805-CIS-D613,1,8/5/2018,217,2018,Sedge,Carex,Intermediate,47.19,2.74
+JR180805-CIS-D614,2,8/5/2018,217,2018,Sedge,Carex,Intermediate,48.28,2.67
+JR180805-CIS-D615,3,8/5/2018,217,2018,Sedge,Carex,Intermediate,47.75,2.46
+JR180805-CIS-D616,4,8/5/2018,217,2018,Sedge,Carex,Intermediate,48.15,3.18
+JR180805-CIS-D617,5,8/5/2018,217,2018,Sedge,Carex,Intermediate,48.07,3.16
+JR180805-LIS-D618,1,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.05,1.76
+JR180805-LIS-D619,2,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.84,1.61
+JR180805-LIS-D620,3,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.37,1.46
+JR180805-LIS-D621,4,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.2,1.5
+JR180805-LIS-D622,5,8/5/2018,217,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.25,1.63
+JR180805-VIS-D623,1,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.41,1.2
+JR180805-VIS-D624,2,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.01,1.11
+JR180805-VIS-D625,3,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.79,1.19
+JR180805-VIS-D626,4,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.55,0.94
+JR180805-VIS-D627,5,8/5/2018,217,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.33,0.99
+JR180811-SLS-D628,1,8/11/2018,223,2018,Deciduous shrub,Salix,Low,51.66,2.07
+JR180811-SLS-D629,2,8/11/2018,223,2018,Deciduous shrub,Salix,Low,52.76,2.11
+JR180811-SLS-D630,3,8/11/2018,223,2018,Deciduous shrub,Salix,Low,51.94,1.9
+JR180811-SLS-D631,4,8/11/2018,223,2018,Deciduous shrub,Salix,Low,52.08,2.09
+JR180811-SLS-D632,5,8/11/2018,223,2018,Deciduous shrub,Salix,Low,52.81,2.4
+JR180811-BLS-D633,1,8/11/2018,223,2018,Deciduous shrub,Betula,Low,53.61,2.72
+JR180811-BLS-D634,2,8/11/2018,223,2018,Deciduous shrub,Betula,Low,52.77,2.53
+JR180811-BLS-D635,3,8/11/2018,223,2018,Deciduous shrub,Betula,Low,52.56,2.42
+JR180811-BLS-D636,4,8/11/2018,223,2018,Deciduous shrub,Betula,Low,52.56,2.72
+JR180811-BLS-D637,5,8/11/2018,223,2018,Deciduous shrub,Betula,Low,53.15,2.72
+JR180811-ELS-D638,1,8/11/2018,223,2018,Sedge,Eriophorum,Low,48.69,1.9
+JR180811-ELS-D639,2,8/11/2018,223,2018,Sedge,Eriophorum,Low,48.43,2.29
+JR180811-ELS-D640,3,8/11/2018,223,2018,Sedge,Eriophorum,Low,47.85,1.86
+JR180811-ELS-D641,4,8/11/2018,223,2018,Sedge,Eriophorum,Low,49.08,1.85
+JR180811-ELS-D642,5,8/11/2018,223,2018,Sedge,Eriophorum,Low,49.07,2.02
+JR180811-CLS-D643,1,8/11/2018,223,2018,Sedge,Carex,Low,48.65,2.23
+JR180811-CLS-D644,2,8/11/2018,223,2018,Sedge,Carex,Low,48.38,2.24
+JR180811-CLS-D645,3,8/11/2018,223,2018,Sedge,Carex,Low,48.41,2.45
+JR180811-CLS-D646,4,8/11/2018,223,2018,Sedge,Carex,Low,48.47,2.14
+JR180811-CLS-D647,5,8/11/2018,223,2018,Sedge,Carex,Low,48.5,2.33
+JR180811-LLS-D648,1,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Low,52.81,1.52
+JR180811-LLS-D649,2,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Low,55.48,1.65
+JR180811-LLS-D650,3,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Low,53.69,1.59
+JR180811-LLS-D651,4,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Low,53.5,1.56
+JR180811-LLS-D652,5,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Low,,
+JR180811-VLS-D653,1,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Low,54.15,1.06
+JR180811-VLS-D654,2,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Low,52.07,1.18
+JR180811-VLS-D655,3,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Low,54.06,1
+JR180811-VLS-D656,4,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Low,52.56,0.88
+JR180811-VLS-D657,5,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Low,53.77,1.04
+JR180811-SAS-D658,1,8/11/2018,223,2018,Deciduous shrub,Salix,Ambient,51.99,2.48
+JR180811-SAS-D659,2,8/11/2018,223,2018,Deciduous shrub,Salix,Ambient,52.91,2.37
+JR180811-SAS-D660,3,8/11/2018,223,2018,Deciduous shrub,Salix,Ambient,52.89,2.25
+JR180811-SAS-D661,4,8/11/2018,223,2018,Deciduous shrub,Salix,Ambient,52.98,2.29
+JR180811-SAS-D662,5,8/11/2018,223,2018,Deciduous shrub,Salix,Ambient,51.42,2.42
+JR180811-BAS-D663,1,8/11/2018,223,2018,Deciduous shrub,Betula,Ambient,53.11,2.77
+JR180811-BAS-D664,2,8/11/2018,223,2018,Deciduous shrub,Betula,Ambient,56.55,2.96
+JR180811-BAS-D665,3,8/11/2018,223,2018,Deciduous shrub,Betula,Ambient,52.64,2.54
+JR180811-BAS-D666,4,8/11/2018,223,2018,Deciduous shrub,Betula,Ambient,53.73,2.77
+JR180811-BAS-D667,5,8/11/2018,223,2018,Deciduous shrub,Betula,Ambient,51.7,2.73
+JR180811-EAS-D668,1,8/11/2018,223,2018,Sedge,Eriophorum,Ambient,48.5,1.95
+JR180811-EAS-D669,2,8/11/2018,223,2018,Sedge,Eriophorum,Ambient,47.24,1.92
+JR180811-EAS-D670,3,8/11/2018,223,2018,Sedge,Eriophorum,Ambient,48.87,1.83
+JR180811-EAS-D671,4,8/11/2018,223,2018,Sedge,Eriophorum,Ambient,47.81,2.43
+JR180811-EAS-D672,5,8/11/2018,223,2018,Sedge,Eriophorum,Ambient,48.03,2.29
+JR180811-CAS-D673,1,8/11/2018,223,2018,Sedge,Carex,Ambient,48.55,2.51
+JR180811-CAS-D674,2,8/11/2018,223,2018,Sedge,Carex,Ambient,48.9,2.35
+JR180811-CAS-D675,3,8/11/2018,223,2018,Sedge,Carex,Ambient,48.63,2.48
+JR180811-CAS-D676,4,8/11/2018,223,2018,Sedge,Carex,Ambient,47.09,2.05
+JR180811-CAS-D677,5,8/11/2018,223,2018,Sedge,Carex,Ambient,48.21,2.38
+JR180811-LAS-D678,1,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Ambient,54.02,1.63
+JR180811-LAS-D679,2,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Ambient,53.31,1.73
+JR180811-LAS-D680,3,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Ambient,54.94,1.74
+JR180811-LAS-D681,4,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Ambient,54.11,1.48
+JR180811-LAS-D682,5,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Ambient,54.12,1.42
+JR180811-VAS-D683,1,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.56,1.06
+JR180811-VAS-D684,2,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.69,1.05
+JR180811-VAS-D685,3,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.12,1.03
+JR180811-VAS-D686,4,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.06,1.07
+JR180811-VAS-D687,5,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.76,1.05
+JR180811-SIS-D688,1,8/11/2018,223,2018,Deciduous shrub,Salix,Intermediate,50.33,2.94
+JR180811-SIS-D689,2,8/11/2018,223,2018,Deciduous shrub,Salix,Intermediate,52.18,2.92
+JR180811-SIS-D690,3,8/11/2018,223,2018,Deciduous shrub,Salix,Intermediate,51.83,2.8
+JR180811-SIS-D691,4,8/11/2018,223,2018,Deciduous shrub,Salix,Intermediate,53.07,3.12
+JR180811-SIS-D692,5,8/11/2018,223,2018,Deciduous shrub,Salix,Intermediate,50.92,2.81
+JR180811-BIS-D693,1,8/11/2018,223,2018,Deciduous shrub,Betula,Intermediate,51.81,2.61
+JR180811-BIS-D694,2,8/11/2018,223,2018,Deciduous shrub,Betula,Intermediate,51.39,3.01
+JR180811-BIS-D695,3,8/11/2018,223,2018,Deciduous shrub,Betula,Intermediate,51.98,2.64
+JR180811-BIS-D696,4,8/11/2018,223,2018,Deciduous shrub,Betula,Intermediate,52.08,2.71
+JR180811-BIS-D697,5,8/11/2018,223,2018,Deciduous shrub,Betula,Intermediate,52.25,3.27
+JR180811-EIS-D698,1,8/11/2018,223,2018,Sedge,Eriophorum,Intermediate,47.35,2.43
+JR180811-EIS-D699,2,8/11/2018,223,2018,Sedge,Eriophorum,Intermediate,47.4,2.15
+JR180811-EIS-D700,3,8/11/2018,223,2018,Sedge,Eriophorum,Intermediate,47.32,2.12
+JR180811-EIS-D701,4,8/11/2018,223,2018,Sedge,Eriophorum,Intermediate,48.76,2.48
+JR180811-CIS-D703,5,8/11/2018,223,2018,Sedge,Carex,Intermediate,48.26,2.35
+JR180811-CIS-D704,1,8/11/2018,223,2018,Sedge,Carex,Intermediate,48.9,2.34
+JR180811-CIS-D705,2,8/11/2018,223,2018,Sedge,Carex,Intermediate,48.23,2.37
+JR180811-CIS-D706,3,8/11/2018,223,2018,Sedge,Carex,Intermediate,47.08,2.67
+JR180811-CIS-D707,4,8/11/2018,223,2018,Sedge,Carex,Intermediate,47.42,2.47
+JR180811-CIS-D707,5,8/11/2018,223,2018,Sedge,Carex,Intermediate,49.17,2.53
+JR180811-LIS-D708,1,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.73,1.9
+JR180811-LIS-D709,2,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.54,1.57
+JR180811-LIS-D710,3,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.37,1.72
+JR180811-LIS-D711,4,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Intermediate,52.14,1.71
+JR180811-LIS-D712,5,8/11/2018,223,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.18,1.75
+JR180811-VIS-D713,1,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.82,1.27
+JR180811-VIS-D714,2,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.82,0.9
+JR180811-VIS-D715,3,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.4,1.01
+JR180811-VIS-D716,4,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.63,1.04
+JR180811-VIS-D717,5,8/11/2018,223,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.94,1.01
+JR180819-SLS-D718,1,8/19/2018,231,2018,Deciduous shrub,Salix,Low,50.88,1.59
+JR180819-SLS-D719,2,8/19/2018,231,2018,Deciduous shrub,Salix,Low,51.32,1.56
+JR180819-SLS-D720,3,8/19/2018,231,2018,Deciduous shrub,Salix,Low,51.83,1.81
+JR180819-SLS-D721,4,8/19/2018,231,2018,Deciduous shrub,Salix,Low,51.79,1.6
+JR180819-SLS-D722,5,8/19/2018,231,2018,Deciduous shrub,Salix,Low,50.94,1.69
+JR180819-BLS-D723,1,8/19/2018,231,2018,Deciduous shrub,Betula,Low,51.31,2.06
+JR180819-BLS-D724,2,8/19/2018,231,2018,Deciduous shrub,Betula,Low,52.03,1.93
+JR180819-BLS-D725,3,8/19/2018,231,2018,Deciduous shrub,Betula,Low,51.51,1.95
+JR180819-BLS-D726,4,8/19/2018,231,2018,Deciduous shrub,Betula,Low,51.41,2.09
+JR180819-BLS-D727,5,8/19/2018,231,2018,Deciduous shrub,Betula,Low,52.17,2.16
+JR180819-ELS-D728,1,8/19/2018,231,2018,Sedge,Eriophorum,Low,47.74,1.77
+JR180819-ELS-D729,2,8/19/2018,231,2018,Sedge,Eriophorum,Low,48.03,1.94
+JR180819-ELS-D730,3,8/19/2018,231,2018,Sedge,Eriophorum,Low,47.94,1.96
+JR180819-ELS-D731,4,8/19/2018,231,2018,Sedge,Eriophorum,Low,47.87,1.72
+JR180819-ELS-D732,5,8/19/2018,231,2018,Sedge,Eriophorum,Low,47.64,1.91
+JR180819-CLS-D733,1,8/19/2018,231,2018,Sedge,Carex,Low,48.44,1.97
+JR180819-CLS-D734,2,8/19/2018,231,2018,Sedge,Carex,Low,47.51,2.18
+JR180819-CLS-D735,3,8/19/2018,231,2018,Sedge,Carex,Low,48.71,2.03
+JR180819-CLS-D736,4,8/19/2018,231,2018,Sedge,Carex,Low,47.38,2.08
+JR180819-CLS-D737,5,8/19/2018,231,2018,Sedge,Carex,Low,47.48,1.81
+JR180819-LLS-D738,1,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Low,56.16,1.75
+JR180819-LLS-D739,2,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Low,52.64,1.58
+JR180819-LLS-D740,3,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Low,52.71,1.67
+JR180819-LLS-D741,4,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Low,52.8,1.56
+JR180819-LLS-D742,5,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Low,54.63,1.64
+JR180819-VLS-D743,1,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Low,52.59,0.94
+JR180819-VLS-D744,2,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Low,52.68,1.04
+JR180819-VLS-D745,3,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Low,51.8,0.91
+JR180819-VLS-D746,4,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Low,52.58,0.98
+JR180819-VLS-D747,5,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Low,52.73,0.98
+JR180819-SAS-D748,1,8/19/2018,231,2018,Deciduous shrub,Salix,Ambient,51.2,1.76
+JR180819-SAS-D749,2,8/19/2018,231,2018,Deciduous shrub,Salix,Ambient,50.98,1.83
+JR180819-SAS-D750,3,8/19/2018,231,2018,Deciduous shrub,Salix,Ambient,52.38,2
+JR180819-SAS-D751,4,8/19/2018,231,2018,Deciduous shrub,Salix,Ambient,50.56,1.85
+JR180819-SAS-D752,5,8/19/2018,231,2018,Deciduous shrub,Salix,Ambient,51.32,1.77
+JR180819-BAS-D753,1,8/19/2018,231,2018,Deciduous shrub,Betula,Ambient,51.25,2.07
+JR180819-BAS-D754,2,8/19/2018,231,2018,Deciduous shrub,Betula,Ambient,52.2,2.39
+JR180819-BAS-D755,3,8/19/2018,231,2018,Deciduous shrub,Betula,Ambient,51.17,1.98
+JR180819-BAS-D756,4,8/19/2018,231,2018,Deciduous shrub,Betula,Ambient,52.34,1.88
+JR180819-BAS-D757,5,8/19/2018,231,2018,Deciduous shrub,Betula,Ambient,52.16,2.26
+JR180819-EAS-D758,1,8/19/2018,231,2018,Sedge,Eriophorum,Ambient,48.45,2.02
+JR180819-EAS-D759,2,8/19/2018,231,2018,Sedge,Eriophorum,Ambient,48.16,1.89
+JR180819-EAS-D760,3,8/19/2018,231,2018,Sedge,Eriophorum,Ambient,48.26,1.59
+JR180819-EAS-D761,4,8/19/2018,231,2018,Sedge,Eriophorum,Ambient,47.54,1.94
+JR180819-EAS-D762,5,8/19/2018,231,2018,Sedge,Eriophorum,Ambient,47.08,1.93
+JR180819-CAS-D763,1,8/19/2018,231,2018,Sedge,Carex,Ambient,46.74,1.56
+JR180819-CAS-D764,2,8/19/2018,231,2018,Sedge,Carex,Ambient,47.25,1.04
+JR180819-CAS-D765,3,8/19/2018,231,2018,Sedge,Carex,Ambient,47.74,1.49
+JR180819-CAS-D766,4,8/19/2018,231,2018,Sedge,Carex,Ambient,47.1,1.48
+JR180819-CAS-D767,5,8/19/2018,231,2018,Sedge,Carex,Ambient,46.72,1.26
+JR180819-LAS-D768,1,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Ambient,53.59,1.7
+JR180819-LAS-D769,2,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Ambient,52.45,1.61
+JR180819-LAS-D770,3,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Ambient,52.42,1.7
+JR180819-LAS-D771,4,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Ambient,52.63,1.61
+JR180819-LAS-D772,5,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Ambient,53.19,1.66
+JR180819-VAS-D773,1,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.95,0.92
+JR180819-VAS-D774,2,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.78,0.98
+JR180819-VAS-D775,3,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.96,1.03
+JR180819-VAS-D776,4,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.47,1.02
+JR180819-VAS-D777,5,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.66,1.11
+JR180819-SIS-D778,1,8/19/2018,231,2018,Deciduous shrub,Salix,Intermediate,50.77,2.29
+JR180819-SIS-D779,2,8/19/2018,231,2018,Deciduous shrub,Salix,Intermediate,52.03,2.47
+JR180819-SIS-D780,3,8/19/2018,231,2018,Deciduous shrub,Salix,Intermediate,51.34,2.11
+JR180819-SIS-D781,4,8/19/2018,231,2018,Deciduous shrub,Salix,Intermediate,52.69,2.2
+JR180819-SIS-D782,5,8/19/2018,231,2018,Deciduous shrub,Salix,Intermediate,51.11,2.71
+JR180819-BIS-D783,1,8/19/2018,231,2018,Deciduous shrub,Betula,Intermediate,51.12,2.34
+JR180819-BIS-D784,2,8/19/2018,231,2018,Deciduous shrub,Betula,Intermediate,51.05,2.19
+JR180819-BIS-D785,3,8/19/2018,231,2018,Deciduous shrub,Betula,Intermediate,51.82,2.26
+JR180819-BIS-D786,4,8/19/2018,231,2018,Deciduous shrub,Betula,Intermediate,51.75,2.22
+JR180819-BIS-D787,5,8/19/2018,231,2018,Deciduous shrub,Betula,Intermediate,51.23,2.87
+JR180819-EIS-D788,1,8/19/2018,231,2018,Sedge,Eriophorum,Intermediate,47.84,2.2
+JR180819-EIS-D789,2,8/19/2018,231,2018,Sedge,Eriophorum,Intermediate,48.28,2.06
+JR180819-EIS-D790,3,8/19/2018,231,2018,Sedge,Eriophorum,Intermediate,47.33,2.19
+JR180819-EIS-D791,4,8/19/2018,231,2018,Sedge,Eriophorum,Intermediate,48.14,2.05
+JR180819-EIS-D792,5,8/19/2018,231,2018,Sedge,Eriophorum,Intermediate,48.02,2.19
+JR180819-CIS-D793,1,8/19/2018,231,2018,Sedge,Carex,Intermediate,47.3,2.71
+JR180819-CIS-D794,2,8/19/2018,231,2018,Sedge,Carex,Intermediate,47.65,2.52
+JR180819-CIS-D795,3,8/19/2018,231,2018,Sedge,Carex,Intermediate,47.75,2.22
+JR180819-CIS-D796,4,8/19/2018,231,2018,Sedge,Carex,Intermediate,48.45,2.31
+JR180819-CIS-D797,5,8/19/2018,231,2018,Sedge,Carex,Intermediate,48.62,2.66
+JR180819-LIS-D798,1,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Intermediate,51.23,1.47
+JR180819-LIS-D799,2,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.22,1.52
+JR180819-LIS-D800,3,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.07,1.47
+JR180819-LIS-D801,4,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.12,1.36
+JR180819-LIS-D802,5,8/19/2018,231,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.41,1.57
+JR180819-VIS-D803,1,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.18,1.19
+JR180819-VIS-D804,2,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.53,1.13
+JR180819-VIS-D805,3,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.79,1.21
+JR180819-VIS-D806,4,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.52,1.03
+JR180819-VIS-D807,5,8/19/2018,231,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.58,1.08
+JR180825-SLS-D808,1,8/25/2018,237,2018,Deciduous shrub,Salix,Low,51.11,1.25
+JR180825-SLS-D809,2,8/25/2018,237,2018,Deciduous shrub,Salix,Low,50.77,1.47
+JR180825-SLS-D810,3,8/25/2018,237,2018,Deciduous shrub,Salix,Low,52.44,1.54
+JR180825-SLS-D811,4,8/25/2018,237,2018,Deciduous shrub,Salix,Low,49.81,1.25
+JR180825-SLS-D812,5,8/25/2018,237,2018,Deciduous shrub,Salix,Low,52.37,1.37
+JR180825-BLS-D813,1,8/25/2018,237,2018,Deciduous shrub,Betula,Low,51.85,1.3
+JR180825-BLS-D814,2,8/25/2018,237,2018,Deciduous shrub,Betula,Low,50.77,1.51
+JR180825-BLS-D815,3,8/25/2018,237,2018,Deciduous shrub,Betula,Low,50.91,1.22
+JR180825-BLS-D816,4,8/25/2018,237,2018,Deciduous shrub,Betula,Low,52.83,1.54
+JR180825-BLS-D817,5,8/25/2018,237,2018,Deciduous shrub,Betula,Low,51.12,1.39
+JR180825-ELS-D818,1,8/25/2018,237,2018,Sedge,Eriophorum,Low,47.87,1.63
+JR180825-ELS-D819,2,8/25/2018,237,2018,Sedge,Eriophorum,Low,47.21,1.47
+JR180825-ELS-D820,3,8/25/2018,237,2018,Sedge,Eriophorum,Low,47.42,1.46
+JR180825-ELS-D821,4,8/25/2018,237,2018,Sedge,Eriophorum,Low,48.98,1.49
+JR180825-ELS-D822,5,8/25/2018,237,2018,Sedge,Eriophorum,Low,47.85,1.7
+JR180825-CLS-D823,1,8/25/2018,237,2018,Sedge,Carex,Low,48.45,1.21
+JR180825-CLS-D824,2,8/25/2018,237,2018,Sedge,Carex,Low,47.31,1.73
+JR180825-CLS-D825,3,8/25/2018,237,2018,Sedge,Carex,Low,47.28,1.06
+JR180825-CLS-D826,4,8/25/2018,237,2018,Sedge,Carex,Low,47.5,1.14
+JR180825-CLS-D827,5,8/25/2018,237,2018,Sedge,Carex,Low,47.65,1.42
+JR180825-LLS-D828,1,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Low,53.21,1.7
+JR180825-LLS-D829,2,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Low,54.29,1.71
+JR180825-LLS-D830,3,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Low,53.02,1.78
+JR180825-LLS-D831,4,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Low,54.86,1.6
+JR180825-LLS-D832,5,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Low,53.56,1.69
+JR180825-VLS-D833,1,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Low,52.29,0.83
+JR180825-VLS-D834,2,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Low,52.18,1.01
+JR180825-VLS-D835,3,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Low,52.09,1.12
+JR180825-VLS-D836,4,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Low,54.15,1.13
+JR180825-VLS-D837,5,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Low,52.19,1.04
+JR180825-SAS-D838,1,8/25/2018,237,2018,Deciduous shrub,Salix,Ambient,51.03,1.58
+JR180825-SAS-D839,2,8/25/2018,237,2018,Deciduous shrub,Salix,Ambient,49.84,1.43
+JR180825-SAS-D840,3,8/25/2018,237,2018,Deciduous shrub,Salix,Ambient,51.66,1.31
+JR180825-SAS-D841,4,8/25/2018,237,2018,Deciduous shrub,Salix,Ambient,50.76,1.36
+JR180825-SAS-D842,5,8/25/2018,237,2018,Deciduous shrub,Salix,Ambient,51,1.46
+JR180825-BAS-D843,1,8/25/2018,237,2018,Deciduous shrub,Betula,Ambient,51.67,1.32
+JR180825-BAS-D844,2,8/25/2018,237,2018,Deciduous shrub,Betula,Ambient,51.56,1.17
+JR180825-BAS-D845,3,8/25/2018,237,2018,Deciduous shrub,Betula,Ambient,52.46,1.08
+JR180825-BAS-D846,4,8/25/2018,237,2018,Deciduous shrub,Betula,Ambient,51.35,1.41
+JR180825-BAS-D847,5,8/25/2018,237,2018,Deciduous shrub,Betula,Ambient,51.47,1.06
+JR180825-EAS-D848,1,8/25/2018,237,2018,Sedge,Eriophorum,Ambient,48.94,1.65
+JR180825-EAS-D849,2,8/25/2018,237,2018,Sedge,Eriophorum,Ambient,47.92,1.78
+JR180825-EAS-D850,3,8/25/2018,237,2018,Sedge,Eriophorum,Ambient,47.14,1.92
+JR180825-EAS-D851,4,8/25/2018,237,2018,Sedge,Eriophorum,Ambient,47,1.62
+JR180825-EAS-D852,5,8/25/2018,237,2018,Sedge,Eriophorum,Ambient,47.39,1.52
+JR180825-CAS-D853,1,8/25/2018,237,2018,Sedge,Carex,Ambient,46.55,1.2
+JR180825-CAS-D854,2,8/25/2018,237,2018,Sedge,Carex,Ambient,47.01,1.04
+JR180825-CAS-D855,3,8/25/2018,237,2018,Sedge,Carex,Ambient,47.19,1.04
+JR180825-CAS-D856,4,8/25/2018,237,2018,Sedge,Carex,Ambient,46.65,0.81
+JR180825-CAS-D857,5,8/25/2018,237,2018,Sedge,Carex,Ambient,47.25,1.36
+JR180825-LAS-D858,1,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Ambient,54.94,1.58
+JR180825-LAS-D859,2,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Ambient,52.93,1.69
+JR180825-LAS-D860,3,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Ambient,53.52,1.66
+JR180825-LAS-D861,4,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Ambient,53.38,1.63
+JR180825-LAS-D862,5,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Ambient,54.03,1.74
+JR180825-VAS-D863,1,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.89,1.03
+JR180825-VAS-D864,2,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.02,1.01
+JR180825-VAS-D865,3,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Ambient,53.24,1.15
+JR180825-VAS-D866,4,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Ambient,51.95,1.15
+JR180825-VAS-D867,5,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Ambient,52.83,0.96
+JR180825-SIS-D868,1,8/25/2018,237,2018,Deciduous shrub,Salix,Intermediate,49.93,2.29
+JR180825-SIS-D869,2,8/25/2018,237,2018,Deciduous shrub,Salix,Intermediate,49.93,2.22
+JR180825-SIS-D870,3,8/25/2018,237,2018,Deciduous shrub,Salix,Intermediate,49.81,2.23
+JR180825-SIS-D871,4,8/25/2018,237,2018,Deciduous shrub,Salix,Intermediate,50.88,2.23
+JR180825-SIS-D872,5,8/25/2018,237,2018,Deciduous shrub,Salix,Intermediate,51.05,2.62
+JR180825-BIS-D873,1,8/25/2018,237,2018,Deciduous shrub,Betula,Intermediate,51.19,1.66
+JR180825-BIS-D874,2,8/25/2018,237,2018,Deciduous shrub,Betula,Intermediate,50.54,1.67
+JR180825-BIS-D875,3,8/25/2018,237,2018,Deciduous shrub,Betula,Intermediate,51.45,1.7
+JR180825-BIS-D876,4,8/25/2018,237,2018,Deciduous shrub,Betula,Intermediate,50.85,1.69
+JR180825-BIS-D877,5,8/25/2018,237,2018,Deciduous shrub,Betula,Intermediate,51.65,1.44
+JR180825-EIS-D878,1,8/25/2018,237,2018,Sedge,Eriophorum,Intermediate,48.06,1.96
+JR180825-EIS-D879,2,8/25/2018,237,2018,Sedge,Eriophorum,Intermediate,47.52,2.28
+JR180825-EIS-D880,3,8/25/2018,237,2018,Sedge,Eriophorum,Intermediate,47.16,2.51
+JR180825-EIS-D881,4,8/25/2018,237,2018,Sedge,Eriophorum,Intermediate,47.48,2.43
+JR180825-EIS-D882,5,8/25/2018,237,2018,Sedge,Eriophorum,Intermediate,48.88,1.99
+JR180825-CIS-D883,1,8/25/2018,237,2018,Sedge,Carex,Intermediate,46.34,1.71
+JR180825-CIS-D884,2,8/25/2018,237,2018,Sedge,Carex,Intermediate,47.59,1.87
+JR180825-CIS-D885,3,8/25/2018,237,2018,Sedge,Carex,Intermediate,46.3,1.55
+JR180825-CIS-D886,4,8/25/2018,237,2018,Sedge,Carex,Intermediate,46.46,1.74
+JR180825-CIS-D887,5,8/25/2018,237,2018,Sedge,Carex,Intermediate,48.13,2.07
+JR180825-LIS-D888,1,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.11,1.64
+JR180825-LIS-D889,2,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Intermediate,51.85,1.61
+JR180825-LIS-D890,3,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Intermediate,53.6,1.75
+JR180825-LIS-D891,4,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.68,1.66
+JR180825-LIS-D892,5,8/25/2018,237,2018,Evergreen dwarf shrub,Ledum,Intermediate,54.47,1.67
+JR180825-VIS-D893,1,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,52.6,1.09
+JR180825-VIS-D894,2,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.62,1.03
+JR180825-VIS-D895,3,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,53.89,1.16
+JR180825-VIS-D896,4,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,54.26,1.01
+JR180825-VIS-D897,5,8/25/2018,237,2018,Evergreen dwarf shrub,Vaccinium,Intermediate,51.22,1.08
