@@ -1,9 +1,11 @@
 # Else Radeloff 
 # Feb 9th 2024
 
-# Looking at leaf n vs. precipitation (and eventually snowmelt date)
+# Looking at leaf n vs. precipitation 
 # data from TTT and TRY databases, and Madelaine Anderson 
 # Precipitation data from WorldClim 
+# snowmelt data recorded in excel based on visual analysis of Landsat and Sentinel imagery using NASA Worldview
+
 
 # Loading packages and data ---- 
 
@@ -19,42 +21,49 @@ library (brms)
 library (tidybayes)
 library (lubridate)
 
-# load TRY and TTT data
+# load data 
 
+# TRY data
 load("C:/Users/else5/OneDrive - University of Edinburgh/4th year/Dissertation/data/try_for_else (2).RData")
 
-#load("C:/Users/else5/OneDrive - University of Edinburgh/4th year/Dissertation/data/ttt_for_else (1).RData")
-
+#TTT data
 TTT_cleaned_dataset_v1 <- read_csv("data/TTT_cleaned_dataset_v1.csv")
 
 #  load Madi's data
 madi_raw <- read_csv("data/madi.csv")
 
-# load functional trait groupings 
+# spectra plot info 
+above_plots <- read_csv("data/ABoVE_plots.csv")
+above_points <- read_csv("data/ABoVE_points.csv")
 
+# spectra data 
+dry_spectra <- read_csv("data/spectra_traits_dry.csv")
+
+# load functional trait groupings 
 func_groups <- read.csv ("data/func_groups.csv")
 
 # load WorldClim data with the geodata library 
+# global precipitation data with 1 km resolution 
+precip_year <- worldclim_global (var = "prec", res = 0.5, path = 'data')
 
-#precip_year <- worldclim_global (var = "prec", res = 10, path = 'data')
+# coarser data for mapping (otherwise it's really slow)
+precip_year_10km <- worldclim_global (var = "prec", res = 10, path = 'data')
 
-precip_year_1km <- worldclim_global (var = "prec", res = 0.5, path = 'data')
 
+# define winter months (october - april)
 months <- c(10,11,12,1,2,3,4)
 
+# select precipitation data from winter months
+
 precip_winter <- precip_year[[months]]
+precip_winter_10km <- precip_year[[months]]
 
-precip_winter_1km <- precip_year_1km[[months]]
-
+# average precipitation across the winter to obtain one value per pixel 
 precip <- mean(precip_winter)
-precip_1km <- mean(precip_winter_1km)
+precip_10km <- mean(precip_winter_10km)
 
 # load arctic zones map (high arctic, low arctic, sub arctic)
 high_low_arc <- vect ("data/high_low_arctic_boundaries/Arctic_Zones_complete_polygons.shp")
-
-
-# load landcover data (trees) with geodata lib 
-trees <- landcover (var = "trees", path = 'C:/Users/else5/OneDrive - University of Edinburgh/4th year/Dissertation/data')
 
 # snowfence site locations (for mapping)
 snowfence_site <- read_xlsx ("data/snowfence_sites.xlsx")
@@ -71,10 +80,9 @@ WGSCRS <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
 # 69°34'45.9"N 138°53'38.2"W - Qikiqtaruk 
 # lat = 69.5791, lon = 138.8939 Qikiqtaruk 
 
-
+# tidy Madi's data to match other spreadsheets 
 madi <- madi_raw %>% 
   # adding lat and lon by site 
-  # not sure these points are correct - need to check that I converted right 
   mutate (lat = case_when (
     grepl ("Kluane Plateau", site) ~ 60.98,
     grepl ("Qikiqtaruk", site) ~ 69.5971)) %>% 
@@ -95,14 +103,12 @@ madi <- madi_raw %>%
   # renaming nitrogen column
   rename (n = percent_N) %>% 
   rename (Genus = latin.genus) %>% 
-  # changing the units so they match ttt and try 
-  mutate (n = n *10) %>% 
   filter (functional_group != "herb") %>% 
   # adding a column for data source 
   mutate (data_source = "Madi")
   
   
-# merge sheets so that each observation has a plant funcitonal type associated with it 
+# clean ttt dataset (select n observations, remove experimental plots, assign PFTs, etc)
 ttt_n <- TTT_cleaned_dataset_v1 %>% 
   # select rows with nitrogen observations 
   filter (Trait == "Leaf nitrogen (N) content per leaf dry mass") %>% 
@@ -241,7 +247,7 @@ ttt_n <- TTT_cleaned_dataset_v1 %>%
     grepl ("Primula integrifolia", Species) ~ "herb",
     TRUE ~ PlantGrowthForm))
 
-# merge sheets so that each observation has a plant functional type associated with it 
+## clean ttt dataset (select n observations, remove experimental plots, assign PFTs, etc)
 try_n <- mTRY2 %>% 
   # select only nitrogen measurements 
   filter (DataName == "Leaf nitrogen content per dry mass (Nmass)") %>%
@@ -403,7 +409,7 @@ try_n <- mTRY2 %>%
    grepl ("Rubus chamaemorus", Species) ~ "herb",
     TRUE ~ PlantGrowthForm)) 
 
-
+# further cleaning so datasheets can be merged 
 ttt <- ttt_n %>% 
   # selecting columns to match Madi's data 
   select(Species, IndividualID, Value,PlantGrowthForm,  Latitude, Longitude, data_source, Genus) %>% 
@@ -421,6 +427,7 @@ ttt <- ttt_n %>%
           & functional_group != "moss") %>% 
   filter (!is.na(lat))
 
+# further cleaning so datasheets can be merged 
 try <- try_n %>% 
   # select columns to match Madi's data 
   select (SpeciesName, ObsDataID, StdValue, PlantGrowthForm, Lat, Lon, data_source, Genus) %>% 
@@ -454,13 +461,159 @@ obs_n <- rbind (ttt, try, madi) %>%
 #  group_by (genus) %>% 
 #  tally()
 
-#test_obs
+# Wrangling spectra data ----
 
+# adjusting column and plot names 
+spectra <- dry_spectra %>% 
+  select (Sample, t_mean_Nitrogen, ) %>% 
+  rename (sample = Sample, n = t_mean_Nitrogen) %>% 
+  # remove 'ABV_' from start 
+  mutate (plot = str_remove (sample, "ABV_")) %>% 
+  # then make it only the first 8-9 characters 
+  mutate (plot = substr(plot, 1, 9))
+
+# selecting and renaming columns in the plot coordinates spreadsheet 
+points <- above_points %>% 
+  select (Name, Lat, Lon) %>% 
+  rename (plot = Name, lat = Lat, lon = Lon)
+
+# selecting and renaming columns in the spreadsheet w plot level info 
+plots <- above_plots %>% 
+  select (title, lat_9_Plot_Center, long_9_Plot_Center, `10_Plot_Type`, `44_Species_1`, `46_Species_2`, `48_Species_3`) %>% 
+  rename (plot = title, 
+          lat = lat_9_Plot_Center, 
+          lon = long_9_Plot_Center, 
+          plot_type = `10_Plot_Type`, 
+          species1 = `44_Species_1`, 
+          species2=`46_Species_2`, 
+          species3 = `48_Species_3`) %>% 
+  mutate (species = ifelse (plot_type == "Single Species Patch Tree/Shrub", species1, NA)) %>% 
+  mutate (species = ifelse (plot_type == "Single Species Box Ground", species1, species)) 
+
+# adding spectra info to the plot level data 
+spectra_plots <- spectra %>% 
+  left_join (plots, by = 'plot') #%>% 
+filter (!is.na(lat)) 
+
+# turning it into an excel spreadsheet so I can add species info 
+
+write_xlsx(spectra_plots, "data/above_plots_March7.xlsx")
+
+# loading the data back in after editing in excel 
+labled_plots  <- read_excel("data/above_plots.xlsx")
+
+# a little data cleaning 
+labled_plots <- labled_plots %>% 
+  filter (!is.na(plant_type)) %>% 
+  filter (plant_type != "tree") %>% 
+  select (!c(species1, species2, species3)) %>% 
+  mutate (plant_type = (ifelse(plant_type == "eergreen shrub", "evergreen shrub", plant_type)))
+
+
+# Extracting Raster Precipitation Data ----
+
+# creating a file of observation locations for extracting precip data 
+obs_sites <- obs_n %>% 
+  group_by (lat, lon) %>% 
+  mutate (ID = row_number()) %>% 
+  ungroup ()
+
+# make a vector layer of the coordinates  
+n_points <- vect (obs_n, geom=c("lon", "lat"), crs=WGSCRS)
+spectra_vect_points <- vect (labled_plots, geom=c("lon", "lat"), crs=WGSCRS)
+snowfence_points <- vect (snowfence_site, geom=c("lon", "lat"), crs = WGSCRS)
+
+
+# extract mean precipitation 
+arctic_precip <- terra::extract(precip, n_points)
+spectra_points_precip_1km <- terra::extract(precip, spectra_vect_points)
+
+
+
+# add precipitation data to trait datasheet 
+precip_trait <- obs_n %>% 
+  mutate (ID = row_number()) %>% 
+  left_join (arctic_precip, by = "ID") %>% 
+  rename (mean_precip = mean) %>% 
+  filter (!is.na(mean_precip))
+
+# add precipitation data to spectra trait datasheet 
+spectra_precip <- labled_plots %>% 
+  mutate (ID = row_number()) %>% 
+  left_join (spectra_points_precip, by = "ID") %>% 
+  rename (mean_precip = mean) %>% 
+  filter (!is.na(mean_precip))
+
+
+# Add arctic zone to filter out non-arctic sites 
+
+# load arctic zones map (high arctic, low arctic, sub arctic)
+zones <- vect ("data/high_low_arctic_boundaries/Arctic_Zones_complete_polygons.shp")
+#crs (zones)
+
+
+# changing projections to a top down view of the arctic to match zones map
+
+#re-projecting raster into top down view of the Arctic 
+precip_proj <- terra::project(precip, "EPSG:3408")
+#crs (precip_proj)
+spectra_vect_points_proj <- project (spectra_vect_points, "EPSG:3408")
+
+# re-projecting coordinates to the top down view of arctic 
+n_points_proj <- project (n_points, "EPSG:3408")
+snowfence_points_proj <- project (snowfence_points, "EPSG:3408")
+
+
+# extract zone 
+n_points_zone <- terra::extract(zones, n_points_proj) %>% 
+  select (id.y, Zone) %>% 
+  rename (ID = id.y, zone = Zone)
+
+spectra_points_zone <- terra::extract(zones, spectra_vect_points_proj) %>% 
+  select (id.y, Zone) %>% 
+  rename (ID = id.y, zone = Zone)
+
+# add zone data to trait datasheet 
+n_precip_zones <- precip_trait %>%  
+  left_join (n_points_zone, by = "ID") %>% 
+  # removing points below sub arctic 
+  filter (!is.na(zone)) %>% 
+  # divide nitrogen by 10 so that units are % instead of mg/g
+  mutate (leafn = n/10)
+
+spectra_precip_zones <- spectra_precip_1km %>% 
+  left_join (spectra_points_zone, by = "ID") %>% 
+  # removing points below sub arctic 
+  filter (!is.na(zone)) %>% 
+  mutate (zone2 = (ifelse(zone == "High arctic", "Low arctic", zone))) %>% 
+  filter (plant_type != "fern" 
+          & plant_type != "lichen"
+          & plant_type != "moss"
+          & plant_type != "herb") %>% 
+  # remove undersampled genus's
+  filter (Genus != "Chamaedaphne"
+          & Genus != "Oxytropis"
+          & Genus != "Rosa"
+          & Genus != "Sheperdia"
+          & !is.na (Genus))
+
+# create a spreadsheet of points to export to excel for assigning snowmelt dates 
+obs_points <- n_precip_zones %>% 
+  group_by (lat, lon) %>% 
+  tally ()
+
+#write_xlsx(obs_points, "data/observation_snowmelt_base.xlsx")
+#write_xlsx(spectra_precip_zones, "data/spectra_points_base.xlsx")
+
+# Map ----
+
+# averaging leaf nitrogen by site for mapping  
 obs_n_sites <- obs_n %>% 
   group_by (lat, lon) %>% 
   summarise (avg_n = mean (n)) 
 #str(obs_n_)
 
+# filtering sites with high, med and low nitrogen averages for mapping
 obs_high_n <- obs_n_sites %>% 
   filter (avg_n>30)
 
@@ -471,104 +624,39 @@ obs_med_n <- obs_n_sites %>%
 obs_low_n <- obs_n_sites %>% 
   filter (avg_n<20)
 
-obs_sites <- obs_n %>% 
+plots_avg_n <- labled_plots %>% 
   group_by (lat, lon) %>% 
-  mutate (ID = row_number()) %>% 
-  ungroup ()
+  summarise (avg_n = mean(n))
 
-# make a vector layer of the coordinates  ----
-n_points <- vect (obs_n, geom=c("lon", "lat"), crs=WGSCRS)
-snowfence_points <- vect (snowfence_site, geom=c("lon", "lat"), crs = WGSCRS)
+# same but for spectra points
+spectra_high_n_points <- plots_avg_n %>% 
+  filter (avg_n >3)
 
+spectra_med_n_points <- plots_avg_n %>% 
+  filter (avg_n >2) %>% 
+  filter (avg_n <3)
+
+spectra_low_n_points <- plots_avg_n %>% 
+  filter (avg_n <2)
+
+# creating vector layers of those points 
 points_high_n <- vect (obs_high_n, geom=c("lon", "lat"), crs = WGSCRS)
 points_med_n <- vect (obs_med_n, geom=c("lon", "lat"), crs = WGSCRS)
 points_low_n <- vect (obs_low_n, geom=c("lon", "lat"), crs = WGSCRS)
 
-### Extract precip data for data locations ----
-
-# extract mean precipitation 
-arctic_precip <- terra::extract(precip, n_points)
-arctic_precip_1km <- terra::extract(precip_1km, n_points)
+spectra_high_n_vect <- vect (spectra_high_n_points, geom=c("lon", "lat"), crs=WGSCRS)
+spectra_med_n_vect <- vect (spectra_med_n_points, geom=c("lon", "lat"), crs=WGSCRS)
+spectra_low_n_vect <- vect (spectra_low_n_points, geom=c("lon", "lat"), crs=WGSCRS)
 
 
-# add precipitation data to trait datasheet 
-precip_trait <- obs_n %>% 
-  mutate (ID = row_number()) %>% 
-  left_join (arctic_precip, by = "ID") %>% 
-  rename (mean_precip = mean) %>% 
-  filter (!is.na(mean_precip))
-
-precip_trait_1km <- obs_n %>% 
-  mutate (ID = row_number()) %>% 
-  left_join (arctic_precip_1km, by = "ID") %>% 
-  rename (mean_precip = mean) %>% 
-  filter (!is.na(mean_precip))
-
-
-# Add arctic zone 
-
-# load arctic zones map (high arctic, low arctic, sub arctic)
-zones <- vect ("data/high_low_arctic_boundaries/Arctic_Zones_complete_polygons.shp")
-#crs (zones)
-
-
-
-# changing projections to a top down view of the arctic to match zones map
-
-#re-projecting raster into top down view of the Arctic 
-precip_proj <- terra::project(precip, "EPSG:3408")
-#crs (precip_proj)
-
-# re-projecting coordinates to the top down view of arctic 
-n_points_proj <- project (n_points, "EPSG:3408")
-snowfence_points_proj <- project (snowfence_points, "EPSG:3408")
-
+# re-projecting those points to EPSG:3408
 high_n_proj <- project (points_high_n, "EPSG:3408")
 med_n_proj <- project (points_med_n, "EPSG:3408")
 low_n_proj <- project (points_low_n, "EPSG:3408")
 
-# extract zone 
-n_points_zone <- terra::extract(zones, n_points_proj) %>% 
-  select (id.y, Zone) %>% 
-  rename (ID = id.y, zone = Zone)
-
-# add zone data to trait datasheet 
-n_precip_zones <- precip_trait %>%  
-  left_join (n_points_zone, by = "ID") %>% 
-  # removing points below sub arctic 
-  #filter (!is.na(zone)) %>% 
-  mutate (zone2 = (ifelse(zone == "High arctic", "Low arctic", zone))) #%>% 
-
-
-# add zone data to trait datasheet 
-n_precip_zones_1km <- precip_trait_1km %>%  
-  left_join (n_points_zone, by = "ID") %>% 
-  # removing points below sub arctic 
-  #filter (!is.na(zone)) %>% 
-  mutate (zone2 = (ifelse(zone == "High arctic", "Low arctic", zone))) %>% 
-  mutate (leafn = n/10)
-
-
-obs_points <- n_precip_zones %>% 
-  group_by (lat, lon) %>% 
-  tally ()
-
-#write_xlsx(obs_points, "data/observation_snowmelt.xlsx")
-
-
-#### Plots ----
-
-# boxplot of N across plant functional groups 
-(plant_type_boxplot <- ggplot (obs_n, aes (x = functional_group, y = n)) +
-    geom_boxplot( fill = "light blue") +
-    theme_classic()+
-    xlab ("Plant Functional Group") +
-    ylab ("Nitrogen")
-)
-
-ggsave(plant_type_boxplot, filename = "graphs/plant_type_boxplot.png")
-
-# Map ----
+spectra_high_n_proj <- project (spectra_high_n_vect, "EPSG:3408")
+spectra_med_n_proj <- project (spectra_med_n_vect, "EPSG:3408")
+spectra_low_n_proj <- project (spectra_low_n_vect, "EPSG:3408")
 
 # Limiting how high precipitation can go to highlight the changes in precip at the lower end
 precip_scaled <- clamp (precip_proj, 0, 150)
@@ -578,22 +666,27 @@ extent <- ext(-4000000, 4000000, -4000000, 4000000)
 precip_crop <- crop(precip_scaled, extent)
 pal <- colorRampPalette(c("lightblue", "darkblue"))
 
-#precip_map <- plot (precip_scaled)
-precip_cropped_map <- plot (precip_crop, col = pal(20), axes = FALSE)
-# add lat lon lines (graticules)
-precip_cropped_map <- lines(graticule(lon=seq(0, 360, by=20), lat=seq(0, 90, by=30), crs="EPSG:3408"), col="black")
-precip_cropped_map <- lines(graticule(lon=20, lat=seq(0, 90, by=20), crs="EPSG:3408"), col="black")
-# add obs data points
-precip_cropped_map <- points (high_n_proj, cex = 2, col = "#CC6677")
-precip_cropped_map <- points (med_n_proj, cex = 1.2, col = "#CC6677")
-precip_cropped_map <- points (low_n_proj, cex = 0.7, col = "#CC6677")
-#adding spectra points
-precip_cropped_map <- points (spectra_high_n_proj, cex = 2, col = "goldenrod2")
-precip_cropped_map <- points (spectra_med_n_proj, cex = 1.2, col = "goldenrod2")
-precip_cropped_map <- points (spectra_low_n_proj, cex = 0.7, col = "goldenrod2")
-# snowfence sites 
-precip_cropped_map <- points (snowfence_points_proj, cex = 1.5, col = "#661100", bg = "#661100", pch = 23)
+# time to actually plot the raster data! 
+precip_map <- plot (precip_crop, col = pal(20), axes = FALSE)
 
+# add lat lon lines (graticules)
+precip_map <- lines(graticule(lon=seq(0, 360, by=20), lat=seq(0, 90, by=30), crs="EPSG:3408"), col="black")
+precip_map <- lines(graticule(lon=20, lat=seq(0, 90, by=20), crs="EPSG:3408"), col="black")
+
+# add obs data points with different sized for different average n values 
+precip_map <- points (high_n_proj, cex = 2, col = "#CC6677")
+precip_map <- points (med_n_proj, cex = 1.2, col = "#CC6677")
+precip_map <- points (low_n_proj, cex = 0.7, col = "#CC6677")
+
+#adding spectra points
+precip_map <- points (spectra_high_n_proj, cex = 2, col = "goldenrod2")
+precip_map <- points (spectra_med_n_proj, cex = 1.2, col = "goldenrod2")
+precip_map <- points (spectra_low_n_proj, cex = 0.7, col = "goldenrod2")
+
+# snowfence sites 
+precip_map <- points (snowfence_points_proj, cex = 1.5, col = "#661100", bg = "#661100", pch = 23)
+
+# adding a legend
 legend(x = 1800000, y = 4000000,
        legend = c("High Leaf N (>3%)", "Med Leaf N (2-3%)", "Low Leaf N (<2%)", "Observational Data", 
                   "Spectra Data", "Snowfence Points"),
@@ -605,125 +698,63 @@ legend(x = 1800000, y = 4000000,
 )
 
 
-ggsave (precip_cropped_map, filename = "graphs/precip_map.png")
+ggsave (precip_map, filename = "graphs/precip_map.png")
 
+### Precipitation Models ----
 
-# Load your vector data
-vector_data <- read.csv("path/to/your/vector/file.csv")
-
-# Add vector points to the plot
-map_plot <- map_plot +
-  geom_point(data = vector_data, aes(x = lon, y = lat, color = variable_name), size = 2) +  # Replace "lon", "lat", and "variable_name" with appropriate column names from your vector data
-  scale_color_manual(values = c("red", "blue", "green")) +  # Adjust point colors as needed
-  labs(color = "Your Variable Name")  
-
-
-# Scatter plot of mean precipitation vs. leaf nitrogen 
-(precip_vs_n <- ggplot (precip_trait, aes(x=mean_precip, y = n, col = functional_group)) +
-    geom_point() +
-    geom_smooth(method = lm, se = FALSE)+
-    theme_classic() +
-    xlab ("Mean Precipitation") +
-    ylab ("Nitrogen Content")) 
-
-ggsave(precip_vs_n, filename = "graphs/precip_vs_n.png")
-
-# latitude versus nitrogen 
-(lat_vs_n <- ggplot (precip_trait, aes(x=lat, y = n, col = functional_group)) +
-    geom_point() +
-    theme_classic() +
-    geom_smooth (method = lm, se = FALSE) +
-    xlab ("Latitude") +
-    ylab ("Nitrogen Content"))
-# no clear trend 
-
-# does precipitation change with latitude? 
-(lat_vs_precip <- ggplot (precip_trait, aes(x=lat, y = mean_precip, col = data_source)) +
-    geom_point() +
-    theme_classic() +
-    geom_smooth (method = lm, se = FALSE) +
-    xlab ("Latitude") +
-    ylab ("Average Precipitation"))
-# no clear trend yay
-
-
-### Models ----
-
-# PFT
-
-#precip_pft_lm <- lmer (n ~ mean_precip * functional_group + (1|species) + (1|zone), data = n_precip_zones)
-# boundary fit singular when I let functional group / species be a random slope 
-# warning: fixed-effect model matrix is rank deficient so dropping 1 column / coefficient
-
-#plot(precip_pft_lm)
-#summary (precip_pft_lm)
-
-# bayesian version 
-
-
-# with zone 
-#precip_pft_zone_mod <- brm (n ~ mean_precip * functional_group + (1|zone2), data = n_precip_zones)
-# deleting species for now because I haven't filtered those/ decided if I can do that in the spectra data
-
-#summary (precip_pft_zone_mod)
-#plot (precip_pft_zone_mod)
-#pp_check (precip_pft_zone_mod)
-
-# it says its unhappy and there were 247 divergent transitions so not ideal
-# biggest rhat is 1.03
-# ESS of intercept is 127 so a bit low...
-
-# it was happier when I did the original zones (high, low, sub) instead of grouping high and low together 
-
-#random_effects <- ranef(precip_pft_zone_mod)
-#print(random_effects)
-
-# Final model ----
-
+# obs data 
+# precipitation and pft as fixed effects 
 precip_pft_mod <- brm (n ~ mean_precip * functional_group + (1|genus), data = n_precip_zones)
 
 
+# check model outputs and assumptions
 summary (precip_pft_mod)
 plot (precip_pft_mod) # yay happy fuzzy caterpillars 
 pp_check (precip_pft_mod)
 
+# check random effects table 
 random_effects_obs_genus <- ranef(precip_pft_mod)
 print(random_effects_obs_genus)
 
 # happy model - no divergent transitions, rhats at 1 and lots of ess
 
+# save model because bayesian takes forever to run 
 #saveRDS(precip_pft_mod, "models/obs_precip_mod.RDS")
 
-precip_pft_mod_10km <- readRDS("models/obs_precip_mod.RDS")
-
-# high res model 
-precip_pft_mod_1km <- brm (leafn ~ mean_precip * functional_group + (1|genus), data = n_precip_zones_1km)
-
-summary (precip_pft_mod_1km)
-plot (precip_pft_mod_1km) # yay happy fuzzy caterpillars 
-pp_check (precip_pft_mod_1km)
-
-random_effects_obs_genus_1km <- ranef(precip_pft_mod_1km)
-print(random_effects_obs_genus_1km)
-
-#saveRDS(precip_pft_mod_1km, "models/obs_precip_mod_1km.RDS")
-
-precip_pft_mod_1km <- readRDS("models/obs_precip_mod_1km.RDS")
+precip_pft_mod <- readRDS("models/obs_precip_mod_1km.RDS")
 
 
+# Spectra precip model 
+spectra_precip_mod <- brm (n ~ mean_precip * plant_type + (1|Genus), data = spectra_precip_zones)
+
+summary (spectra_precip_mod)
+
+plot (spectra_precip_mod)
+pairs (spectra_precip_mod)
+pp_check(spectra_precip_mod)
+
+random_effects_genus <- ranef(spectra_precip_mod)
+print(random_effects_genus)
+
+# save model 
+#saveRDS(spectra_precip_mod, "models/spectra_precip_mod.RDS")
+
+spectra_precip_mod <- readRDS("models/spectra_precip_1km_mod.RDS")
 
 # plotting model results ----
 
+# create a dummy spreadsheet 
 obs_precip_mod_data <- expand_grid(mean_precip = seq(0, 90, by = 5), 
                                        n = seq(0, 5, by = 0.5),
                                        functional_group = levels (as.factor(n_precip_zones$functional_group)))
                                        #genus = levels (as.factor(n_precip_zones$genus)))
 
-obs_precip_mod_pred <- precip_pft_mod_1km %>% 
+# fill dummy spreadsheet with model predicitons
+obs_precip_mod_pred <- precip_pft_mod %>% 
   epred_draws(newdata = obs_precip_mod_data, allow_new_levels = TRUE)
 
-(obs_precip_mod_1km_fit <- ggplot() +
-    geom_point(data = n_precip_zones_1km, aes(x = mean_precip, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
+(obs_precip_mod_fit <- ggplot() +
+    geom_point(data = n_precip_zones, aes(x = mean_precip, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
     stat_lineribbon(data = obs_precip_mod_pred, aes(y = .epred, x = mean_precip, color = ordered (functional_group), fill = ordered (functional_group)), .width = c(.95), # regression line and CI
                     alpha = 0.25) +
     scale_fill_manual(values = c("#117733", "#332288", "#AA4499")) +
@@ -739,8 +770,9 @@ obs_precip_mod_pred <- precip_pft_mod_1km %>%
           axis.title = element_text(size=14,face="bold"),
           legend.text = element_text (size = 15)))
 
-ggsave (obs_precip_mod_1km_fit, filename = "graphs/obs_precip_mod_1km_fit.png")
+ggsave (obs_precip_mod_fit, filename = "graphs/obs_precip_mod_fit.png")
 
+# making a plot without a legend so I can save the two plots together nicely 
 (obs_precip_plot_simple <- ggplot() +
     geom_point(data = n_precip_zones_1km, aes(x = mean_precip, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
     stat_lineribbon(data = obs_precip_mod_pred, aes(y = .epred, x = mean_precip, color = ordered (functional_group), fill = ordered (functional_group)), .width = c(.95), # regression line and CI
@@ -759,7 +791,90 @@ ggsave (obs_precip_mod_1km_fit, filename = "graphs/obs_precip_mod_1km_fit.png")
           axis.title = element_text(size=14,face="bold"),
           legend.text = element_text (size = 15)))
 
-### whittaker plot attempt ----
+
+# same for spectra model 
+
+# dummy datasheet 
+spectra_precip_mod_data <- expand_grid(mean_precip = seq(4, 36, by = 1), 
+                                       n = seq(0, 5, by = 0.5),
+                                       plant_type = levels (as.factor(spectra_precip_zones$plant_type)),
+                                       Genus = levels (as.factor(spectra_precip_zones$Genus)))
+
+# fill datasheet with model predictions
+spectra_precip_mod_pred <- spectra_precip_mod %>% 
+  epred_draws(newdata = spectra_precip_mod_data, allow_new_levels = TRUE)
+
+# plot! 
+(spectra_precip_mod_fit <- ggplot () +
+    geom_point(data = spectra_precip_zones, aes(x = mean_precip, y = n, color = ordered (plant_type), fill = ordered (plant_type))) +   # raw data
+    stat_lineribbon(data = spectra_precip_mod_pred, aes(y = .epred, x = mean_precip, color = ordered (plant_type), fill = ordered (plant_type)), .width = c(.95), # regression line and CI
+                    alpha = 0.25) +
+    scale_fill_manual(values = c("#117733", "#332288", "#AA4499")) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab("Leaf Nitrogen Concentration (%)") +  
+    xlab("Mean Precipitation (mm)") +
+    scale_x_continuous(expand = c(0, 0), limits = c(0,90)) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,5)) +
+    theme_classic() +
+    theme(legend.title = element_blank(),
+          legend.position = "none",
+          axis.text = element_text (size = 15),
+          axis.title=element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15)))
+
+# save plot 
+ggsave (spectra_precip_mod_fit, filename = "graphs/spectra_precip_mod_fit_pft.png")
+
+# put the two graphs (also obs model) on top of eachother in the same figure 
+(precip_combined_plot <- grid.arrange(obs_precip_plot_simple, spectra_precip_mod_fit,  ncol = 1))
+
+ggsave (precip_combined_plot, filename = "graphs/precip_combined_plot.png")
+
+
+####################################################################################
+
+# Snowmelt models 
+
+########################################################################################
+
+# read in snowmelt data 
+try_snowmelt_raw <- read_excel("data/try_snowmelt.xlsx")
+ttt_snowmelt_raw <- read_excel("data/ttt_snowmelt.xlsx")
+
+try_snowmelt <- try_snowmelt_raw %>% 
+  select (species, year, snowmelt_date, sample_id, data_source) %>% 
+  filter (!is.na(snowmelt_date)) %>% 
+  mutate (snowmelt_date = yday(snowmelt_date)) %>% 
+  #mutate(sample_id = as.character(sample_id)) %>% 
+  left_join (n_precip_zones, by = "sample_id") %>% 
+  select (-c(species.y, data_source.y)) %>% 
+  rename (species = species.x,
+          data_source = data_source.x)
+
+ttt_snowmelt <- ttt_snowmelt_raw %>% 
+  select (species, year, snowmelt_date, sample_id, data_source) %>% 
+  filter (!is.na(snowmelt_date)) %>% 
+  mutate (snowmelt_date = yday(snowmelt_date)) %>% 
+  #mutate(sample_id = as.character(sample_id)) %>% 
+  left_join (n_precip_zones, by = "sample_id") %>% 
+  select (-c(species.y, data_source.y)) %>% 
+  rename (species = species.x,
+          data_source = data_source.x)
+
+madi_snowmelt <- n_precip_zones %>% 
+  filter (data_source == "Madi") %>% 
+  mutate (snowmelt_date = case_when (
+    grepl (60.98, lat) ~ 167,
+    grepl (69.5971, lat) ~ 158)) %>% 
+  mutate (year = "2021 - 2022")
+
+# combine spreadsheets 
+obs_snowmelt <- rbind (try_snowmelt, ttt_snowmelt, madi_snowmelt) %>% 
+  filter (!is.na(functional_group)) %>% 
+  mutate (leafn = n/10)
+
+
+### whittaker plot ----
 
 # download and extract worldclim temp data
 
@@ -781,13 +896,14 @@ n_precip_temp <- n_precip_zones_1km %>%
   rename (annual_precip = mean)
 
   
-
+# common species to put on whittaker plot 
 obs_common_species <- n_precip_zones_1km %>% 
   group_by (species) %>% 
   tally () %>% 
   filter (n > 5) %>% 
   pull (species)
 
+# filtering out uncommon species and averaging nitrogen, precipitation and temp by species 
 obs_species_avg <- n_precip_temp %>% 
   filter(species %in% obs_common_species) %>% 
   group_by (functional_group, genus, species) %>% 
@@ -796,7 +912,7 @@ obs_species_avg <- n_precip_temp %>%
     avg_precipitation = mean(annual_precip),
     avg_temp = mean(temp, na.rm = TRUE))
 
-
+# plot! 
 (obs_whittaker <- ggplot (data = obs_species_avg, aes (x = avg_temp, 
                                                    y = avg_precipitation, 
                                                    col = functional_group)) +
@@ -814,8 +930,11 @@ obs_species_avg <- n_precip_temp %>%
           axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
           axis.title.y = element_text(margin = margin(r = 20))))
 
+# save plot 
 ggsave (obs_whittaker, filename = "graphs/obs_whittaker.png")
   
+
+# plot average leaf nitrogen vs average precipitation 
 (precip_species_avg_n_obs_plot <- ggplot (data = obs_species_avg, aes (x = avg_precipitation, 
                                                                        y = avg_nitrogen, 
                                                                        col = functional_group)) +
