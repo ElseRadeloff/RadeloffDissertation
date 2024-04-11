@@ -873,6 +873,157 @@ obs_snowmelt <- rbind (try_snowmelt, ttt_snowmelt, madi_snowmelt) %>%
   filter (!is.na(functional_group)) %>% 
   mutate (leafn = n/10)
 
+# spectra snowmelt data
+spectra_snowmelt_full <- read_excel("data/snowmelt.xlsx")
+
+spectra_snowmelt <- spectra_snowmelt_full %>% 
+  select (plot, lat, lon, snowmelt_date) %>% 
+  mutate (snowmelt_date = yday(snowmelt_date))
+
+spectra_snowmelt_n <- spectra_precip_zones %>% 
+  left_join(spectra_snowmelt, by = "plot") %>% 
+  filter (!is.na(snowmelt_date)) 
+
+# Models 
+
+# obs model
+obs_snowmelt_mod <- brm (leafn ~ snowmelt_date * functional_group + (1|genus), data = obs_snowmelt)
+
+summary (obs_snowmelt_mod)
+plot (obs_snowmelt_mod)
+pairs (obs_snowmelt_mod)
+pp_check(obs_snowmelt_mod)
+
+random_effects_obs_snowmelt <- ranef(obs_snowmelt_mod)
+print(random_effects_obs_snowmelt)
+
+print(summary(obs_snowmelt_mod), digits = 4)
+
+# save model 
+#saveRDS(obs_snowmelt_mod, "models/obs_snowmelt_mod.RDS")
+
+obs_snowmelt_mod <- readRDS("models/obs_snowmelt_mod.RDS")
+
+# spectra model
+# model 
+spectra_snowmelt_mod <- brm (n ~ snowmelt_date * plant_type + (1|Genus), data = spectra_snowmelt_n)
+
+summary (spectra_snowmelt_mod)
+
+plot (spectra_snowmelt_mod)
+pairs (spectra_snowmelt_mod)
+pp_check(spectra_snowmelt_mod)
+
+random_effects_spectra_snowmelt <- ranef(spectra_snowmelt_mod)
+print(random_effects_spectra_snowmelt)
+
+# save model 
+#saveRDS(spectra_snowmelt_mod, "models/spectra_snowmelt_mod.RDS")
+
+spectra_snowmelt_mod  <- readRDS("models/spectra_snowmelt_mod.RDS")
+
+## Plot ----
+
+# obs model plot 
+# dummy data frame
+obs_snowmelt_mod_data <- expand_grid(snowmelt_date = seq(100, 215, by = 5), 
+                                     n = seq(0, 5, by = 0.5),
+                                     functional_group = levels (as.factor(obs_snowmelt$functional_group)))
+
+obs_snowmelt_mod_pred <- obs_snowmelt_mod %>% 
+  epred_draws(newdata = obs_snowmelt_mod_data, allow_new_levels = TRUE)
+
+# define dates to replace doy on axis label for better communication
+date <- c("Feb 19", "April 9", "May 29", "July 18")
+
+# plot model 
+(obs_snowmelt_mod_fit <- ggplot() +
+    geom_point(data = obs_snowmelt, aes(x = snowmelt_date, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
+    stat_lineribbon(data = obs_snowmelt_mod_pred, aes(y = .epred, x = snowmelt_date, color = ordered (functional_group), fill = ordered (functional_group)), .width = c(.95), # regression line and CI
+                    alpha = 0.25) +
+    scale_x_continuous(expand = c(0, 0), limits = c(50,225), breaks = seq(50, 225, by = 50), labels = date) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,5.5)) +
+    scale_fill_manual(values = c("#117733", "#332288", "#AA4499")) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab("Leaf Nitrogen Concentration (%)") +  
+    xlab("Snowmelt Date") +
+    theme_classic() +
+    theme(legend.title = element_blank(),
+          legend.position = c(0.15, 0.85),
+          axis.text = element_text (size = 15),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+ggsave (obs_snowmelt_mod_fit, filename = "graphs/obs_snowmelt_mod_fit_pft.png")
+
+
+# plot model without legend, axes lables, etc for clarity when combining
+(obs_snowmelt_plot_simple <- ggplot() +
+    geom_point(data = obs_snowmelt, aes(x = snowmelt_date, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
+    stat_lineribbon(data = obs_snowmelt_mod_pred, aes(y = .epred, x = snowmelt_date, color = ordered (functional_group), fill = ordered (functional_group)), .width = c(.95), # regression line and CI
+                    alpha = 0.25) +
+    #add_predicted_draws(obs_snowmelt_mod) %>%  # adding the posterior distribution
+    # ggplot(aes(x = snowmelt_date, y = n, color = ordered (functional_group), fill = ordered (functional_group))) +  
+    #stat_lineribbon(aes(y = .prediction)) +
+    #geom_point(data = obs_snowmelt_n, size = 3) +   # raw data
+    scale_x_continuous(expand = c(0, 0), limits = c(50,225), breaks = seq(50, 225, by = 50), labels = date) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,5.5)) +
+    scale_fill_manual(values = c("#117733", "#332288", "#AA4499")) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab("Leaf Nitrogen Concentration (%)") +  
+    #xlab("Snowmelt date (doy)") +
+    theme_classic() +
+    theme(legend.title = element_blank(),
+          legend.position = "none",
+          axis.text = element_text (size = 15),
+          axis.title.x = element_blank(),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+# plot spectra snowmelt model
+
+spectra_snowmelt_mod_data <- expand_grid(snowmelt_date = seq(75, 190, by = 1), 
+                                         n = seq(0, 5, by = 0.5),
+                                         plant_type = levels (as.factor(spectra_snowmelt_n$plant_type)))
+
+spectra_snowmelt_mod_pred <- spectra_snowmelt_mod %>% 
+  epred_draws(newdata = spectra_snowmelt_mod_data, allow_new_levels = TRUE)
+
+(spectra_snowmelt_mod_fit <- ggplot() +
+    geom_point(data = spectra_snowmelt_n, aes(x = snowmelt_date, y = n, color = ordered (plant_type), fill = ordered (plant_type))) +   # raw data
+    stat_lineribbon(data = spectra_snowmelt_mod_pred, aes(y = .epred, x = snowmelt_date, color = ordered (plant_type), fill = ordered (plant_type)), .width = c(.95), # regression line and CI
+                    alpha = 0.25) +
+    scale_x_continuous(expand = c(0, 0), limits = c(50,225), breaks = seq(50, 225, by = 50), labels = date) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,5.5)) +
+    scale_fill_manual(values = c("#117733", "#332288", "#AA4499")) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab("Leaf Nitrogen Concentration (%)") +  
+    xlab("Snowmelt Date") +
+    theme_classic() +
+    theme(legend.title = element_blank(),
+          legend.position = "right",  # Move legend to the right
+          axis.text = element_text (size = 15),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+ggsave (spectra_snowmelt_mod_fit, filename = "graphs/spectra_snowmelt_mod_fit_pft.png")
+
+
+# put the two graphs on top of eachother in the same figure 
+(snowmelt_combined_plot <- grid.arrange(
+  obs_snowmelt_plot_simple, 
+  #ggtitle ("A") +
+  spectra_snowmelt_mod_fit,
+  # ggtitle ("B") +  
+  ncol = 1))
+
+ggsave (snowmelt_combined_plot, filename = "graphs/snowmelt_combined_plot.png")
+
 
 ### whittaker plot ----
 
@@ -895,12 +1046,22 @@ n_precip_temp <- n_precip_zones_1km %>%
   left_join (arctic_annual_precip, by = "ID") %>% 
   rename (annual_precip = mean)
 
+spectra_precip_temp <- spectra_precip_zones %>% 
+  mutate (ID = row_number()) %>%  
+  left_join (arctic_spectra_temp, by = "ID") %>% 
+  rename (temp = mean)
   
 # common species to put on whittaker plot 
 obs_common_species <- n_precip_zones_1km %>% 
   group_by (species) %>% 
   tally () %>% 
   filter (n > 5) %>% 
+  pull (species)
+
+spectra_common_species <- spectra_precip_zones %>% 
+  group_by (species) %>% 
+  tally () %>% 
+  filter (n > 1) %>% 
   pull (species)
 
 # filtering out uncommon species and averaging nitrogen, precipitation and temp by species 
@@ -911,6 +1072,16 @@ obs_species_avg <- n_precip_temp %>%
     avg_nitrogen = mean(leafn),
     avg_precipitation = mean(annual_precip),
     avg_temp = mean(temp, na.rm = TRUE))
+
+spectra_species_avg <- spectra_precip_temp %>% 
+  filter(species %in% spectra_common_species) %>% 
+  group_by (plant_type, Genus, species) %>% 
+  summarise(
+    avg_nitrogen = mean(n),
+    avg_precipitation = mean(mean_precip),
+    avg_temp = mean (temp)
+  ) %>% 
+  filter (!is.na (avg_temp))
 
 # plot! 
 (obs_whittaker <- ggplot (data = obs_species_avg, aes (x = avg_temp, 
@@ -932,6 +1103,26 @@ obs_species_avg <- n_precip_temp %>%
 
 # save plot 
 ggsave (obs_whittaker, filename = "graphs/obs_whittaker.png")
+
+(whittaker_spectra <- ggplot (data = spectra_species_avg, aes (x = avg_temp, 
+                                                               y = avg_precipitation,  
+                                                               col = plant_type)) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    xlab ("Average Annual Temperature (°C)") +
+    ylab ("Annual Preciptitaion (mm)") +
+    geom_point(aes(size = avg_nitrogen)) +
+    scale_y_continuous(expand = c(0, 0), limits = c(0,120)) +
+    theme_classic()+
+    theme(legend.title = element_blank(),
+          legend.position = "right",  # Move legend to the right
+          axis.text = element_text (size = 15),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+ggsave(whittaker_spectra, filename = "graphs/whittaker_spectra.png")
+
   
 
 # plot average leaf nitrogen vs average precipitation 
@@ -957,4 +1148,26 @@ ggsave (obs_whittaker, filename = "graphs/obs_whittaker.png")
           axis.title.y = element_text(margin = margin(r = 20))))
 
 ggsave (precip_species_avg_n_obs_plot, filename = "graphs/precip_species_avg_n_obs_plot.png")
+
+# spectra average leaf nitrogen vs average precipitation 
+(precip_species_avg_n_plot <- ggplot (data = spectra_species_avg, aes (x = avg_precipitation, 
+                                                                       y = avg_nitrogen, 
+                                                                       col = plant_type)) +
+    geom_point (size = 3) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab ("Leaf Nitrogen Concentration (%)") +
+    xlab ("Annual Precipitation (mm)") +
+    scale_x_continuous(expand = c(0, 0), limits = c(0,100)) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,3.5)) +
+    theme_classic ()+
+    theme(legend.title = element_blank(),
+          legend.position = "right",  # Move legend to the right
+          axis.text = element_text (size = 15),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+ggsave (precip_species_avg_n_plot, filename = "graphs/precip_species_avg_n_spectra_plot.png")
+
 
