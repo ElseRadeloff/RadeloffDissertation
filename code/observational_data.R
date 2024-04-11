@@ -662,16 +662,17 @@ spectra_low_n_proj <- project (spectra_low_n_vect, "EPSG:3408")
 precip_scaled <- clamp (precip_proj, 0, 150)
 
 # rectangle that defines the area we will crop to (xmin, xmax, ymin, ymax)
-extent <- ext(-4000000, 4000000, -4000000, 4000000)
+extent <- ext(-5500000, 5500000, -4500000, 4500000)
 precip_crop <- crop(precip_scaled, extent)
 pal <- colorRampPalette(c("lightblue", "darkblue"))
 
 # time to actually plot the raster data! 
 precip_map <- plot (precip_crop, col = pal(20), axes = FALSE)
 
+
 # add lat lon lines (graticules)
-precip_map <- lines(graticule(lon=seq(0, 360, by=20), lat=seq(0, 90, by=30), crs="EPSG:3408"), col="black")
-precip_map <- lines(graticule(lon=20, lat=seq(0, 90, by=20), crs="EPSG:3408"), col="black")
+precip_map <- lines(graticule(lon=seq(0, 360, by=20), lat=seq(0, 90, by=30), crs="EPSG:3408"), col="black", lwd= 0.5)
+precip_map <- lines(graticule(lon=20, lat=seq(0, 90, by=20), crs="EPSG:3408"), col="black", lwd= 0.5)
 
 # add obs data points with different sized for different average n values 
 precip_map <- points (high_n_proj, cex = 2, col = "#CC6677")
@@ -687,14 +688,14 @@ precip_map <- points (spectra_low_n_proj, cex = 0.7, col = "goldenrod2")
 precip_map <- points (snowfence_points_proj, cex = 1.5, col = "#661100", bg = "#661100", pch = 23)
 
 # adding a legend
-legend(x = 1600000, y = 4000000,
-       legend = c("High Leaf N (>3%)", "Med Leaf N (2-3%)", "Low Leaf N (<2%)", "Observational Data", 
-                  "Spectra Data", "Snowfence Points"),
+legend(x = -5500000, y = -1900000,
+       legend = c("Observation Data High Leaf N (>3%)", "Observation Data Med Leaf N (2-3%)", "Observation Data Low Leaf N (<2%)", 
+                  "Spectra Data High Leaf N (>3%)", "Spectra Data Med Leaf N (2-3%)", "Spectra Data Low Leaf N (<2%)", "Snowfence Points"),
        pch = c(21, 21, 21, 21, 21, 23),
-       col = c("black", "black", "black", "#CC6677", "goldenrod2",  "#661100"),
-       pt.bg = c("black", "black", "black", "#CC6677", "goldenrod2",  "#661100"),
+       col = c("#CC6677", "#CC6677",  "#CC6677", "goldenrod2", "goldenrod2", "goldenrod2",  "#661100"),
+       pt.bg = c("#CC6677", "#CC6677", "#CC6677", "goldenrod2","goldenrod2","goldenrod2",  "#661100"),
        bg = "white",
-       pt.cex = c(2, 1.2, 0.7, 2, 2, 1.5)
+       pt.cex = c(2, 1.2, 0.7, 2, 1.2, 0.7, 1.5)
 )
 
 
