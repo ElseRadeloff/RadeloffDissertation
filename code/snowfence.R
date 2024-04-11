@@ -326,26 +326,3 @@ species_mod_fit3 <- species_mod_fit2 %>%
 ggsave(species_mod_plot, filename = "graphs/snowfence_species_mod_plot.png")  
 
 
-# looking at day of year graph ----
-
-snowfence_doy_mod_data <- expand_grid (doy = seq (150, 260, by = 7),
-                                       location = levels (as.factor(snowfence_salix$location)),
-                                       treat = levels (as.factor(snowfence_salix$treat)),
-                                       n = seq(0, 5, by = 0.5))
-
-snowfence_doy_mod_pred <- location_mod %>% 
-  epred_draws(newdata = snowfence_doy_mod_data, allow_new_levels = TRUE)
-
-(spectra_snowmelt_mod_fit <- ggplot() +
-    geom_point(data = snowfence_salix, aes(x = doy, y = n, color = ordered (treat), fill = ordered (treat))) +   # raw data
-    stat_lineribbon(data = snowfence_doy_mod_pred, aes(y = .epred, x = doy, color = ordered (treat), fill = ordered (treat)), .width = c(.95), # regression line and CI
-                    alpha = 0.25) +
-    scale_fill_brewer(palette = "Set2") +
-    scale_color_brewer(palette = "Dark2") +
-    ylab("Percentage Nitrogen (%)") +  
-    xlab("Day of year") +
-    theme_bw() +
-    theme(legend.title = element_blank(),
-          legend.position = c(0.15, 0.85)))
-
-
