@@ -14,8 +14,7 @@ library (tidyverse)
 library (readxl)
 library (geodata)
 library (readr)
-library (lme4)
-library(nortest)
+#library(nortest)
 library (brms)
 library (tidybayes)
 library (lubridate)
@@ -1171,4 +1170,69 @@ ggsave (precip_species_avg_n_obs_plot, filename = "graphs/precip_species_avg_n_o
 
 ggsave (precip_species_avg_n_plot, filename = "graphs/precip_species_avg_n_spectra_plot.png")
 
+
+# make datasheet with snowmelt averages by species 
+obs_species_snowmelt_avg <- obs_snowmelt %>% 
+  filter(species %in% obs_common_species) %>% 
+  group_by (functional_group, genus, species) %>% 
+  summarise(
+    avg_nitrogen = mean(leafn),
+    avg_snowmelt = mean(snowmelt_date))
+
+
+spectra_snowmelt_avg <- spectra_snowmelt_n %>% 
+  filter (species %in% spectra_common_species) %>% 
+  group_by (plant_type, Genus, species) %>% 
+  summarise(
+    avg_nitrogen = mean(n),
+    avg_snowmelt = mean(snowmelt_date)
+  )
+
+average_dates <- c("March 21", "April 30", "June 9", "July 19")
+
+# plot 
+(snowmelt_species_avg_n_obs_plot <- ggplot (data = obs_species_snowmelt_avg, aes (x = avg_snowmelt, 
+                                                                                  y = avg_nitrogen, 
+                                                                                  col = functional_group)) +
+    geom_point (size = 3) +
+    # stat_ellipse(geom = "polygon", aes(x=avg_precipitation, y=avg_nitrogen, 
+    #                                   fill = functional_group, 
+    #                                  alpha = 0.2, size = 0.2)) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab ("Leaf Nitrogen Concentration (%)") +
+    xlab ("Snowmelt Date") +
+    scale_x_continuous(limits = c(80,230), breaks = seq(80, 230, by = 40), labels = average_dates) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,4)) +
+    theme_classic () +
+    theme(legend.title = element_blank(),
+          legend.position = "right",  # Move legend to the right
+          axis.text = element_text (size = 15),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+ggsave (snowmelt_species_avg_n_obs_plot, filename = "graphs/snowmelt_species_avg_n_obs_plot.png")
+
+
+# spectra average leaf nitrogen vs average snowmelt date  
+(snowmelt_species_avg_n_spectra_plot <- ggplot (data = spectra_snowmelt_avg, aes (x = avg_snowmelt, 
+                                                                       y = avg_nitrogen, 
+                                                                       col = plant_type)) +
+    geom_point (size = 3) +
+    scale_color_manual(values = c("#117733", "#332288", "#AA4499")) +
+    ylab ("Leaf Nitrogen Concentration") +
+    xlab ("Snowmelt Date") +
+    scale_x_continuous(limits = c(80,230), breaks = seq(80, 230, by = 40), labels = average_dates) + 
+    scale_y_continuous(expand = c(0, 0), limits = c(0,4)) +
+    theme_classic ()+
+    theme(legend.title = element_blank(),
+          legend.position = "right",  # Move legend to the right
+          axis.text = element_text (size = 15),
+          axis.title = element_text(size=14,face="bold"),
+          legend.text = element_text (size = 15),
+          axis.title.x = element_text(margin = margin(t = 20)),  # Adjust x-axis label margin
+          axis.title.y = element_text(margin = margin(r = 20))))
+
+ggsave (snowmelt_species_avg_n_spectra_plot, filename = "graphs/snowmelt_species_avg_n_spectra_plot.png")
 
