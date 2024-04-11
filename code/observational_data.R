@@ -15,7 +15,6 @@ library (readxl)
 library (geodata)
 library (readr)
 library (lme4)
-library (stargazer)
 library(nortest)
 library (brms)
 library (tidybayes)
@@ -56,9 +55,10 @@ months <- c(10,11,12,1,2,3,4)
 # select precipitation data from winter months
 
 precip_winter <- precip_year[[months]]
-precip_winter_10km <- precip_year[[months]]
+precip_winter_10km <- precip_year_10km[[months]]
 
 # average precipitation across the winter to obtain one value per pixel 
+# this ones slow 
 precip <- mean(precip_winter)
 precip_10km <- mean(precip_winter_10km)
 
@@ -72,7 +72,7 @@ snowfence_site <- read_xlsx ("data/snowfence_sites.xlsx")
 WGSCRS <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
 
 
-### Data Wrangling ----
+# Data Wrangling ----
  
 # coordinates from google maps 
 # 60°58'48.4"N 138°24'07.1"W - Kluane
@@ -461,7 +461,7 @@ obs_n <- rbind (ttt, try, madi) %>%
 #  group_by (genus) %>% 
 #  tally()
 
-# Wrangling spectra data ----
+## Wrangling spectra data ----
 
 # adjusting column and plot names 
 spectra <- dry_spectra %>% 
@@ -492,15 +492,15 @@ plots <- above_plots %>%
 
 # adding spectra info to the plot level data 
 spectra_plots <- spectra %>% 
-  left_join (plots, by = 'plot') #%>% 
+  left_join (plots, by = 'plot') %>% 
 filter (!is.na(lat)) 
 
 # turning it into an excel spreadsheet so I can add species info 
 
-write_xlsx(spectra_plots, "data/above_plots_March7.xlsx")
+#write_xlsx(spectra_plots, "data/above_plots_March7.xlsx")
 
 # loading the data back in after editing in excel 
-labled_plots  <- read_excel("data/above_plots.xlsx")
+labled_plots  <- read_excel("data/above_plots_species.xlsx")
 
 # a little data cleaning 
 labled_plots <- labled_plots %>% 
@@ -526,7 +526,7 @@ snowfence_points <- vect (snowfence_site, geom=c("lon", "lat"), crs = WGSCRS)
 
 # extract mean precipitation 
 arctic_precip <- terra::extract(precip, n_points)
-spectra_points_precip_1km <- terra::extract(precip, spectra_vect_points)
+spectra_points_precip <- terra::extract(precip, spectra_vect_points)
 
 
 
@@ -555,13 +555,14 @@ zones <- vect ("data/high_low_arctic_boundaries/Arctic_Zones_complete_polygons.s
 # changing projections to a top down view of the arctic to match zones map
 
 #re-projecting raster into top down view of the Arctic 
-precip_proj <- terra::project(precip, "EPSG:3408")
+precip_proj <- terra::project(precip_10km, "EPSG:3408")
 #crs (precip_proj)
-spectra_vect_points_proj <- project (spectra_vect_points, "EPSG:3408")
+
 
 # re-projecting coordinates to the top down view of arctic 
 n_points_proj <- project (n_points, "EPSG:3408")
 snowfence_points_proj <- project (snowfence_points, "EPSG:3408")
+spectra_vect_points_proj <- project (spectra_vect_points, "EPSG:3408")
 
 
 # extract zone 
@@ -581,7 +582,7 @@ n_precip_zones <- precip_trait %>%
   # divide nitrogen by 10 so that units are % instead of mg/g
   mutate (leafn = n/10)
 
-spectra_precip_zones <- spectra_precip_1km %>% 
+spectra_precip_zones <- spectra_precip %>% 
   left_join (spectra_points_zone, by = "ID") %>% 
   # removing points below sub arctic 
   filter (!is.na(zone)) %>% 
@@ -687,7 +688,7 @@ precip_map <- points (spectra_low_n_proj, cex = 0.7, col = "goldenrod2")
 precip_map <- points (snowfence_points_proj, cex = 1.5, col = "#661100", bg = "#661100", pch = 23)
 
 # adding a legend
-legend(x = 1800000, y = 4000000,
+legend(x = 1600000, y = 4000000,
        legend = c("High Leaf N (>3%)", "Med Leaf N (2-3%)", "Low Leaf N (<2%)", "Observational Data", 
                   "Spectra Data", "Snowfence Points"),
        pch = c(21, 21, 21, 21, 21, 23),
@@ -700,11 +701,11 @@ legend(x = 1800000, y = 4000000,
 
 ggsave (precip_map, filename = "graphs/precip_map.png")
 
-### Precipitation Models ----
+# Precipitation Models ----
 
 # obs data 
 # precipitation and pft as fixed effects 
-precip_pft_mod <- brm (n ~ mean_precip * functional_group + (1|genus), data = n_precip_zones)
+#precip_pft_mod <- brm (n ~ mean_precip * functional_group + (1|genus), data = n_precip_zones)
 
 
 # check model outputs and assumptions
@@ -741,7 +742,7 @@ print(random_effects_genus)
 
 spectra_precip_mod <- readRDS("models/spectra_precip_1km_mod.RDS")
 
-# plotting model results ----
+## plotting model results ----
 
 # create a dummy spreadsheet 
 obs_precip_mod_data <- expand_grid(mean_precip = seq(0, 90, by = 5), 
@@ -774,7 +775,7 @@ ggsave (obs_precip_mod_fit, filename = "graphs/obs_precip_mod_fit.png")
 
 # making a plot without a legend so I can save the two plots together nicely 
 (obs_precip_plot_simple <- ggplot() +
-    geom_point(data = n_precip_zones_1km, aes(x = mean_precip, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
+    geom_point(data = n_precip_zones, aes(x = mean_precip, y = leafn, color = ordered (functional_group), fill = ordered (functional_group))) +   # raw data
     stat_lineribbon(data = obs_precip_mod_pred, aes(y = .epred, x = mean_precip, color = ordered (functional_group), fill = ordered (functional_group)), .width = c(.95), # regression line and CI
                     alpha = 0.25) +
     scale_fill_manual(values = c("#117733", "#332288", "#AA4499")) +
@@ -830,12 +831,11 @@ ggsave (spectra_precip_mod_fit, filename = "graphs/spectra_precip_mod_fit_pft.pn
 
 ggsave (precip_combined_plot, filename = "graphs/precip_combined_plot.png")
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-####################################################################################
+# Snowmelt  ----
 
-# Snowmelt models 
-
-########################################################################################
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 # read in snowmelt data 
 try_snowmelt_raw <- read_excel("data/try_snowmelt.xlsx")
@@ -884,7 +884,7 @@ spectra_snowmelt_n <- spectra_precip_zones %>%
   left_join(spectra_snowmelt, by = "plot") %>% 
   filter (!is.na(snowmelt_date)) 
 
-# Models 
+### Models ----
 
 # obs model
 obs_snowmelt_mod <- brm (leafn ~ snowmelt_date * functional_group + (1|genus), data = obs_snowmelt)
@@ -922,7 +922,7 @@ print(random_effects_spectra_snowmelt)
 
 spectra_snowmelt_mod  <- readRDS("models/spectra_snowmelt_mod.RDS")
 
-## Plot ----
+### Plot ----
 
 # obs model plot 
 # dummy data frame
@@ -1025,7 +1025,7 @@ ggsave (spectra_snowmelt_mod_fit, filename = "graphs/spectra_snowmelt_mod_fit_pf
 ggsave (snowmelt_combined_plot, filename = "graphs/snowmelt_combined_plot.png")
 
 
-### whittaker plot ----
+# whittaker plot ----
 
 # download and extract worldclim temp data
 
@@ -1033,13 +1033,14 @@ temp_months <- worldclim_global (var = "tavg", res = 10, path = 'data')
 
 temp <- mean (temp_months)
 
-precip_annual <- mean (precip_year_1km)
+precip_annual <- mean (precip_year)
 
 arctic_temp <- terra::extract(temp, n_points)
 arctic_annual_precip <- terra::extract(precip_annual, n_points)
+arctic_spectra_temp <- terra::extract(temp, spectra_vect_points)
 
 # add temp data to trait datasheet 
-n_precip_temp <- n_precip_zones_1km %>% 
+n_precip_temp <- n_precip_zones %>% 
   mutate (ID = row_number()) %>%  
   left_join (arctic_temp, by = "ID") %>% 
   rename (temp = mean) %>% 
@@ -1052,7 +1053,7 @@ spectra_precip_temp <- spectra_precip_zones %>%
   rename (temp = mean)
   
 # common species to put on whittaker plot 
-obs_common_species <- n_precip_zones_1km %>% 
+obs_common_species <- n_precip_zones %>% 
   group_by (species) %>% 
   tally () %>% 
   filter (n > 5) %>% 
