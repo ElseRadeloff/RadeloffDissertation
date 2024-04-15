@@ -691,7 +691,7 @@ precip_map <- points (snowfence_points_proj, cex = 1.5, col = "#661100", bg = "#
 legend(x = -5500000, y = -1900000,
        legend = c("Observation Data High Leaf N (>3%)", "Observation Data Med Leaf N (2-3%)", "Observation Data Low Leaf N (<2%)", 
                   "Spectra Data High Leaf N (>3%)", "Spectra Data Med Leaf N (2-3%)", "Spectra Data Low Leaf N (<2%)", "Snowfence Points"),
-       pch = c(21, 21, 21, 21, 21, 23),
+       pch = c(21, 21, 21, 21, 21, 21, 23),
        col = c("#CC6677", "#CC6677",  "#CC6677", "goldenrod2", "goldenrod2", "goldenrod2",  "#661100"),
        pt.bg = c("#CC6677", "#CC6677", "#CC6677", "goldenrod2","goldenrod2","goldenrod2",  "#661100"),
        bg = "white",
@@ -724,6 +724,8 @@ print(random_effects_obs_genus)
 
 precip_pft_mod <- readRDS("models/obs_precip_mod_1km.RDS")
 
+print(summary(precip_pft_mod), digits = 4)
+
 
 # Spectra precip model 
 spectra_precip_mod <- brm (n ~ mean_precip * plant_type + (1|Genus), data = spectra_precip_zones)
@@ -741,6 +743,8 @@ print(random_effects_genus)
 #saveRDS(spectra_precip_mod, "models/spectra_precip_mod.RDS")
 
 spectra_precip_mod <- readRDS("models/spectra_precip_1km_mod.RDS")
+
+print(summary(spectra_precip_mod), digits = 4)
 
 ## plotting model results ----
 
@@ -921,6 +925,8 @@ print(random_effects_spectra_snowmelt)
 #saveRDS(spectra_snowmelt_mod, "models/spectra_snowmelt_mod.RDS")
 
 spectra_snowmelt_mod  <- readRDS("models/spectra_snowmelt_mod.RDS")
+
+print(summary(spectra_snowmelt_mod), digits = 4)
 
 ### Plot ----
 
